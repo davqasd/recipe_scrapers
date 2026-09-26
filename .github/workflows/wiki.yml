@@ -6,6 +6,7 @@ on:
     paths:
       - wiki/**
       - .github/workflows/wiki.yml
+  workflow_dispatch:
 
 concurrency:
   group: wiki
@@ -18,5 +19,5 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: Andrew-Chen-Wang/github-wiki-action@v5
