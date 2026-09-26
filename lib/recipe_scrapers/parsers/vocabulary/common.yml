@@ -1,0 +1,7 @@
+units: [g, gr, grs, gram, grams, gramm, gramos, gramas, grammi, kg, kilo, kilos, kilogram, kilograms, quilo,
+  quilos, mg, ml, milliliter, milliliters, millilitre, millilitres, l, liter, liters, litre, litres, litro,
+  litros, dl, cl, krm, cm, mm, count]
+qualifiers: [ca., circa, "null"]
+number_words:
+  a: 1
+  an: 1

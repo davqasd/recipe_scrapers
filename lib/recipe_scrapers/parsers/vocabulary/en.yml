@@ -1,0 +1,26 @@
+languages: [en]
+units: [cup, cups, c, tsp, tsps, teaspoon, teaspoons, t, tbsp, tbsps, tbs, tbl, tablespoon, tablespoons, oz,
+  ounce, ounces, lb, lbs, pound, pounds, quart, quarts, qt, pint, pints, pt, gallon, gallons, clove, cloves,
+  can, cans, tin, tins, jar, jars, package, packages, packet, packets, pkg, bag, bags, box, boxes, bunch,
+  bunches, sprig, sprigs, slice, slices, stick, sticks, head, heads, stalk, stalks, pinch, pinches, dash,
+  dashes, handful, handfuls, drizzle, splash, sprinkle, knob, piece, pieces, pc, pcs, sheet, sheets, scoop,
+  scoops, container, containers, ear, ears, drop, drops, bottle, bottles, envelope, envelopes, block, blocks,
+  shot, shots, each, count, serving, servings, portion, portions, ptn, ptns, thumb, thumbs, batch, foot, feet,
+  leaf, leaves, bar, bars, loaf, loaves, spear, spears, inch, inches, fl oz, fluid ounce, fluid ounces]
+pinches: [pinch, pinches, dash, dashes, handful, handfuls, drizzle, splash, sprinkle, knob]
+sizes: [large, small, medium, big, small-to-medium, heaping, heaped, level, scant, rounded, generous]
+qualifiers: [about, approx., approx, approximately, around, scant, generous, heaping, heaped, "optional:"]
+number_words:
+  one: 1
+  two: 2
+  three: 3
+  four: 4
+  five: 5
+  six: 6
+  seven: 7
+  eight: 8
+  nine: 9
+  ten: 10
+  eleven: 11
+  twelve: 12
+  half: 0.5

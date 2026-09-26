@@ -1,0 +1,38 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ruby
+          bundler-cache: true
+      - run: bin/ci
+
+  versions:
+    name: rspec on ruby ${{ matrix.ruby }}, ${{ matrix.gemfile }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        ruby: ["3.3", "3.4", "4.0"]
+        gemfile: [Gemfile]
+        include:
+          - ruby: "3.3"
+            gemfile: gemfiles/minimum.gemfile
+    env:
+      BUNDLE_GEMFILE: ${{ matrix.gemfile }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ matrix.ruby }}
+          bundler-cache: true
+      - run: bundle exec rspec

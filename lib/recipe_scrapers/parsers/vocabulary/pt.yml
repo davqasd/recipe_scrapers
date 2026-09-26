@@ -1,0 +1,8 @@
+languages: [pt]
+units: [xícara, xícaras, colher, colheres, dente, dentes, pitada, pitadas, fatia, fatias, rodela, rodelas,
+  rolo, rolos, medida, medidas, lata, latas, tablete, tabletes, cháv, chávena, chávenas, unid, c. de sopa,
+  c. de café, c. de chá, xícara de chá, xícaras de chá, colher de sopa, colheres de sopa, colher de chá,
+  colheres de chá]
+number_words:
+  meia: 0.5
+  meio: 0.5

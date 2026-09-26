@@ -1,0 +1,23 @@
+--markup markdown
+--hide-api private
+--output-dir tmp/yard/doc
+--readme README.md
+lib/recipe_scrapers.rb
+lib/recipe_scrapers/version.rb
+lib/recipe_scrapers/errors.rb
+lib/recipe_scrapers/configuration.rb
+lib/recipe_scrapers/error_tracker.rb
+lib/recipe_scrapers/registry.rb
+lib/recipe_scrapers/declaration.rb
+lib/recipe_scrapers/scraper.rb
+lib/recipe_scrapers/scraper/parsed_fields.rb
+lib/recipe_scrapers/models/*.rb
+lib/recipe_scrapers/parsers/chain.rb
+lib/recipe_scrapers/parsers/ingredients.rb
+lib/recipe_scrapers/parsers/nutrients.rb
+lib/recipe_scrapers/parsers/vocabulary.rb
+lib/recipe_scrapers/sources/schema_org.rb
+lib/recipe_scrapers/http/*.rb
+-
+CONTRIBUTING.md
+LICENSE

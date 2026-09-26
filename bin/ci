@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -uo pipefail
+
+failed=0
+run() {
+  echo "==> $*"
+  "$@" || failed=1
+}
+
+run bundle exec rubocop
+run bundle exec rspec
+run bundle exec yard doc --fail-on-warning --quiet
+run bash -c 'report=$(bundle exec yard stats --list-undoc) && grep -q "100.00% documented" <<<"$report" || { echo "$report"; exit 1; }'
+run bin/appraisal generate
+run git diff --exit-code -- gemfiles
+
+exit $failed
