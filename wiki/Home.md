@@ -12,6 +12,7 @@ recipe.to_h   # every field as plain data
 
 ## Using the gem
 
+- [Supported Sites](Supported-Sites.md): every site the gem reads out of the box
 - [Usage](Usage.md): fetching, other HTTP clients, unsupported sites, errors
 - [Recipe Fields](Recipe-Fields.md): every field with its type and an example
 - [Configuration](Configuration.md): timeouts, size limits, your own connection

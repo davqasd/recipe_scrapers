@@ -40,6 +40,7 @@ recipe = RecipeScrapers.parse(html, url: url)
 
 ## Documentation
 
+- [Supported Sites](wiki/Supported-Sites.md): every site the gem reads out of the box
 - [Usage](wiki/Usage.md): fetching, other HTTP clients, unsupported sites, errors
 - [Recipe Fields](wiki/Recipe-Fields.md): every field with its type and an example
 - [Configuration](wiki/Configuration.md): timeouts, size limits, your own connection

@@ -2,6 +2,7 @@
 
 **Using the gem**
 
+- [Supported Sites](Supported-Sites.md)
 - [Usage](Usage.md)
 - [Recipe Fields](Recipe-Fields.md)
 - [Configuration](Configuration.md)
