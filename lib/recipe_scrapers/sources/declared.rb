@@ -3,6 +3,8 @@
 module RecipeScrapers
   module Sources
     class Declared
+      LIST_MARKER = /\A(?:[-–*•]|\d+[.)])\s+/
+
       def initialize(document, declaration)
         @document = document
         @declaration = declaration
@@ -30,8 +32,8 @@ module RecipeScrapers
       private
 
       def row_text(node)
-        parts = node.children.filter_map { |child| Text.normalize(Text.content(child)) }
-        parts.empty? ? nil : parts.join(" ")
+        line = Text.normalize(Text.content(node))
+        line && Text.normalize(line.sub(LIST_MARKER, ""))
       end
     end
   end

@@ -67,7 +67,29 @@ RSpec.describe RecipeScrapers::Text do
 
     it "leaves out a script nested deeper in the element" do
       html = %(<div><p>Fry the onion<script>render("ad")</script></p></div>)
-      expect(described_class.content(node(html))).to eq("Fry the onion")
+      expect(described_class.content(node(html))).to eq("\nFry the onion\n")
+    end
+
+    it "breaks the line at a br and around a block, the way a browser renders them" do
+      html = "<div>200 g flour<br>2 eggs<p>300 ml milk</p></div>"
+      expect(described_class.content(node(html))).to eq("200 g flour\n2 eggs\n300 ml milk\n")
+    end
+
+    it "keeps a word whole when an element splits it" do
+      expect(described_class.content(node("<p>I<span>n a pan</span></p>"))).to eq("In a pan")
+    end
+
+    it "puts a space between two elements that touch" do
+      expect(described_class.content(node("<p><span>1</span><span>cup</span> flour</p>"))).to eq("1 cup flour")
+    end
+
+    it "puts no space before punctuation that sits in its own element" do
+      expect(described_class.content(node("<p><a>lemon</a><span>.</span></p>"))).to eq("lemon.")
+    end
+
+    it "keeps table cells apart" do
+      html = "<table><tr><td>Salt</td><td>1 tsp</td></tr></table>"
+      expect(described_class.normalize(described_class.content(node(html)))).to eq("Salt 1 tsp")
     end
 
     it "leaves out styles, templates and noscript blocks", :aggregate_failures do

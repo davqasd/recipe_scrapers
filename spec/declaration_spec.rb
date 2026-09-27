@@ -71,4 +71,39 @@ RSpec.describe RecipeScrapers::Declaration do
       expect(recipe.instructions_list).to eq(["Свёклу и морковь обжарить.", "Посолить."])
     end
   end
+
+  describe "reading a row the way the page renders it" do
+    subject(:recipe) { RecipeScrapers.parse(page, url: "https://example.com/r/1", supported_only: false) }
+
+    let(:page) do
+      <<~HTML
+        <html><body>
+          <h1>Carrots</h1>
+          <li class="ingredient">- 6 <b>c</b>arrots</li>
+          <li class="ingredient">2 tbsp honey</li>
+          <li class="ingredient"><span>1</span><span>cup</span> flour</li>
+          <div class="step">1. Pe<span>el the carrots.</span></div>
+        </body></html>
+      HTML
+    end
+
+    before do
+      RecipeScrapers::Registry.register("example.com") do
+        title "h1"
+        ingredients rows: "li.ingredient"
+        instructions rows: "div.step"
+      end
+    end
+
+    around do |example|
+      saved = RecipeScrapers::Registry.snapshot
+      example.run
+      RecipeScrapers::Registry.restore(saved)
+    end
+
+    it "reads a row as the page shows it, without its list marker", :aggregate_failures do
+      expect(recipe.ingredients).to eq(["6 carrots", "2 tbsp honey", "1 cup flour"])
+      expect(recipe.instructions_list).to eq(["Peel the carrots."])
+    end
+  end
 end
