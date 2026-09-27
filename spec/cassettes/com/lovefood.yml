@@ -1,0 +1,477 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.lovefood.com/recipes/83641/easter-biscuits-recipe
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - recipe_scrapers/0.1.0 (+https://github.com/davqasd/recipe_scrapers)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 27 Sep 2026 07:59:24 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Length:
+      - '35049'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Headers:
+      - Content-Type
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - http://www.lovemoney.com
+      Access-Control-Expose-Headers:
+      - Request-Context
+      Cache-Control:
+      - private
+      Vary:
+      - Accept-Encoding
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains;
+      Request-Context:
+      - appId=cid-v1:d927db06-4305-4900-99da-bfd81326b370
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      X-Azure-Ref:
+      - 20260927T075924Z-154959578c7zjw4phC1MAD3pgw00000010m0000000004n5y
+      X-Cache:
+      - CONFIG_NOCACHE
+      Accept-Ranges:
+      - bytes
+    body:
+      encoding: ASCII-8BIT
+      string: "<!DOCTYPE html>\r\n<!--[if lt IE 7 ]><html class=\"ie ie7\" lang=\"en\"
+        dir=\"ltr\"> <![endif]-->\r\n<!--[if lt IE 8 ]><html class=\"ie ie8\" lang=\"en\"
+        dir=\"ltr\"> <![endif]-->\r\n<!--[if lt IE 9 ]><html class=\"ie ie9\" lang=\"en\"
+        dir=\"ltr\"> <![endif]-->\r\n<!--[if (gt IE 9)|!(IE)]><!-->\r\n<html lang=\"en\"
+        dir=\"ltr\">\r\n<!--<![endif]-->\r\n<head>\r\n\r\n    \r\n    <meta charset=\"utf-8\">\r\n
+        \   <title>Easter biscuits</title>\r\n    <meta http-equiv=\"X-UA-Compatible\"
+        content=\"IE=edge,chrome=1\">\r\n    <meta name=\"robots\" />\r\n    <meta
+        name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <link
+        rel=\"canonical\" href=\"https://www.lovefood.com/recipes/83641/easter-biscuits-recipe\"
+        />\r\n\r\n    \r\n\r\n        <link rel=\"stylesheet\" href=\"/app/dist/vendor/perfect-scrollbar/jquery.perfect-scrollbar.css?v=3.53.0.2515\">\r\n
+        \       <link rel=\"stylesheet\" href=\"/app/dist/partners/lovefood/styles/main.min.css?v=3.53.0.2515\">\r\n\r\n
+        \   <!--\r\n    <PageMap>\r\n        <DataObject type=\"thumbnail\">\r\n            <Attribute
+        name=\"src\" value=\"\" />\r\n            <Attribute name=\"width\" value=\"130\"
+        />\r\n            <Attribute name=\"height\" value=\"130\" />\r\n        </DataObject>\r\n
+        \   </PageMap>\r\n    -->\r\n    \r\n        <link rel=\"amphtml\" href=\"https://www.lovefood.com/recipes/amp/83641/easter-biscuits-recipe\">\r\n\r\n
+        \   <meta name=\"og:url\" content=\"https://www.lovefood.com/recipes/83641/easter-biscuits-recipe\">\r\n
+        \   <meta name=\"og:site_name\" content=\"lovefood.com\">\r\n\r\n        \r\n\t<meta
+        name=\"Description\" content=\"Roll up your sleeves and get baking with this
+        Easter biscuits recipe.\">\r\n\t<meta name=\"og:article:author\" content=\"loveFOOD\">\r\n\t<meta
+        name=\"og:title\" content=\"Easter biscuits\">\r\n\t<meta name=\"og:description\"
+        content=\"Roll up your sleeves and get baking with this Easter biscuits recipe.\">\r\n\t<meta
+        name=\"og:image\" content=\"https://loveincorporated.blob.core.windows.net/contentimages/main/bdc9b19a-592f-444f-8734-4ac5733d8c5e-easter-biscuits-edited.jpg\">\r\n\r\n
+        \   \r\n        <meta name=\"twitter:card\" content=\"summary_large_image\">\r\n
+        \       <meta name=\"twitter:site\" content=\"@lovefood\">\r\n        <meta
+        name=\"twitter:creator\" content=\"\">\r\n        <meta name=\"twitter:title\"
+        content=\"Easter biscuits\">\r\n        <meta name=\"twitter:description\"
+        content=\"Lovefood.com is an award-winning collection of topical news, expert
+        commentary, engaging opinion and the tastiest, most unctuous and mouth-watering
+        recipes you could ever hope to find.\">\r\n        <meta name=\"twitter:image\"
+        content=\"https://loveincstatic.blob.core.windows.net/loveexploring/lovefood-compressor.jpg\">\r\n
+        \   \r\n\r\n    \r\n    <link rel=\"shortcut icon\" href=\"/Assets_LM/img/favicons/favicon.ico\">\r\n
+        \   <link rel=\"apple-touch-icon\" href=\"/Assets_LM/img/favicons/apple-touch-icon.png\">\r\n
+        \   <link rel=\"apple-touch-icon\" sizes=\"57x57\" href=\"/Assets_LM/img/favicons/apple-touch-icon-57x57-precomposed.png\">\r\n
+        \   <link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"/Assets_LM/img/favicons/apple-touch-icon-72x72-precomposed.png\">\r\n
+        \   <link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"/Assets_LM/img/favicons/apple-touch-icon-114x114-precomposed.png\">\r\n
+        \   <link rel=\"apple-touch-icon\" sizes=\"144x144\" href=\"/Assets_LM/img/favicons/apple-touch-icon-144x144-precomposed.png\">\r\n\r\n
+        \   \r\n    <link href='https://fonts.googleapis.com/css?family=Bitter:400,400i,700|Open+Sans+Condensed:700|Open+Sans:400,600,700'
+        rel='stylesheet' type='text/css'>\r\n\r\n    \r\n    \r\n\t\r\n    <meta name=\"twitter:card\"
+        content=\"summary_large_image\">\r\n        <meta name=\"twitter:site\" content=\"@lovefood\">\r\n
+        \   <meta name=\"twitter:creator\" content=\"\">\r\n    <meta name=\"twitter:title\"
+        content=\"Easter biscuits\">\r\n    <meta name=\"twitter:description\" content=\"Roll
+        up your sleeves and get baking with this Easter biscuits recipe.\">\r\n    <meta
+        name=\"twitter:image\" content=\"https://loveincorporated.blob.core.windows.net/contentimages/main/bdc9b19a-592f-444f-8734-4ac5733d8c5e-easter-biscuits-edited.jpg\">
+        \ \r\n\r\n\r\n\r\n\r\n\r\n\r\n    <!-- Google Tag Manager -->\r\n    <script>\r\n
+        \       (function (w, d, s, l, i) {\r\n            w[l] = w[l] || []; w[l].push({\r\n
+        \               'gtm.start':\r\n                    new Date().getTime(),
+        event: 'gtm.js'\r\n            }); var f = d.getElementsByTagName(s)[0],\r\n
+        \               j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l
+        : ''; j.async = true; j.src =\r\n                    'https://www.googletagmanager.com/gtm.js?id='
+        + i + dl; f.parentNode.insertBefore(j, f);\r\n        })(window, document,
+        'script', 'dataLayer', 'GTM-T42RNFR');</script>\r\n    <!-- End Google Tag
+        Manager -->\r\n    <!-- GA4 -->\r\n    <!-- Google tag (gtag.js) -->\r\n    <script
+        async src=\"https://www.googletagmanager.com/gtag/js?id=G-W8HLCK9FCD\"></script>\r\n
+        \   <script>\r\n        window.dataLayer = window.dataLayer || [];\r\n        function
+        gtag() { dataLayer.push(arguments); }\r\n        gtag('js', new Date());\r\n\r\n
+        \       gtag('config', 'G-W8HLCK9FCD');\r\n    </script>\r\n\r\n    <!--pinterest-->\r\n
+        \   <meta name=\"p:domain_verify\" content=\"f3161d8f6fb84d0788a77554c9b5713c\"
+        />\r\n    <!--twitter-->\r\n    <!-- Twitter universal website tag code -->\r\n
+        \   <script>\r\n        !function (e, t, n, s, u, a) {\r\n            e.twq
+        || (s = e.twq = function () {\r\n                s.exe ? s.exe.apply(s, arguments)
+        : s.queue.push(arguments);\r\n            }, s.version = '1.1', s.queue =
+        [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js',\r\n
+        \               a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u,
+        a))\r\n        }(window, document, 'script');\r\n        // Insert Twitter
+        Pixel ID and Standard Event data below\r\n        twq('init', 'o0y66');\r\n
+        \       twq('track', 'PageView');\r\n    </script>\r\n    <!-- End Twitter
+        universal website tag code -->\r\n    \r\n</head>\r\n<body id=\"ng-app\" ng-app=\"app\">\r\n
+        \   <!-- Google Tag Manager (noscript) -->\r\n    <noscript>\r\n        <iframe
+        src=\"https://www.googletagmanager.com/ns.html?id=GTM-T42RNFR\"\r\n                height=\"0\"
+        width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\r\n    </noscript>\r\n
+        \   <!-- End Google Tag Manager (noscript) -->\r\n    <!--[if lt IE 7]>\r\n
+        \       <p class=\"chromeframe\">You are using an <strong>outdated</strong>
+        browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a>
+        or <a href=\"http://www.google.com/chromeframe/?redirect=true\">activate Google
+        Chrome Frame</a> to improve your experience.</p>\r\n    <![endif]-->\r\n    \r\n\r\n\r\n\r\n\r\n<!--
+        Header -->\r\n<div id=\"header-module\" navigation-levels ng-mouseleave=\"closeAllNavLevels()\">\r\n
+        \   <header class=\"lm-header\">\r\n        <div class=\"lm-header__cont\">\r\n\r\n
+        \           <!-- Brand -->\r\n            <div class=\"lm-header__brand\">\r\n
+        \               <a class=\"lm-header__brand\" href=\"http://www.lovefood.com\">\r\n
+        \                   <i class=\"lm-header__brand-icon lm-header__brand-icon--lovefood\"></i>\r\n
+        \               </a>\r\n                <a class=\"\" ng-click=\"brandSelectIsOpen
+        = !brandSelectIsOpen; mobileNavOpen = false;\">                \r\n                    <div
+        class=\"lm-header-arrow-cont lm-header-arrow-cont--lovefood\" ng-cloak><i
+        class=\"icon icon-arrow-down\" ng-show=\"!brandSelectIsOpen\"></i><i class=\"icon
+        icon-arrow-up\" ng-show=\"brandSelectIsOpen\"></i></div>\r\n                </a>\r\n
+        \           </div>\r\n\r\n            <!-- Search Button -->\r\n            <div
+        class=\"lm-header__actions\">\r\n\r\n                <a class=\"menu-btn\"
+        ng-click=\"mobileNavOpen = !mobileNavOpen; brandSelectIsOpen = false;\" href=\"\">\r\n
+        \                   <i class=\"menu-btn__icon\"></i>\r\n                </a>\r\n\r\n
+        \           </div>\r\n\r\n            <!-- Account Info and Sign in -->\r\n
+        \           <div class=\"lm-account\" ng-init=\"displaySearch = true\">\r\n\r\n
+        \               \r\n\r\n            </div>\r\n\r\n            <!-- Desktop/Tablet
+        Search -->\r\n            <div class=\"lm-header__search\">\r\n\r\n                <!--
+        Top Search -->\r\n                <form class=\"top-search top-search--header
+        top-search--header-lf is-open\" ng-class=\"{'top-search--header-reduced' :
+        smallerSearchBar, 'delay-search-display' : displaySearch}\" action=\"/search\"
+        method=\"GET\">\r\n                    <div class=\"top-search__fieldset\">\r\n
+        \                       <button class=\"top-search__submit\" type=\"submit\">\r\n
+        \                           <i class=\"top-search__icon\"></i>\r\n                        </button>\r\n
+        \                       <input class=\"top-search__input\" type=\"text\" name=\"q\"
+        placeholder=\"Search loveFOOD\" />\r\n                    </div>\r\n                </form>\r\n\r\n
+        \           </div>\r\n\r\n\r\n        </div>\r\n        <div class=\"lm-header__brand-wrapper\">\r\n
+        \           <div class=\"lm-header__brand-select\" ng-class=\"{ 'is-open':
+        brandSelectIsOpen }\">\r\n\r\n                <ul class=\"lm-header__brand-select-list\">\r\n\r\n
+        \                   <li class=\"lm-header__brand-select-item\">\r\n                        <a
+        class=\"lm-header__brand-select-link lm-header__brand-select-link--lm\" href=\"http://www.lovemoney.com\">\r\n
+        \                           <span class=\"lm-header__brand-select-item-link
+        lm-header__brand-select-item-link--lm\">\r\n                                <i
+        class=\"lm-header__brand-select-icon lm-header__brand-select-icon--lm\"></i>\r\n
+        \                           </span>\r\n                        </a>\r\n                    </li>\r\n\r\n
+        \                   <li class=\"lm-header__brand-select-item-line\"></li>\r\n\r\n
+        \                   <li class=\"lm-header__brand-select-item\">\r\n                        <a
+        class=\"lm-header__brand-select-link lm-header__brand-select-link--le\" href=\"http://www.loveexploring.com\">\r\n
+        \                           <span class=\"lm-header__brand-select-item-link
+        lm-header__brand-select-item-link--le\">\r\n                                <i
+        class=\"lm-header__brand-select-icon lm-header__brand-select-icon--le\"></i>\r\n
+        \                           </span>\r\n                        </a>\r\n                    </li>\r\n\r\n
+        \                   <li class=\"lm-header__brand-select-item-line\"></li>\r\n\r\n
+        \                   <li class=\"lm-header__brand-select-item\">\r\n                        <a
+        class=\"lm-header__brand-select-link lm-header__brand-select-link--lp\" href=\"http://www.loveproperty.com\">\r\n
+        \                           <span class=\"lm-header__brand-select-item-link
+        lm-header__brand-select-item-link--lp\">\r\n                                <i
+        class=\"lm-header__brand-select-icon lm-header__brand-select-icon--lp\"></i>\r\n
+        \                           </span>\r\n                        </a>\r\n                    </li>\r\n
+        \           \r\n                </ul>\r\n                \r\n            </div>\r\n
+        \       </div>        \r\n    </header>\r\n\r\n    <section class=\"subnav-wrapper\">\r\n
+        \       <nav class=\"subnav ng-cloak\" id=\"subnav-mobile\" ng-show=\"mobileNavOpen\">\r\n
+        \           <div class=\"subnav__cont\">\r\n\r\n                <!-- Top Search
+        -->\r\n                <form class=\"top-search\" action=\"/search\" method=\"GET\">\r\n
+        \                   <div class=\"top-search__fieldset\">\r\n                        <button
+        class=\"top-search__submit\" type=\"submit\">\r\n                            <i
+        class=\"top-search__icon\"></i>\r\n                        </button>\r\n                        <input
+        class=\"top-search__input\" type=\"text\" name=\"q\" placeholder=\"Search
+        lovefood\" />\r\n                    </div>\r\n                </form>\r\n\r\n
+        \               <a class=\"subnav__heading\" href=\"/\">Latest</a>\r\n                <a
+        class=\"subnav__heading\" href=\"/Topics/recipes\">Recipes</a>\r\n                <a
+        class=\"subnav__heading\" href=\"/Topics/how-to\">How To</a>\r\n                <a
+        class=\"subnav__heading\" href=\"/Topics/reviews\">Reviews</a>\r\n                <a
+        class=\"subnav__heading\" href=\"/Topics/chefs\">Chefs</a>\r\n                <a
+        class=\"subnav__heading\" href=\"/Topics/news\">News</a>\r\n                <a
+        class=\"subnav__heading\" href=\"/Topics/inspiration\">Inspiration</a>\r\n\r\n
+        \               \r\n\r\n            </div>\r\n        </nav>\r\n    </section>\r\n</div>\r\n\r\n\r\n\r\n<!--
+        Page Nav -->\r\n<nav class=\"page-nav__wrapper page-nav--topics\">\r\n    <div
+        class=\"page-nav__content ps-container\">\r\n        <div class=\"page-nav__body-wrapper\">\r\n
+        \           <ul class=\"page-nav__body\">\r\n                <li class=\"page-nav__item\">\r\n
+        \                   <a class=\"page-nav__link\" href=\"/\">\r\n                        Latest\r\n
+        \                   </a>\r\n                </li>\r\n                <li class=\"page-nav__item\">\r\n
+        \                   <a class=\"page-nav__link\" href=\"/Topics/recipes\" data-topic-id=\"recipes\">\r\n
+        \                       Recipes\r\n                    </a>\r\n                </li>\r\n
+        \               <li class=\"page-nav__item\">\r\n                    <a class=\"page-nav__link\"
+        href=\"/Topics/how-to\" data-topic-id=\"how-to\">\r\n                        How
+        To\r\n                    </a>\r\n                </li>\r\n                <li
+        class=\"page-nav__item\">\r\n                    <a class=\"page-nav__link\"
+        href=\"/Topics/reviews\" data-topic-id=\"reviews\">\r\n                        Reviews\r\n
+        \                   </a>\r\n                </li>\r\n                <li class=\"page-nav__item\">\r\n
+        \                   <a class=\"page-nav__link\" href=\"/Topics/chefs\" data-topic-id=\"chefs\">\r\n
+        \                       Chefs\r\n                    </a>\r\n                </li>\r\n
+        \               <li class=\"page-nav__item\">\r\n                    <a class=\"page-nav__link\"
+        href=\"/Topics/news\" data-topic-id=\"news\">\r\n                        News\r\n
+        \                   </a>\r\n                </li>\r\n                <li class=\"page-nav__item\">\r\n
+        \                   <a class=\"page-nav__link\" href=\"/Topics/inspiration\"
+        data-topic-id=\"inspiration\">\r\n                        Inspiration\r\n
+        \                   </a>\r\n                </li>\r\n            </ul>           \r\n
+        \       </div>\r\n    </div>\r\n\r\n    <div>\r\n\r\n        <div class=\"page-nav__arrow
+        page-nav__arrow--reversed\" onclick=\"navScroller.scrollTopics('prev', this);\">\r\n\r\n
+        \           <i class=\"icon icon-arrow\"></i>\r\n\r\n        </div>\r\n\r\n
+        \       <div class=\"page-nav__arrow page-nav__arrow--right\" onclick=\"navScroller.scrollTopics('next',
+        this);\">\r\n\r\n            <i class=\"icon icon-arrow\"></i>\r\n\r\n        </div>\r\n\r\n
+        \   </div>\r\n\r\n</nav>\r\n    <section>\r\n        \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<section>\r\n\r\n\t\r\n\r\n\t\r\n\r\n\t<div
+        class=\"advert-relative\">\r\n\t\t\r\n\t</div>\r\n\r\n\t\r\n\r\n\t<to-top
+        threshold=\"50\" element-to-stick=\".island\" element-outside=\"true\" footer-clearance=\".newsletter--footer\"></to-top>\r\n\r\n\t<div
+        class=\"wrapper\" ng-controller=\"RecipesController as vm\">\r\n\r\n\t\t\r\n\r\n\t\t<div
+        class=\"island island--highlight\">\r\n\r\n            <div class=\"content\">\r\n\r\n
+        \               <div class=\"content__item content__main\">\r\n\r\n                    <article
+        class=\"post\">\r\n\r\n                        <div class=\"post__header\">\r\n\r\n
+        \                           <h1 class=\"post__title\">Easter biscuits</h1>\r\n\r\n
+        \                           <div class=\"layout\">\r\n\r\n                                <div
+        class=\"layout__item u-1/2-lap u-mb\">\r\n\r\n                                    <div
+        class=\"author-bio author-bio--flag\">\r\n\r\n                                        <a
+        class=\"author-bio__img\" href=\"/profile/72364\">\r\n\r\n                                            <img
+        src=\"https://loveincorporated.blob.core.windows.net/avatars/users/72364.jpg\"
+        alt=\"\" title=\"\" />\r\n\r\n                                        </a>\r\n\r\n
+        \                                       <div class=\"author-bio__body\">\r\n\r\n
+        \                                           <div class=\"author-bio__cat\">\r\n\r\n
+        \                                               <a href=\"/Topics/2165\">Recipes<span
+        class=\"tick\"></span></a>\r\n\r\n                                            </div>\r\n\r\n
+        \                                           <div class=\"author-bio__date\">\r\n\r\n
+        \                                               <a class=\"\" rel=\"author\"
+        href=\"/profile/72364\">loveFOOD</a>\r\n                                                <br>\r\n\r\n
+        \                                           </div>\r\n\r\n                                            <rating></rating>\r\n\r\n
+        \                                       </div>\r\n\r\n                                    </div>\r\n\r\n
+        \                               </div>\r\n\r\n                                <div
+        class=\"layout__item u-1/2-lap u-mb u-hidden-palm\">\r\n\r\n                                    <div
+        class=\"u-float-right\">\r\n\r\n                                        <div
+        class=\"social\">\r\n                                            <p class=\"social__title\">Share
+        the love</p>\r\n\r\n                                            \r\n<ul class=\"social__list\"
+        analytics>\r\n\r\n            <li class=\"social__list-item\">\r\n\r\n                <a
+        class=\"social__btn\" href=\"#\" onclick=\"window.print();\">\r\n\r\n                    <i
+        class=\"social__icon social__icon--print icon-printer\"></i>\r\n\r\n                </a>\r\n\r\n
+        \           </li>\r\n        <li class=\"social__list-item\">\r\n\r\n            <a
+        class=\"social__btn\" href=\"#\"\r\n            socialshare\r\n            socialshare-provider=\"pinterest\"\r\n
+        \           socialshare-text=\"Easter biscuits\"\r\n            socialshare-media=\"https://loveincorporated.blob.core.windows.net/contentimages/main/bdc9b19a-592f-444f-8734-4ac5733d8c5e-easter-biscuits-edited.jpg\">\r\n\r\n
+        \               <i class=\"social__icon social__icon--pinterest icon-pinterest-no-circle\"></i>\r\n\r\n
+        \           </a>\r\n\r\n        </li>\r\n\r\n    <li class=\"social__list-item\">\r\n\r\n
+        \       <a class=\"social__btn\" href=\"#\"\r\n            ng-click=\"socialAnalytics('',
+        'twitter')\"\r\n            socialshare\r\n            socialshare-provider=\"twitter\"\r\n
+        \           socialshare-text=\"Easter biscuits\">\r\n\r\n            <i class=\"social__icon
+        social__icon--twitter icon-twitter-no-circle\"></i>\r\n\r\n        </a>\r\n\r\n
+        \   </li>\r\n\r\n    <li class=\"social__list-item\">\r\n\r\n        <a class=\"social__btn
+        social__facebook\" href=\"#\"\r\n            ng-click=\"socialAnalytics('',
+        'facebook')\"\r\n            socialshare\r\n            socialshare-provider=\"facebook\"\r\n
+        \           socialshare-text=\"Easter biscuits\">\r\n\r\n            <i class=\"social__icon
+        social__icon--facebook icon-facebook-no-circle\"></i>\r\n\r\n        </a>\r\n\r\n
+        \   </li>\r\n\r\n    <li class=\"social__list-item\">\r\n\r\n        <a class=\"social__btn
+        social__email\" href=\"mailto:?subject= lovefood.com article%20you%20must%20read&amp;body=Hello,%0D%0A%0D%0AI%20found%20this%20article%20on
+        lovefood.com and%20thought%20you%20would%20find%20it%20useful:%0D%0A%0D%0A\">\r\n\r\n
+        \           <i class=\"social__icon social__icon--email icon-email\"></i>\r\n\r\n
+        \       </a>\r\n\r\n    </li>\r\n\r\n</ul>\r\n\r\n                                        </div>\r\n\r\n
+        \                                   </div>\r\n\r\n                                </div>\r\n\r\n
+        \                           </div>\r\n\r\n                        </div>\r\n\r\n
+        \                       <div class=\"post__body\" analytics>\r\n                                <div
+        class=\"u-mb\">\r\n\r\n                                    <img class=\"imagezoom__img\"
+        src=\"https://loveincorporated.blob.core.windows.net/contentimages/main/bdc9b19a-592f-444f-8734-4ac5733d8c5e-easter-biscuits-edited.jpg\"
+        alt=\"Easter biscuits\">\r\n\r\n                                </div>\r\n\r\n
+        \                           <p>A great recipe for the whole family to make
+        together, these biscuits will not only provide a fun activity for the kids
+        but will also look great on your&nbsp;Easter table. The recipe makes about
+        30 biscuits.&nbsp;</p>\n\r\n\r\n                            <div class=\"layout\">\r\n\r\n
+        \                               <div class=\"layout__item u-1/2-lap\">\r\n\r\n
+        \                                   <h3 class=\"heading heading--delta\">Ingredients</h3>\r\n\r\n
+        \                                   <div class=\"u-pb- u-pl\">\r\n                                        <select
+        id=\"ingredients-select\" class=\"u-1/1\" name=\"weight-conversion\">\r\n
+        \                                           <option value=\"0\">Metric</option>\r\n
+        \                                           <option value=\"1\">Cups</option>\r\n
+        \                                           <option value=\"2\">Imperial</option>\r\n
+        \                                       </select>\r\n                                    </div>\r\n\r\n
+        \                                       <ul name=\"ingredients-metric\">\r\n
+        \                                               <li>50 g golden caster sugar</li>\r\n
+        \                                               <li>50 g icing sugar</li>\r\n
+        \                                               <li>1  medium free range egg</li>\r\n
+        \                                               <li>0.5 tsp ground mixed spice</li>\r\n
+        \                                               <li>300 g plain flour, plus
+        extra for rolling</li>\r\n                                                <li>175
+        g Stork, diced</li>\r\n                                        </ul>\r\n                                        <ul
+        name=\"ingredients-imperial\" class=\"u-visuallyhidden\">\r\n                                                <li>1.8
+        oz golden caster sugar</li>\r\n                                                <li>1.8
+        oz icing sugar</li>\r\n                                                <li>1
+        \ medium free range egg</li>\r\n                                                <li>0.5
+        tsp ground mixed spice</li>\r\n                                                <li>10.6
+        oz plain flour, plus extra for rolling</li>\r\n                                                <li>6.2
+        oz Stork, diced</li>\r\n                                        </ul>\r\n
+        \                                       <ul name=\"ingredients-cups\" class=\"u-visuallyhidden\">\r\n
+        \                                               <li>1.8 oz golden caster sugar</li>\r\n
+        \                                               <li>1.8 oz icing sugar</li>\r\n
+        \                                               <li>1  medium free range egg</li>\r\n
+        \                                               <li>0.5 tsp ground mixed spice</li>\r\n
+        \                                               <li>10.6 oz plain flour, plus
+        extra for rolling</li>\r\n                                                <li>6.2
+        oz Stork, diced</li>\r\n                                        </ul>\r\n
+        \                               </div>\r\n\r\n                                <div
+        class=\"layout__item u-1/2-lap\">\r\n\r\n                                    <h3
+        class=\"heading heading--delta\">Details</h3>\r\n\r\n                                    <ul>\r\n\r\n
+        \                                       <li><strong>Cuisine:</strong> Biscuits</li>\r\n\r\n
+        \                                       <li><strong>Recipe Type:</strong>
+        Baking</li>\r\n\r\n                                        <li><strong>Difficulty:</strong>
+        Medium</li>\r\n\r\n                                        <li><strong>Preparation
+        Time:</strong> 20 mins</li>\r\n\r\n                                        <li><strong>Cooking
+        Time:</strong> 10 mins</li>\r\n\r\n                                        <li><strong>Serves:</strong>
+        10</li>\r\n\r\n\r\n                                    </ul>\r\n\r\n                                </div>\r\n\r\n
+        \                           </div>\r\n\r\n                            <div
+        class=\"content__step-by-step\">\r\n\r\n                                <h3
+        class=\"heading heading--delta\">Step-by-step</h3>\r\n\r\n                                <ol>\n\t<li>Preheat
+        the oven to 180&deg;C/350&deg;F/gas mark 4.</li>\n\t<li>Beat the Stork and
+        both sugars together until creamy, then mix in the egg. Add the spice and
+        flour, and mix to make a firm dough.</li>\n\t<li>Roll out the dough on a lightly
+        floured surface to a thickness of 2-3 mm (1/16in - 3/32in) and stamp out biscuits
+        using Easter cookie cutters.</li>\n\t<li>Transfer to baking sheets that have
+        been lined with non-stick parchment and bake for 8&ndash;10 minutes until
+        pale golden. Leave to cool on the tray for 1-2 minutes, then transfer to a
+        wire rack and leave to cool completely.</li>\n\t<li>Decorate the biscuits
+        with coloured icing and dust with a few sprinkles. Leave to set, then store
+        in an airtight container until ready to eat.</li>\n</ol>\n\r\n\r\n                            </div>\r\n\r\n
+        \                               <p><p><em>Recipe and image courtesy of <a
+        href=\"https://www.waitrose.com/home/recipes/easter-recipes/easter-baking/easter-biscuits.html\"
+        target=\"_blank\">Waitrose &amp; Partners</a>.</em></p>\n\n<p><strong>You
+        might also like:</strong></p>\n\n<p><a href=\"https://www.lovefood.com/recipes/83743/easy-hot-cross-buns-recipe\"
+        target=\"_blank\">Easy hot cross buns</a></p>\n\n<p><a href=\"https://www.lovefood.com/recipes/83695/swirled-easter-brownies-recipe\"
+        target=\"_blank\">Swirled Easter brownies</a></p>\n\n<p><a href=\"https://www.lovefood.com/recipes/83699/mini-bundt-cakes-recipe\"
+        target=\"_blank\">Mini bundt cakes</a></p>\n</p>\r\n\r\n\r\n                        </div>\r\n\r\n
+        \                       <!-- More like this  -->\r\n\r\n                        <news-carousel
+        class=\"u-mb\"\r\n                                       ng-if=\"vm.mostRecentNews.length\"\r\n
+        \                                      news-carousel-title=\"Most Recent\"\r\n
+        \                                      news-carousel-items=\"vm.mostRecentNews\">\r\n
+        \                       </news-carousel>\r\n                        <script
+        type=\"text/javascript\" id=\"dianomi_context_script\" src=\"https://www.dianomi.com/js/contextfeed.js\"></script>
+        \r\n                            <div class=\"dianomi_context\" data-dianomi-context-id=\"4672\"></div>\r\n\r\n\r\n\r\n\r\n
+        \                       <footer class=\"post__footer\">\r\n\r\n                            <div
+        class=\"layout layout--middle\">\r\n\r\n                                <div
+        class=\"layout__item u-1/3-lap\">\r\n\r\n                                    <div
+        class=\"u-float-left u-mb\">\r\n\r\n                                        <div
+        class=\"social\">\r\n                                            <p class=\"social__title\">Share
+        the love</p>\r\n\r\n                                            \r\n<ul class=\"social__list\"
+        analytics>\r\n\r\n            <li class=\"social__list-item\">\r\n\r\n                <a
+        class=\"social__btn\" href=\"#\" onclick=\"window.print();\">\r\n\r\n                    <i
+        class=\"social__icon social__icon--print icon-printer\"></i>\r\n\r\n                </a>\r\n\r\n
+        \           </li>\r\n        <li class=\"social__list-item\">\r\n\r\n            <a
+        class=\"social__btn\" href=\"#\"\r\n            socialshare\r\n            socialshare-provider=\"pinterest\"\r\n
+        \           socialshare-text=\"Easter biscuits\"\r\n            socialshare-media=\"https://loveincorporated.blob.core.windows.net/contentimages/main/bdc9b19a-592f-444f-8734-4ac5733d8c5e-easter-biscuits-edited.jpg\">\r\n\r\n
+        \               <i class=\"social__icon social__icon--pinterest icon-pinterest-no-circle\"></i>\r\n\r\n
+        \           </a>\r\n\r\n        </li>\r\n\r\n    <li class=\"social__list-item\">\r\n\r\n
+        \       <a class=\"social__btn\" href=\"#\"\r\n            ng-click=\"socialAnalytics('',
+        'twitter')\"\r\n            socialshare\r\n            socialshare-provider=\"twitter\"\r\n
+        \           socialshare-text=\"Easter biscuits\">\r\n\r\n            <i class=\"social__icon
+        social__icon--twitter icon-twitter-no-circle\"></i>\r\n\r\n        </a>\r\n\r\n
+        \   </li>\r\n\r\n    <li class=\"social__list-item\">\r\n\r\n        <a class=\"social__btn
+        social__facebook\" href=\"#\"\r\n            ng-click=\"socialAnalytics('',
+        'facebook')\"\r\n            socialshare\r\n            socialshare-provider=\"facebook\"\r\n
+        \           socialshare-text=\"Easter biscuits\">\r\n\r\n            <i class=\"social__icon
+        social__icon--facebook icon-facebook-no-circle\"></i>\r\n\r\n        </a>\r\n\r\n
+        \   </li>\r\n\r\n    <li class=\"social__list-item\">\r\n\r\n        <a class=\"social__btn
+        social__email\" href=\"mailto:?subject= lovefood.com article%20you%20must%20read&amp;body=Hello,%0D%0A%0D%0AI%20found%20this%20article%20on
+        lovefood.com and%20thought%20you%20would%20find%20it%20useful:%0D%0A%0D%0A\">\r\n\r\n
+        \           <i class=\"social__icon social__icon--email icon-email\"></i>\r\n\r\n
+        \       </a>\r\n\r\n    </li>\r\n\r\n</ul>\r\n\r\n                                        </div>\r\n\r\n
+        \                                   </div>\r\n\r\n                                </div>\r\n\r\n\r\n\r\n
+        \                           </div>\r\n\r\n                        </footer>\r\n\r\n
+        \                   </article>\r\n\r\n                </div>\r\n\r\n                <div
+        class=\"content__item content__sub\">\r\n\r\n                    <!-- Sidebar
+        -->\r\n                    <div>\r\n\r\n                        \r\n                            <div
+        class=\"dianomi_context\" data-dianomi-context-id=\"4656\"></div>\r\n\r\n\r\n
+        \                       <news-summaries news-summaries-title=\"Most Popular\"\r\n
+        \                                       news-summaries-items=\"vm.popularNews\"\r\n
+        \                                       brand=\"lovefood.com\"\r\n                                        brand-prefix=\"lf\">\r\n
+        \                       </news-summaries>\r\n                        \r\n
+        \                           <div class=\"dianomi_context\" data-dianomi-context-id=\"4655\"></div>\r\n\r\n\r\n
+        \                   </div>\r\n\r\n                </div>\r\n                <!--
+        newsletter box -->\r\n                    <section class=\"content__item u-mt\"
+        ng-if=\"!vm.isAuthenticated\">\r\n        <news-signup class=\"newsletter--landscape\"\r\n
+        \                    news-signup-brand=\"lovefood.com\"\r\n                     >\r\n
+        \       </news-signup>\r\n    </section>\r\n\r\n\r\n            </div>\r\n\r\n\t\t</div>\r\n\r\n\t</div>\r\n</section>\r\n\r\n\r\n\r\n\r\n\r\n\r\n
+        \   </section>\r\n\r\n    \r\n    <section class=\"wrapper\">\r\n        \r\n\r\n\r\n<footer
+        class=\"footer js-accordion js-accordion--palm\">\r\n\r\n    <div class=\"footer__layout\">\r\n\r\n
+        \       <section class=\"footer__item footer__item--one\">\r\n\r\n            <h3
+        class=\"footer__heading heading heading--section\">\r\n\r\n                <span
+        class=\"footer__toggle js-accordion__toggle u-hidden-palm\">\r\n\r\n                    Home\r\n\r\n
+        \               </span>\r\n\r\n                <a class=\"footer__toggle icon-footer-arrow
+        js-accordion__toggle u-hidden-lap\" href=\"#accordion-1\">\r\n\r\n                    Home\r\n\r\n
+        \               </a>\r\n\r\n            </h3>\r\n\r\n            <nav class=\"footer__nav
+        js-accordion__section\" id=\"accordion-1\">\r\n\r\n                <ul class=\"footer__nav-list\">\r\n\r\n
+        \                   <li><a href=https://www.loveinc.com/contactus/customerservices/
+        target=\"_blank\">CUSTOMER SERVICES</a></li>\r\n\r\n                    <li><a
+        href=\"/archive/Index/83641\" target=\"_blank\">ARTICLE ARCHIVES</a></li>\r\n\r\n
+        \                   <li><a href=https://www.loveinc.com/TermsOfUse target=\"_blank\">TERMS
+        OF USE</a></li>\r\n\r\n                    <li><a href=https://www.loveinc.com/PrivacyPolicy
+        target=\"_blank\">PRIVACY POLICY</a></li>\r\n\r\n                    <li><a
+        href=https://www.loveinc.com/Cookies target=\"_blank\">COOKIE POLICY</a></li>\r\n\r\n
+        \                   <li><a href=https://www.loveinc.com/Disclaimer target=\"_blank\">DISCLAIMER</a></li>\r\n\r\n
+        \                   <li><a href=https://www.lovefood.com/news/241018/about-us
+        target=\"_blank\">ABOUT US</a></li>\r\n\r\n\r\n                </ul>\r\n\r\n
+        \           </nav>\r\n\r\n        </section>\r\n\r\n        <section class=\"footer__item
+        footer__item--two u-hidden-palm\"></section>\r\n\r\n        <section class=\"footer__item
+        footer__item--three\">\r\n\r\n            <h3 class=\"footer__heading heading
+        heading--section\">\r\n\r\n                <span class=\"footer__toggle js-accordion__toggle
+        u-hidden-palm\">\r\n\r\n                    Brands\r\n\r\n                </span>\r\n\r\n
+        \               <a class=\"footer__toggle icon-footer-arrow js-accordion__toggle
+        u-hidden-lap\" href=\"#accordion-3\">\r\n\r\n                    Brands\r\n\r\n
+        \               </a>\r\n\r\n            </h3>\r\n\r\n            <nav class=\"footer__nav
+        js-accordion__section\" id=\"accordion-3\">\r\n\r\n                <ul class=\"footer__nav-list\">\r\n\r\n
+        \                   <li><a href=http://www.lovemoney.com target=\"_blank\">lovemoney</a></li>\r\n\r\n
+        \                   <li><a href=http://www.loveexploring.com target=\"_blank\">loveexploring</a></li>\r\n\r\n
+        \                   <li><a href=http://www.loveproperty.com target=\"_blank\">loveproperty</a></li>\r\n\r\n
+        \                   \r\n\r\n\r\n\r\n                </ul>\r\n\r\n            </nav>\r\n\r\n
+        \       </section>\r\n\r\n        <section class=\"footer__item footer__item--four\">\r\n\r\n
+        \           <address class=\"footer__address\">\r\n\r\n                <p>\r\n
+        \                   <strong>lovefood.com</strong>\r\n                </p>\r\n\r\n
+        \               <p>\r\n                    First Floor Ridgeland House <br
+        />\r\n                    15 Carfax<br />\r\n                    Horsham<br
+        />\r\n                    West Sussex<br />\r\n                    United
+        Kingdom<br />\r\n                    RH12 1DY\r\n\r\n                </p>\r\n\r\n
+        \               <p>\r\n                    LoveEverything.com Limited, a company
+        registered in England and Wales.<br>\r\n                    Company registration
+        number: 07255787\r\n                </p>\r\n\r\n                <div class=\"footer__social-icons\">\r\n
+        \                   <a href=\"https://www.twitter.com/lovefood\" target=\"_blank\"
+        class=\"icon icon-twitter2\"></a>\r\n                    <a href=\"https://www.facebook.com/lovefooddotcom\"
+        target=\"_blank\" class=\"icon icon-facebook-logo-button\"></a>\r\n                    <a
+        href=\"https://www.instagram.com/lovefooddotcom\" target=\"_blank\" class=\"icon
+        icon-instagram-logo\"></a>\r\n                </div>\r\n\r\n            </address>\r\n\r\n
+        \       </section>\r\n\r\n    </div>\r\n\r\n</footer>\r\n\r\n    </section>\r\n\r\n
+        \   \r\n    <section class=\"wrapper\">\r\n        \r\n\r\n\r\n<div class=\"disclaimer\">\r\n\r\n
+        \   <a href=\"/\" class=\"disclaimer__logo icon-circle-logo-white\"></a>\r\n
+        \   \r\n    <p class=\"disclaimer__copy\">Copyright &copy; <a href=\"http://www.lovefood.com\">lovefood.com</a>
+        All rights reserved.</p>\r\n\r\n    <nav class=\"disclaimer__nav\">\r\n\r\n
+        \       <a href=https://www.loveinc.com/TermsOfUse target=\"_blank\">Terms
+        of use</a> &#x7c;\r\n        <a href=https://www.loveinc.com/PrivacyPolicy
+        target=\"_blank\">Privacy policy</a> &#x7c;\r\n        <a href=https://www.loveinc.com/Disclaimer
+        target=\"_blank\">Disclaimer</a>\r\n\r\n    </nav>\r\n\r\n</div>\r\n\r\n    </section>\r\n\r\n
+        \   \r\n\r\n    \r\n    \r\n\r\n    <script src=\"/app/dist/vendor/jquery/dist/jquery.min.js?v=3.53.0.2515\"></script>\r\n
+        \   <script src=\"/app/dist/vendor/angular/angular.min.js?v=3.53.0.2515\"></script>\r\n
+        \   <script src=\"/app/dist/vendor/angular-sanitize/angular-sanitize.min.js?v=3.53.0.2515\"></script>\r\n
+        \   <script src=\"/app/dist/vendor/angular-cookies/angular-cookies.min.js?v=3.53.0.2515\"></script>\r\n
+        \   \r\n\r\n\t\t<script src=\"/app/dist/centres/recipes/js/recipes.min.js?v=3.53.0.2515\"></script>\r\n\r\n\t<script>\r\n\t\tvar
+        selectedTopic = 'recipes';\r\n\r\n\t\tangular.module('app').value('contentItemId',
+        83641);\r\n\t\tangular.module('app').value('questionId', null);\r\n\r\n\r\n\t\t//
+        ingrdients drop down\r\n\t\t$('#ingredients-select').on('change', function(){\r\n\t\t\tif(this.value
+        === '1') {\r\n\t\t\t\t// Cups\r\n\t\t\t\t$(\"[name*='ingredients-cups']\").removeClass('u-visuallyhidden');\r\n\t\t\t\t$(\"[name*='ingredients-metric'],
+        [name*='ingredients-imperial']\").addClass('u-visuallyhidden');\r\n\t\t\t}
+        else if(this.value === '2') {\r\n\t\t\t\t// Imperial\r\n\t\t\t\t$(\"[name*='ingredients-imperial']\").removeClass('u-visuallyhidden');\r\n\t\t\t\t$(\"[name*='ingredients-metric'],
+        [name*='ingredients-cups']\").addClass('u-visuallyhidden');\r\n\t\t\t} else
+        {\r\n\t\t\t\t// Metric\r\n\t\t\t\t$(\"[name*='ingredients-metric']\").removeClass('u-visuallyhidden');\r\n\t\t\t\t$(\"[name*='ingredients-cups'],
+        [name*='ingredients-imperial']\").addClass('u-visuallyhidden');\r\n\t\t\t}\r\n\t\t});\r\n\r\n\t</script>\r\n\r\n\t\r\n\r\n\r\n\r\n\r\n
+        \   <script>\r\n        var isAuthenticated = ( 'False' === 'True' );\r\n\r\n
+        \       angular.module('app')\r\n            .value('isAuthenticated', isAuthenticated);\r\n
+        \       angular.module('app')\r\n            .constant('adprefix', 'lf');\r\n\r\n
+        \       $(function () {\r\n            Fedlab.Accordion.init();\r\n            Fedlab.Navbar.init();\r\n
+        \       });\r\n    </script>\r\n\r\n    <!-- ref:5152.0.35.3 -->\r\n\r\n</body>\r\n\r\n</html>\r\n"
+  recorded_at: Sun, 27 Sep 2026 07:59:24 GMT
+recorded_with: VCR 6.4.0

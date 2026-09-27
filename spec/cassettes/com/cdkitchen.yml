@@ -1,0 +1,1017 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.cdkitchen.com/recipes/recs/364/Pot-Roast-With-Vegetables82229.shtml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - recipe_scrapers/0.1.0 (+https://github.com/davqasd/recipe_scrapers)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 27 Sep 2026 08:00:46 GMT
+      Server:
+      - Apache
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - private
+      Upgrade:
+      - h2,h2c
+      Connection:
+      - Upgrade
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html
+    body:
+      encoding: UTF-8
+      string: "\t<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"UTF-8\">\n
+        \       <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t\t<meta
+        http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t\t<meta http-equiv=\"origin-trial\"
+        content=\"AiqUWlZY+nfuxPWIBmf6fngAKEQUjpjIkazHs65Ane+XYYnIzH4o6ixAN5m6t14u4Xca0NCDhOdv2AKSWxpVfwsAAABueyJvcmlnaW4iOiJodHRwczovL3d3dy5jZGtpdGNoZW4uY29tOjQ0MyIsImZlYXR1cmUiOiJQcmlvcml0eUhpbnRzQVBJIiwiZXhwaXJ5IjoxNjQ3OTkzNTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZX0=\">\n
+        \       <title>Pressure Cooker Pot Roast With Vegetables Recipe | CDKitchen.com</title>\n
+        \       <!-- Google tag (gtag.js) -->\n        <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-GYRSQ7319D\"></script>\n
+        \       <script>\n          window.dataLayer = window.dataLayer || [];\n          function
+        gtag(){dataLayer.push(arguments);}\n          gtag('js', new Date());\n        \n
+        \         gtag('config', 'G-GYRSQ7319D');\n        </script>        \n<script>\n
+        \         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n
+        \         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n
+        \         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n
+        \         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n
+        \       \n          ga('create', 'UA-164582-1', 'cdkitchen.com');\n          ga('require',
+        'displayfeatures');\n          ga('send', 'pageview');\n        setTimeout(\"ga('send','event','VW
+        User Engagement','time on page more than 15 seconds')\",15000);\n        </script>\n\n
+        \       <meta name=\"description\" content=\"A pressure cooker is a home cook's
+        secret weapon when it comes to making a perfect pot roast.\">\n\t\t<meta name=\"robots\"
+        content=\"noodp,noydir\">\n\t\t<meta property=\"og:title\" content=\"Pressure
+        Cooker Pot Roast With Vegetables Recipe | CDKitchen.com\">\n\t\t<meta property=\"og:type\"
+        content=\"article\">\n\t\t<meta property=\"og:url\" content=\"https://www.cdkitchen.com/recipes/recs/364/Pot-Roast-With-Vegetables82229.shtml\">\n\t\t<meta
+        property=\"og:image\" content=\"https://cdn.cdkitchen.com/recipes/images/2025/12/53013-10123-mx.jpg\">\n\t\t<meta
+        property=\"og:description\" content=\"A pressure cooker is a home cook's secret
+        weapon when it comes to making a perfect pot roast.\">\n\t\t<meta property=\"og:site_name\"
+        content=\"CDKitchen\">\n\t\t<meta property=\"fb:admins\" content=\"1302058699\">\n\t\t<meta
+        property=\"fb:app_id\" content=\"103056499643\">\n\t\t\n\t\t<meta name=\"twitter:card\"
+        content=\"summary_large_image\">\n\t\t<meta name=\"twitter:site\" content=\"@cdkitchen\">\n\t\t<meta
+        name=\"twitter:creator\" content=\"@cdkitchen\">\n\t\t<meta name=\"twitter:title\"
+        content=\"Pressure Cooker Pot Roast With Vegetables Recipe | CDKitchen.com\">\n\t\t<meta
+        name=\"twitter:description\" content=\"A pressure cooker is a home cook's
+        secret weapon when it comes to making a perfect pot roast.\">\n\t\t<meta name=\"twitter:url\"
+        content=\"https://www.cdkitchen.com/recipes/recs/364/Pot-Roast-With-Vegetables82229.shtml\">\n\t\t<meta
+        name=\"twitter:domain\" content=\"https://www.cdkitchen.com\">\n\t\t<meta
+        name=\"twitter:image\" content=\"https://cdn.cdkitchen.com/recipes/images/2025/12/53013-10123-mx.jpg\">\n\t\t<meta
+        name=\"pinterest-rich-pin\" content=\"false\">\n\t\t<meta name=\"theme-color\"
+        content=\"#c00000\">\n\t\t<link rel=\"alternate\" type=\"application/rss+xml\"
+        title=\"What's New at CDKitchen RSS Feed\" href=\"https://www.cdkitchen.com/feeds/rss.xml\">\n\t\t\n\t\t<link
+        rel=\"preload\" as=\"image\" href=\"https://cdn.cdkitchen.com/images/background/background5.jpg\">\n\t\t\n\t\t\n\t\t<link
+        rel=\"canonical\" href=\"https://www.cdkitchen.com/recipes/recs/364/Pot-Roast-With-Vegetables82229.shtml\">\n\n\t\t<link
+        rel=\"image_src\" href=\"https://cdn.cdkitchen.com/recipes/images/2025/12/53013-10123-mx.jpg\">\n
+        \       <link rel=\"stylesheet\" href=\"https://cdn.cdkitchen.com/css/bootstrap.min.css\"
+        media=\"all\">\n        <link rel=\"stylesheet\" href=\"https://cdn.cdkitchen.com/css/font-awesome.min.css\"
+        media=\"all\">\n        <link rel=\"stylesheet\" href=\"https://cdn.cdkitchen.com/css/owl.carousel.min.css\"
+        media=\"all\">\n        <link rel=\"stylesheet\" href=\"https://cdn.cdkitchen.com/css/owl.theme.min.css\"
+        media=\"all\">\n        <link rel=\"stylesheet\" href=\"https://cdn.cdkitchen.com/css/jquery.navgoco.min.css\">\n
+        \       <link rel=\"stylesheet\" href=\"https://cdn.cdkitchen.com/css/style.min.css\">\n
+        \       \n        <link rel=\"stylesheet\" href=\"https://cdn.cdkitchen.com/css/responsive.min.css\">\n
+        \       <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">\n
+        \       <!--[if lt IE 9]>\n            <link rel=\"stylesheet\" href=\"https://cdn.cdkitchen.com/css/ie.min.css\"
+        type=\"text/css\" media=\"all\">\n        <![endif]-->      \n        <script
+        src=\"https://cdn.cdkitchen.com/js/modernizr.custom.js\"></script>\n        <script>\nif
+        (window.top.location != window.location) {   window.top.location.replace(window.location);}
+        (function () {\n    'use strict';\n    console.log('window.top.location',
+        window.top.location);\n    console.log('window.location', window.location);\n\n
+        \   if (window.location !== window.top.location) {\n        window.top.location
+        = window.location;\n    }\n})();\n\t\tvar sc_project=642571;\n\t\tvar sc_invisible=1;\n\t\tvar
+        sc_security=\"69287ad8\";\n\t\t</script>\n\t\t<script src=\"https://www.statcounter.com/counter/counter.js\"></script>\n\t\t\n<script
+        type=\"text/javascript\">\nfunction showNutrition(divId,mid) {\n   $(\"#\"+divId).toggle();\n
+        \  if ($(\"#\"+divId).css('display') == 'none') {\n      $(\"#nTag\"+mid).html('Show
+        full nutritional data');\n\n   }\n   else {\n      $(\"#nTag\"+mid).html('Hide
+        full nutritional data');\n   }\n}\n</script>           \n        <!-- Le fav
+        and touch icons -->\n        <link rel=\"shortcut icon\" href=\"https://www.cdkitchen.com/favicon.ico\">\n
+        \       <link rel=\"apple-touch-icon\" href=\"https://www.cdkitchen.com/img/apple-icon.png\">\n
+        \       <link rel=\"apple-touch-icon\" sizes=\"72x72\" href=\"https://www.cdkitchen.com/img/apple-icon-72x72.png\">\n
+        \       <link rel=\"apple-touch-icon\" sizes=\"114x114\" href=\"https://www.cdkitchen.com/img/apple-icon-114x114.png\"><script
+        src=\"https://cdn.adapex.io/hb/aaw.cdkitchen.js\" async></script>\n<!-- Google
+        Tag Manager -->\n  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n
+        \ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n
+        \ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n
+        \ 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n
+        \ })(window,document,'script','dataLayer','GTM-WBK53F');</script>\n  <!--
+        End Google Tag Manager -->\n<script src=\"//s.ntv.io/serve/load.js\" async></script>\n\n<script
+        src=\"https://cdn.cdkitchen.com/js/ep.min.js\"></script><script>bioEp.init({\n
+        \       width: 500,\n        height: 225,\n        delay: 4,\n        html:
+        '<form style=\"width:500px;padding:2%\" action=\"//cdkitchen.us4.list-manage.com/subscribe/post?u=938404d2fad4f5d73282e9f19&amp;id=ac76f4dcbb\"
+        method=\"post\" name=\"mc-embedded-subscribe-form\" target=\"_blank\" novalidate
+        id=\"epsignup\"><div class=\"epheader\">Hungry For More?</div><div class=\"epdescription\"><p>Subscribe
+        now for FREE recipes delivered daily to your inbox</p></div><div class=\"input\"><input
+        type=\"text\" style=\"width:60%;background:#FDFCFB;font-family:inherit;color:#737373;letter-spacing:1px;text-indent:5%;border-radius:5px
+        0 0 5px;font-size:100%;height:46px;\" id=\"EMAIL\" name=\"EMAIL\" placeholder=\"NAME@EXAMPLE.COM\"><input
+        type=\"submit\" style=\"width:40%;height:46px;background:#C00000;font-family:inherit;font-weight:700;color:inherit;letter-spacing:1px;border-radius:0
+        5px 5px 0;cursor:pointer;transition:background .3s ease-in-out\" id=\"submit\"
+        name=\"subscribe\" value=\"YES, SUBSCRIBE ME!\"></div><input type=\"hidden\"
+        name=\"MMERGE3\" value=\"ep2\"><input type=\"hidden\" value=\"2\" name=\"group[13485][2]\"><input
+        type=\"hidden\" value=\"html\" name=\"EMAILTYPE\"><div id=\"mce-responses\"
+        class=\"clear\"><div class=\"response\" id=\"mce-error-response\" style=\"display:none\"></div>\t\t<div
+        class=\"response\" id=\"mce-success-response\" style=\"display:none\"></div></div><div
+        style=\"position: absolute; left: -5000px;\" aria-hidden=\"true\"><input type=\"text\"
+        name=\"b_938404d2fad4f5d73282e9f19_ac76f4dcbb\" tabindex=\"-1\" value=\"\"></div><div
+        class=\"clear\"></div></div></form>',\n    css: '#epsignup{background:#F8A434;font-family:Lato,sans-serif;color:#FDFCFB;text-align:center;line-height:2;}.epheader{font-size:38px;text-transform:uppercase;letter-spacing:5px}.epdescription{font-size:17px;letter-spacing:1px;line-height:1.3em;margin:-2px
+        0 45px}.epinput{display:flex;align-items:center}.epbutton{height:44px;border:none}',\n
+        \       fonts: ['//fonts.googleapis.com/css?family=Lato:400,700'],\n        cookieExp:
+        60\n    });\n    </script><script type=\"application/ld+json\">{\n  \"@context\":
+        \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\":
+        [\n  {\n  \"@type\": \"ListItem\",\n  \"position\": 1,\n  \"name\": \"home\",\n
+        \ \"item\": \"https://www.cdkitchen.com/\"\n  },\n  {\n  \"@type\": \"ListItem\",\n
+        \ \"position\": 2,\n  \"name\": \"recipes\",\n  \"item\": \"https://www.cdkitchen.com/recipes/\"\n
+        \ },{\n  \"@type\": \"ListItem\",\n  \"position\": 3,\n  \"name\": \"meals
+        / dishes\",\n  \"item\": \"https://www.cdkitchen.com/recipes/course/\"\n},{\n
+        \ \"@type\": \"ListItem\",\n  \"position\": 4,\n  \"name\": \"dinner meals\",\n
+        \ \"item\": \"https://www.cdkitchen.com/recipes/course/main-dish/\"\n},{\n
+        \ \"@type\": \"ListItem\",\n  \"position\": 5,\n  \"name\": \"meat and poultry
+        dishes\",\n  \"item\": \"https://www.cdkitchen.com/recipes/dish/meat-poultry/\"\n},{\n
+        \ \"@type\": \"ListItem\",\n  \"position\": 6,\n  \"name\": \"roasts\",\n
+        \ \"item\": \"https://www.cdkitchen.com/recipes/course/main-dish/roasts/\"\n},{\n
+        \ \"@type\": \"ListItem\",\n  \"position\": 7,\n  \"name\": \"beef roasts\",\n
+        \ \"item\": \"https://www.cdkitchen.com/recipes/ingredient/beef/roasts/\"\n},{\n
+        \ \"@type\": \"ListItem\",\n  \"position\": 8,\n  \"name\": \"pot roast\",\n
+        \ \"item\": \"https://www.cdkitchen.com/recipes/ingredient/beef/pot-roast/\"\n}\n
+        \ ]\n}</script>\n    </head>\n<body class=\"punica-home-3\">\n<!-- Google
+        Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-WBK53F\"
+        height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!--
+        End Google Tag Manager (noscript) -->\n    <header id=\"punica-page-header\">\n
+        \       <div class=\"punica-header-top\">\n            <div class=\"wrapper-inner
+        clearfix\">\n                <div id=\"logo-image\"><a href=\"https://www.cdkitchen.com\"><img
+        src=\"https://www.cdkitchen.com/placeholders/main-logo.png\" height=\"51\"
+        width=\"195\" alt=\"CDKitchen, it's what's cooking online!\" importance=\"high\"></a></div>\n
+        \               <nav id=\"top-nav\" class=\"pull-left\">\n                    <ul
+        id=\"top-menu\" class=\"clearfix\">\n                        <li><div><form
+        action=\"https://cdkitchen.us4.list-manage.com/subscribe/post?u=938404d2fad4f5d73282e9f19&amp;id=ac76f4dcbb\"
+        method=\"post\" name=\"mc-embedded-subscribe-form\" target=\"_blank\" novalidate><div
+        class=\"cfff\"><label for=\"EMAIL\">Sign up for our recipe newsletters</label>&nbsp;&nbsp;
+        <input type=\"email\" value=\"\" id=\"EMAIL\" name=\"EMAIL\" class=\"nlettertopform\"
+        placeholder=\" enter your email address\"><input type=\"submit\" value=\"Subscribe!\"
+        name=\"subscribe\" class=\"punica-button orange-button\"></div>\n<input type=\"hidden\"
+        name=\"MMERGE3\" value=\"cnavbar_top_3\">\n<input type=\"hidden\" value=\"2\"
+        name=\"group[13485][2]\">\n<input type=\"hidden\" value=\"html\" name=\"EMAILTYPE\">\n\t\t
+        \   <div class=\"offpage\"><input type=\"text\" name=\"b_938404d2fad4f5d73282e9f19_ac76f4dcbb\"
+        tabindex=\"-1\" value=\"\"></div>\n\t\t\t\t\t\t</form></div>\n</li>\n                    </ul>\n
+        \                   <!-- end:top-menu -->\n                </nav>\n                <!--
+        end:top-nav -->\n                <ul id=\"top-contact-info\" class=\"clearfix
+        pull-right\">\n                    <li class=\"clearfix\"><a class=\"pull-left\"
+        href=\"https://www.cdkitchen.com/helpdesk/\"><img src=\"https://cdn.cdkitchen.com/images/helpdesk2.jpg\"
+        height=\"17\" width=\"174\" alt=\"contact the CDKitchen helpdesk\" importance=\"low\"></a></li>\n
+        \               </ul>\n                <!-- end:top-contact-info -->\n            </div>\n
+        \           <!-- end:wrapper-inner -->\n        </div>\n        <!-- end:punica-header-top
+        -->\n        <div class=\"punica-header-middle\">\n            \n            <div
+        class=\"wrapper-inner clearfix\">\n                <nav id=\"main-nav\" class=\"pull-left\">\n\n
+        \                   <ul id=\"main-menu\" class=\"clearfix\">\n                        <li>\n
+        \                           <a href=\"https://www.cdkitchen.com/\">Home</a>\n
+        \                       </li>\n                        <li>\n                            <a
+        href=\"https://www.cdkitchen.com/recipes/\">Recipes</a>\n                        </li>\n<li
+        class=\"current-menu-item\"><a href=\"https://www.cdkitchen.com/recipes/ingredient/beef/roasts/\">see
+        other roast recipes</a><ul><li><a href=\"https://www.cdkitchen.com/recipes/ingredient/beef/pot-roast/\">more
+        pot roast like this &nbsp;&nbsp;&gt;&gt;</a><ul><li><a href=\"https://www.cdkitchen.com/recipes/recs/2494/Rump-Roast-And-Vegetables115428.shtml\">Rump
+        Roast And Vegetables</a></li><li><a href=\"https://www.cdkitchen.com/recipes/recs/2497/Waterless-Pot-Roast141528.shtml\">Waterless
+        Pot Roast</a></li><li><a href=\"https://www.cdkitchen.com/recipes/recs/2497/Savory-Pot-Roasted-Beef106419.shtml\">Savory
+        Pot Roasted Beef</a></li>\n      <li><a href=\"https://www.cdkitchen.com/recipes/ingredient/beef/pot-roast/\">view
+        more</a></li>\n      </ul>\n      </li><li><a href=\"https://www.cdkitchen.com/recipes/ingredient/beef/brisket/\">brisket</a></li><li><a
+        href=\"https://www.cdkitchen.com/recipes/ingredient/beef/prime-rib/\">prime
+        rib</a></li></ul></li>                        <li>\n                              <a
+        href=\"https://www.cdkitchen.com/recipes/ideas/\">Ideas</a>\n                        </li>\n
+        \                       <li><a href=\"https://recipebox.cdkitchen.com/\">recipe
+        box login</a></li>\n\n                    </ul>\n                    <!--
+        end:main-menu -->\n\n                    <i class=\"fa fa-align-justify\"></i>\n
+        \               \n                    <div class=\"mobile-menu-wrapper\">\n
+        \                       <ul id=\"mobile-menu\">\n                            <li>\n
+        \                            <a href=\"https://www.cdkitchen.com/\">Home</a>\n
+        \                               \n                            </li><li>\n
+        \                           <a href=\"https://www.cdkitchen.com/recipes/\">Recipes</a>\n
+        \                       </li>\n<li class=\"current-menu-item\"><a href=\"https://www.cdkitchen.com/recipes/ingredient/beef/roasts/\">see
+        other roast recipes</a><ul><li><a href=\"https://www.cdkitchen.com/recipes/ingredient/beef/pot-roast/\">more
+        pot roast like this &nbsp;&nbsp;&gt;&gt;</a><ul><li><a href=\"https://www.cdkitchen.com/recipes/recs/2494/Rump-Roast-And-Vegetables115428.shtml\">Rump
+        Roast And Vegetables</a></li><li><a href=\"https://www.cdkitchen.com/recipes/recs/2497/Waterless-Pot-Roast141528.shtml\">Waterless
+        Pot Roast</a></li><li><a href=\"https://www.cdkitchen.com/recipes/recs/2497/Savory-Pot-Roasted-Beef106419.shtml\">Savory
+        Pot Roasted Beef</a></li>\n      <li><a href=\"https://www.cdkitchen.com/recipes/ingredient/beef/pot-roast/\">view
+        more</a></li>\n      </ul>\n      </li><li><a href=\"https://www.cdkitchen.com/recipes/ingredient/beef/brisket/\">brisket</a></li><li><a
+        href=\"https://www.cdkitchen.com/recipes/ingredient/beef/prime-rib/\">prime
+        rib</a></li></ul></li>                            \n                            <li>\n
+        \                                        <a href=\"https://www.cdkitchen.com/recipes/ideas/\">Ideas</a>\n
+        \                           </li>\n <li><a href=\"https://recipebox.cdkitchen.com/\">recipe
+        box login</a></li>\n                        </ul>\n                        <!--
+        mobile-menu -->\n                    </div>\n                    <!-- mobile-menu-wrapper
+        -->\n                    \n                </nav>\n                <!-- end:main-nav
+        -->                \n\n            </div>\n            <!-- end:wrapper-inner
+        -->\n\n        </div>\n        <!-- end:punica-header-middle -->\n\n        <div
+        \ style=\"min-height:136px;\" class=\"punica-header-bottom\">\n\n            <div
+        class=\"wrapper-inner clearfix\">\n\n\n<div data-aaad=\"true\" data-aa-adunit=\"/22181265/cdkitchen_728v_1\"></div><div
+        data-aaad=\"true\" data-aa-adunit=\"/22181265/cdkitchen_mob_300v_3\"></div>\n
+        \               <div class=\"search-box pull-right clearfix\">\n                    <span
+        class=\"pull-left\">recipe search</span>\n                    <form action=\"//www.cdkitchen.com/search/search.php\"
+        class=\"search-form pull-left clearfix\" method=\"get\">\n                        <input
+        type=\"text\" onBlur=\"if (this.value == '')\n                            this.value
+        = this.defaultValue;\" onFocus=\"if (this.value == this.defaultValue)\n                            this.value
+        = '';\" value=\"\" name=\"q\" class=\"search-text\" placeholder=\"keywords
+        or recipe id#\">\n                        <button type=\"submit\" class=\"search-submit\"
+        aria-label=\"Search\"><i class=\"fa fa-search\" aria-hidden=\"true\"></i>\n
+        \                       </button>\n                    </form>\n                    <!--
+        search-form -->\n                </div>                <!--search-box-->\n\n
+        \           </div>\n            <!-- end:wrapper-inner -->\n            \n
+        \       </div>\n        <!-- end:punica-header-bottom -->\n\n    </header>\n
+        \   <!-- end:punica-page-header -->\n\n    <div id=\"main-content\">\n\n        <div
+        class=\"wrapper punica-shadow-box\">\n\n            <div class=\"widget-area-2
+        pull-left\">\n\n                <div class=\"breadcrumb clearfix\">\n          <span>\n
+        \           <a href=\"/\">\n              <span>Home</span>\n            </a>\n
+        \         </span>\n          <span>&nbsp;/&nbsp;</span>\n          <span class=\"prev-page\">\n
+        \           <a href=\"/recipes/\">\n              <span>Recipes</span>\n            </a>\n
+        \         </span>\n          <span>&nbsp;/&nbsp;</span>\n          <span class=\"prev-page\">\n
+        \           <a href=\"https://www.cdkitchen.com/recipes/course/\">\n              <span>meals
+        / dishes</span>\n            </a>\n          </span> <span>&nbsp;/&nbsp;</span>\n
+        \         <span class=\"prev-page\">\n            <a href=\"https://www.cdkitchen.com/recipes/course/main-dish/\">\n
+        \             <span>dinner meals</span>\n            </a>\n          </span>
+        <span>&nbsp;/&nbsp;</span>\n          <span class=\"prev-page\">\n            <a
+        href=\"https://www.cdkitchen.com/recipes/dish/meat-poultry/\">\n              <span>meat
+        and poultry dishes</span>\n            </a>\n          </span> <span>&nbsp;/&nbsp;</span>\n
+        \         <span class=\"prev-page\">\n            <a href=\"https://www.cdkitchen.com/recipes/course/main-dish/roasts/\">\n
+        \             <span>roasts</span>\n            </a>\n          </span> <span>&nbsp;/&nbsp;</span>\n
+        \         <span class=\"prev-page\">\n            <a href=\"https://www.cdkitchen.com/recipes/ingredient/beef/roasts/\">\n
+        \             <span>beef roasts</span>\n            </a>\n          </span>
+        <span>&nbsp;/&nbsp;</span><span><a class=\"current-page\" href=\"https://www.cdkitchen.com/recipes/ingredient/beef/pot-roast/\"><span>see
+        more: pot roast</span></a></span></div>             \n<!-- start recipe div
+        -->\n<div id=\"recipepage\" class=\"row\">\n<div itemscope itemtype=\"http://schema.org/Recipe\">\n<link
+        itemprop=\"url\" href=\"https://www.cdkitchen.com/recipes/recs/364/Pot-Roast-With-Vegetables82229.shtml\">\n<meta
+        itemprop=\"mainEntityOfPage\" content=\"True\" />\n\n<h1 style=\"min-height:30px;\"
+        itemprop=\"name\">Pressure Cooker Pot Roast With Vegetables</h1>\n\t\t<div
+        class=\"recipetools clearfix\">\n  <ul>\n\n<li class=\"print\">\n      <form
+        method=\"post\" action=\"https://www.cdkitchen.com/recipes/print/53013,82229,s=6.html\"
+        target=\"_blank\"><input type=\"hidden\" name=\"mid\" value=\"53013\"><span
+        class=\"htext icontool\"><input type=\"submit\" size=\"34\" style=\"color:#ff9935;background:none;border:none;padding:0px;margin:0px;\"
+        class=\"icon fa fa-print fa-2x\" id=\"print\" value=\"&#xf02f;\"><b>print
+        recipe</b></span></form>\n    </li>\n\n<li class=\"email\">\n      <form method=\"post\"
+        action=\"https://www.cdkitchen.com/recipes/mail/53013/Pot-Roast-With-Vegetables\"><input
+        type=\"hidden\" name=\"mid\" value=\"53013\"><span class=\"htext icontool\"><input
+        type=\"submit\"  size=\"34\" style=\"color:#ff9935;background:none;border:none;padding:0px;margin:0px;\"
+        class=\"icon fa fa-envelope fa-2x\" id=\"email\" value=\"&#xf0e0;\"><b>email
+        recipe</b></span></form>\n    </li>\n<li class=\"save\">\n      <form method=\"post\"
+        action=\"https://recipebox.cdkitchen.com/addNewLink.html\"><input type=\"hidden\"
+        name=\"mid\" value=\"53013\"/><input type=\"hidden\" name=\"subsite\" value=\"\"><input
+        type=\"hidden\" name=\"linkPath\" value=\"http://www.cdkitchen.com/recipes/recs/364/Pot-Roast-With-Vegetables82229.shtml\"><input
+        type=\"hidden\" name=\"linkPublic\" value=\"F\"><input type=\"hidden\" name=\"linkName\"
+        value=\"Pot+Roast+With+Vegetables\"><span class=\"htext icontool\"><input
+        type=\"submit\" style=\"color:#ff9935;background:none;border:none;padding:0px;margin:0px;\"
+        \ size=\"34\" class=\"icon fa fa-save fa-2x\" id=\"save\" value=\"&#xf0c7;\"><b>save
+        recipe</b></span></form>\n    </li>\n\n\n<li class=\"addphoto\">\n      <form
+        method=\"post\" action=\"https://recipebox.cdkitchen.com/addImage.html?mid=53013&amp;img=1\"><input
+        type=\"hidden\" name=\"mid\" value=\"53013\"><input type=\"hidden\" name=\"linkPath\"
+        value=\"https://www.cdkitchen.com/recipes/recs/364/Pot-Roast-With-Vegetables82229.shtml\"><input
+        type=\"hidden\" name=\"img\" value=1><span class=\"htext icontool\"><input
+        type=\"submit\"  size=\"34\" style=\"color:#ff9935;background:none;border:none;padding:0px;margin:0px;\"
+        class=\"icon fa fa-camera fa-2x\" id=\"addimage\" value=\"&#xf030;\"><b>add
+        photo</b></span></form>\n    </li>\n\n\n    <li class=\"addreview\">\n      <a
+        class=\"icontool\" href=\"#inpagereview\"><span class=\"icon fa fa-comments
+        fa-2x\"></span><b>add review</b></a>\n    </li>\n<li><span class=\"s16\" id=\"midholder\">#53013</span></li>\n
+        \ </ul>\n</div>\t\n\t\t<p style=\"font-family:verdana,arial;font-size:18px;margin:1%
+        2% 2% 4%;line-height:120%;\" itemprop=\"description\" id=\"headnote\">A pressure
+        cooker is a home cook's secret weapon when it comes to making a perfect pot
+        roast. </p><div>                    <div class=\"entry-thumb recipe-main-img\">
+        \                       \n            <div class=\"entry-thumb-inner\">\n
+        \             <div class=\"punica-carousel-wrapper \">\n                <div
+        class=\"recipe-main-img owl-carousel punica-single-post-carousel\">\n                  <div
+        class=\"item\"><img class=\"heroimages\" itemprop=\"image\" src=\"https://cdn.cdkitchen.com/recipes/images/2025/12/53013-10123-mx.jpg\"
+        alt=\"photo of Pot Roast With Vegetables\" data-pin-description=\"Pressure
+        Cooker Pot Roast With Vegetables - A pressure cooker is a home cook's secret
+        weapon when it comes to making a perfect pot roast. \" data-src=\"https://cdn.cdkitchen.com/recipes/images/2025/12/53013-10123-mx.jpg\"
+        \ data-src-retina=\"https://cdn.cdkitchen.com/recipes/images/2025/12/53013-10123-mx.jpg\"
+        importance=\"high\"></div>\n<div class=\"item ggnoads\"><img class=\"heroimages\"
+        src=\"https://cdn.cdkitchen.com/recipes/images/2015/02/53013-3681-mx.jpg\"
+        data-src-retina=\"https://cdn.cdkitchen.com/recipes/images/2015/02/53013-3681-mx.jpg\"
+        data-pin-description=\"Pressure Cooker Pot Roast With Vegetables - A pressure
+        cooker is a home cook's secret weapon when it comes to making a perfect pot
+        roast. \" alt=\"photo of Pot Roast With Vegetables\" importance=\"low\"></div>\n\n
+        \               </div>\n                <!-- end:punica-single-post-carousel
+        -->\n              </div>\n              <!-- end:punica-carousel-wrapper
+        -->\n              <!-- end:entry-caption -->\n            </div>\n            <!--
+        end:entry-thumb-inner -->\n          </div>\n          <!-- end:entry-thumb
+        --></div><br class=\"clearboth\"/><div class=\"ataglance-div s18\"><div class=\"col-md-4
+        col-sm-4 mb-20\"><meta itemprop=\"recipeYield\" content=\"6\" />serves/makes:
+        <br><span class=\"fa fa-cutlery fa-3x recipeglance\" title=\"servings\"></span><form
+        action=\"https://www.cdkitchen.com/recipes/recs/364/Pot-Roast-With-Vegetables82229.shtml\"
+        method=\"post\" class=\"change-servs-form\"><input type=\"text\" name=\"scale\"
+        class=\"change-servs-input s18\" size=\"2\" value=\"6\">&nbsp;&nbsp;<input
+        type=\"hidden\" name=\"mid\" value=\"53013\"><br><input class=\"punica-button
+        black-button\" type=\"submit\" value=\"change servings\"> <input type=\"button\"
+        class=\"button change-servs-reset\" onclick=\"location.href = 'https://www.cdkitchen.com/recipes/recs/364/Pot-Roast-With-Vegetables82229.shtml'\"
+        value=\"reset\"></form></div><div class=\"col-md-4 col-sm-4 mb-20\">ready
+        in:<br><span class=\"fa fa-clock-o fa-4x recipeglance\" title=\"cook time\"></span>
+        &nbsp;&nbsp;<meta itemprop=\"totalTime\" content=\"PT45M\" />30-60 minutes\t</div><div
+        class=\"col-md-4 col-sm-4 mb-20\"><span class=\"s18\" itemprop=\"aggregateRating\"
+        itemscope itemtype=\"http://schema.org/AggregateRating\"><a href=\"#comments\"><img
+        src=\"//www.cdkitchen.com/images/new5star.png\" alt=\"Rating: 5/5\" title=\"Recipe
+        Rating: 5/5\" style=\"float:left;padding-right:15px;\" importance=\"low\"
+        loading=\"lazy\"/></a><br class=\"clearboth\"/><br /><meta itemprop=\"ratingValue\"
+        content=\"5\" /><meta itemprop=\"bestRating\" content=\"5\"/><meta itemprop=\"worstRating\"
+        content=\"1\"/><span itemprop=\"reviewCount\">14</span>  reviews<br />5 comments</span></div></div><br
+        class=\"clearboth\"/><h2 class=\"recipe-h2\">ingredients</h2><p class=\"ml-30\"><span
+        class=\"ft-verdana s18\"><span itemprop=\"recipeIngredient\">3 pounds boneless
+        beef sirloin tip roast</span><br><span itemprop=\"recipeIngredient\">2 tablespoons
+        vegetable oil</span><br><span itemprop=\"recipeIngredient\">4 large potatoes,
+        peeled and quartered</span><br><span itemprop=\"recipeIngredient\">4 large
+        carrots, cut into 2-inch pieces</span><br><span itemprop=\"recipeIngredient\">1
+        large onion, cut into wedges</span><br><span itemprop=\"recipeIngredient\">2
+        cups water</span><br><span itemprop=\"recipeIngredient\">1 teaspoon beef bouillon
+        granules</span><br><span itemprop=\"recipeIngredient\">1/2 teaspoon salt</span><br><span
+        itemprop=\"recipeIngredient\">1/4 teaspoon black pepper</span><br><span itemprop=\"recipeIngredient\">3
+        tablespoons cornstarch</span><br><span itemprop=\"recipeIngredient\">3 tablespoons
+        cold water</span><br></span></p><h2 class=\"recipe-h2\">directions</h2><div
+        itemprop=\"recipeInstructions\" class=\"ft-verdana s18\"><p class=\"ml-30\">In
+        a pressure cooker, brown roast in oil on all sides. Add potatoes, carrots,
+        onion and water. <br><br> Close cover securely and place pressure regulator
+        on vent pipe. Bring cooker to full pressure over high heat. Reduce heat to
+        medium-high and cook for 40 minutes (Pressure regulator should maintain a
+        slow steady rocking motion; adjust heat if needed). <br><br> Remove from the
+        heat and allow pressure to drop on its own. Remove meat and vegetables and
+        keep warm. <br><br> Bring cooking juices in pressure cooker to a boil. Add
+        bouillon, salt and pepper. Combine cornstarch and cold water until smooth,
+        then stir into juices. Bring to a boil, cook and stir for 2 minutes or until
+        thickened. <br><br> Serve with roast and vegetables.</p></div><h2 class=\"recipe-h2\">added
+        by</h2><p class=\"ml-30 ft-verdana s16\"><span class=\"s18\"><span itemprop=\"author\">Ilovevegas</span></span><br><p><br><h2
+        class=\"recipe-h2\" style=\"border-bottom: 1px solid #000;width:80%\">nutrition
+        data</h2><div class=\"nutri-s1\"><span class=\"nutrition\" itemprop=\"nutrition\"
+        itemscope itemtype=\"http://schema.org/NutritionInformation\">\n<span itemprop=\"calories\">616
+        calories</span>, <span class=\"fatContent\">37 grams fat</span>, <span class=\"carbohydrateContent\">25
+        grams carbohydrates</span>, <span class=\"proteinContent\">44 grams protein</span>
+        <span itemprop=\"servingSize\">per serving</span></span>.\n<form action=\"https://www.cdkitchen.com/recipes/recs/364/Pot-Roast-With-Vegetables82229.shtml\"
+        method=\"post\" name=\"gethealthy\"><input type=\"hidden\" name=\"nutrition\"
+        value=\"yes\"><a class=\"red\" href=\"javascript:void(0);\" onclick=\"document.gethealthy.submit()\">Show
+        full nutritional data</a> (including Weight Watcher's Points &reg;, cholesterol,
+        sodium, vitamins, and diabetic exchanges)</form>\n<br></div><br class=\"clearboth\"/><div
+        id=\"socialbuttons\">\n<a href=\"https://www.facebook.com/sharer.php?u=https://www.cdkitchen.com/recipes/recs/364/Pot-Roast-With-Vegetables82229.shtml\"
+        onclick=\"javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return
+        false;\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://cdn.cdkitchen.com/images/social/facebook.png\"
+        class=\"recipe-social\" alt=\"share on facebook\" loading=\"lazy\"/></a>\n<a
+        href=\"https://twitter.com/share?text=Pressure+Cooker+Pot+Roast+With+Vegetables+%40CDKitchen&amp;url=https://www.cdkitchen.com/recipes/recs/364/Pot-Roast-With-Vegetables82229.shtml\"
+        onclick=\"javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return
+        false;\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://cdn.cdkitchen.com/images/social/twitter.png\"
+        class=\"recipe-social\" alt=\"share on twitter\"  loading=\"lazy\"/></a>\n<a
+        href=\"https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.cdkitchen.com%2Frecipes%2Frecs%2F364%2FPot-Roast-With-Vegetables82229.shtml&amp;description=Pressure+Cooker+Pot+Roast+With+Vegetables+-+A+pressure+cooker+is+a+home+cook%27s+secret+weapon+when+it+comes+to+making+a+perfect+pot+roast.+Made+with+beef+sirloin+tip+roast%2C+vegetable+oil%2C+potatoes%2C+carrots%2C+onion%2C+water%2C+beef+bouillon+granules%2C+salt%2C+black+pepper%2C+cornstarch+%7C+CDKitchen.com&amp;media=https%3A%2F%2Fcdn.cdkitchen.com%2Frecipes%2Fimages%2Fpinterest%2F0%2Fpot-roast-with-vegetables-53013.jpg\"
+        onclick=\"javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return
+        false;\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://cdn.cdkitchen.com/images/social/pinterest.png\"
+        class=\"recipe-social\" alt=\"share on pinterest\"  loading=\"lazy\"/></a>\n<br
+        class=\"clearboth\"/><br></div>\n\n<div id=\"rec-nativo\" class=\"ggnoads\"></div><div
+        class=\"widget punica-carousel-list-2-widget mt-25 ggnoads\">\n          <span
+        class=\"widget-title h4 s20\">more recipes like pot roast with vegetables</span>\n
+        \         <div class=\"punica-carousel-wrapper\">\n            <div class=\"owl-carousel
+        punica-carousel-2\">\n<div class=\"item\">\n                <div class=\"entry-item
+        video-post\">\n                  <div class=\"entry-thumb\">\n                    <a
+        href=\"https://www.cdkitchen.com/recipes/recs/364/Amish_Pot_Roast45869.shtml\"><img
+        data-pin-nopin=\"true\" src=\"https://cdn.cdkitchen.com/recipes/images/2019/05/390-8564-sm.jpg\"
+        alt=\"Amish Pot Roast\"><span class=\"h6 s16\">AMISH POT ROAST</span></a>\n
+        \                 </div>\n                  <!-- end:entry-thumb -->\n                </div>\n
+        \               <!-- end:entry-item -->\n              </div>\n              <!--
+        end:item --><div class=\"item\">\n                <div class=\"entry-item
+        video-post\">\n                  <div class=\"entry-thumb\">\n                    <a
+        href=\"https://www.cdkitchen.com/recipes/recs/364/Beef_Pot_Roast_and_Vegetables55464.shtml\"><img
+        data-pin-nopin=\"true\" src=\"https://cdn.cdkitchen.com/recipes/images/2016/04/20829-5697-sm.jpg\"
+        alt=\"Beef Pot Roast and Vegetables\"><span class=\"h6 s16\">BEEF POT ROAST
+        AND VEGETABLES</span></a>\n                  </div>\n                  <!--
+        end:entry-thumb -->\n                </div>\n                <!-- end:entry-item
+        -->\n              </div>\n              <!-- end:item --><div class=\"item\">\n
+        \               <div class=\"entry-item video-post\">\n                  <div
+        class=\"entry-thumb\">\n                    <a href=\"https://www.cdkitchen.com/recipes/recs/364/Picnic_Pot_Roast57720.shtml\"><img
+        data-pin-nopin=\"true\" src=\"https://cdn.cdkitchen.com/recipes/images/2017/09/25438-7511-sm.jpg\"
+        alt=\"Pot Roast With Cola, Onion Soup, And Chili Sauce\"><span class=\"h6
+        s16\">POT ROAST WITH COLA, ONION SOUP, AND CHILI SAUCE</span></a>\n                  </div>\n
+        \                 <!-- end:entry-thumb -->\n                </div>\n                <!--
+        end:entry-item -->\n              </div>\n              <!-- end:item --><div
+        class=\"item\">\n                <div class=\"entry-item video-post\">\n                  <div
+        class=\"entry-thumb\">\n                    <a href=\"https://www.cdkitchen.com/recipes/recs/364/ChuckRoastBarbeque66484.shtml\"><img
+        data-pin-nopin=\"true\" src=\"https://cdn.cdkitchen.com/recipes/images/2019/09/37185-8820-sm.jpg\"
+        alt=\"Chuck Roast Barbecue\"><span class=\"h6 s16\">CHUCK ROAST BARBECUE</span></a>\n
+        \                 </div>\n                  <!-- end:entry-thumb -->\n                </div>\n
+        \               <!-- end:entry-item -->\n              </div>\n              <!--
+        end:item --><div class=\"item\">\n                <div class=\"entry-item
+        video-post\">\n                  <div class=\"entry-thumb\">\n                    <a
+        href=\"https://www.cdkitchen.com/recipes/recs/364/BonelessChuckRoastWithBour70002.shtml\"><img
+        data-pin-nopin=\"true\" src=\"https://cdn.cdkitchen.com/recipes/images/2019/05/40783-8591-sm.jpg\"
+        alt=\"Boneless Chuck Roast With Bourbon And Coke\"><span class=\"h6 s16\">BONELESS
+        CHUCK ROAST WITH BOURBON AND COKE</span></a>\n                  </div>\n                  <!--
+        end:entry-thumb -->\n                </div>\n                <!-- end:entry-item
+        -->\n              </div>\n              <!-- end:item --><div class=\"item\">\n
+        \               <div class=\"entry-item video-post\">\n                  <div
+        class=\"entry-thumb\">\n                    <a href=\"https://www.cdkitchen.com/recipes/recs/2497/Italian-Style-Pot-Roast98343.shtml\"><img
+        data-pin-nopin=\"true\" src=\"https://cdn.cdkitchen.com/recipes/images/2007/09/69216-77-sm.jpg\"
+        alt=\"Italian-Style Pot Roast\"><span class=\"h6 s16\">ITALIAN-STYLE POT ROAST</span></a>\n
+        \                 </div>\n                  <!-- end:entry-thumb -->\n                </div>\n
+        \               <!-- end:entry-item -->\n              </div>\n              <!--
+        end:item -->\n\n            </div>\n          </div>\n        </div>\n        <br><section
+        id=\"comments\" class=\"s16\"><h2 class=\"recipe-h2\" style=\"border-bottom:
+        1px solid #000;width:80%\">reviews &amp; comments</h2><ol class=\"comments-list
+        clearfix\">\n<li class=\"comment clearfix\">\n                            <div
+        class=\"comment-wrap clearfix\"> \n                                <div class=\"comment-avatar
+        pull-left\">\n                                <span style=\"font-size:60px;opacity:0.2\"
+        class=\"fa fa-user-o\" title=\"Guest at CDKitchen.com\"></span>\n                                </div>\n
+        \                               <div class=\"comment-body clearfix\">\n                                    <header
+        class=\"clearfix\">                                \n                                        <div
+        class=\"pull-left\">\n                                            <span class=\"h6
+        s14\">Diana A.</span>\n                                            \n                                            <span
+        style=\"font-family:Courier;color:#F93;font-weight: bold;text-transform:uppercase;\">REVIEW:</span>
+        <span class=\"stars-active\" style=\"width:88%;color:#FFD700\">\n        <i
+        class=\"fa fa-star\" aria-hidden=\"true\"></i>\n        <i class=\"fa fa-star\"
+        aria-hidden=\"true\"\"></i>\n        <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n
+        \       <i class=\"fa fa-star-o\" aria-hidden=\"true\" style=\"color:#D3D3D3\"></i>\n
+        \       <i class=\"fa fa-star-o\" aria-hidden=\"true\" style=\"color:#D3D3D3\"></i>\n
+        \   </span><br /> \n                                            <span class=\"entry-date\"
+        >September 17, 2018</span>\n                                        </div>\n
+        \                                       \n                     \n                                        <div
+        class=\"clear\"></div>\n                                    </header>\n                                    <p>I
+        tried this receipt and the roast turned out perfect but... \r\nI only gave
+        it 3 stars because my veg. turned out really over cooked. I will try this
+        again but definitely will put veggies in 10 mins before roast is done. Then
+        I believe it will get 5 stars from me.</p>\n                                </div><!--comment-body
+        -->\n                            </div>                                                                     \n
+        \                           </li>\n<li class=\"comment clearfix\">\n                            <div
+        class=\"comment-wrap clearfix\"> \n                                <div class=\"comment-avatar
+        pull-left\">\n                                <span style=\"font-size:60px;opacity:0.2\"
+        class=\"fa fa-user-o\" title=\"Guest at CDKitchen.com\"></span>\n                                </div>\n
+        \                               <div class=\"comment-body clearfix\">\n                                    <header
+        class=\"clearfix\">                                \n                                        <div
+        class=\"pull-left\">\n                                            <span class=\"h6
+        s14\">Roger</span>\n                                            \n                                            <span
+        class=\"entry-date\">December 21, 2016</span>\n                                        </div>\n
+        \                                       <div class=\"clear\"></div>\n                                    </header>\n
+        \                                   <p>Totally new to pressure cooking.  I
+        am going to try your pot roast, carrots & potatoes recipe on Christmas.  I
+        would like to add green beans.  Any suggestions for an amateur?   \r\n</p>\n
+        \                               </div><!--comment-body -->\n                            </div>
+        \    <ul class=\"children\">\n                            <li class=\"comment
+        clearfix\" style=\"background-color:#ececec\">\n                                <article
+        class=\"comment-wrap clearfix\"> \n                                    <div
+        class=\"comment-avatar pull-left\">\n                                        \n
+        \                                   </div>\n                                    <div
+        class=\"comment-body clearfix\">\n                                        <header
+        class=\"clearfix\">                                \n                                            <div
+        class=\"pull-left\">\n                                                <span
+        class=\"h6 s14\"><a href=\"#\">CDKitchen Reply:</a></span>\n                                                \n
+        \                                           </div>\n                                            \n
+        \                                      \n                                            <div
+        class=\"clear\"></div>\n                                        </header>\n
+        \                                       <p> Since green beans aren't very
+        dense you won't need to alter the cook time.</p>\n                                    </div><!--comment-body
+        -->\n                                </article>  \n                            </li>\n
+        \                       </ul>    </li>\n<li class=\"comment clearfix\">\n
+        \                           <div class=\"comment-wrap clearfix\"> \n                                <div
+        class=\"comment-avatar pull-left\">\n                                <span
+        style=\"font-size:60px;opacity:0.2\" class=\"fa fa-user-o\" title=\"Guest
+        at CDKitchen.com\"></span>\n                                </div>\n                                <div
+        class=\"comment-body clearfix\">\n                                    <header
+        class=\"clearfix\">                                \n                                        <div
+        class=\"pull-left\">\n                                            <span class=\"h6
+        s14\">Guest Foodie</span>\n                                            \n
+        \                                           <span style=\"font-family:Courier;color:#F93;font-weight:
+        bold;text-transform:uppercase;\">REVIEW:</span> <span class=\"stars-active\"
+        style=\"width:88%;color:#FFD700\">\n        <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n
+        \       <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n        <i class=\"fa
+        fa-star\" aria-hidden=\"true\"></i>\n        <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n
+        \       <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n    </span><br
+        /> \n                                            <span class=\"entry-date\"
+        >December 7, 2016</span>\n                                        </div>\n
+        \                                       \n                     \n                                        <div
+        class=\"clear\"></div>\n                                    </header>\n                                    <p>My
+        first pot roast in my electric pressure cooker.  Cooked for 45 minutes, high
+        pressure.  Excellent!  Thanks!</p>\n                                </div><!--comment-body
+        -->\n                            </div>                                                                     \n
+        \                           </li>\n<li class=\"comment clearfix\">\n                            <div
+        class=\"comment-wrap clearfix\"> \n                                <div class=\"comment-avatar
+        pull-left\">\n                                <span style=\"font-size:60px;opacity:0.2\"
+        class=\"fa fa-user-o\" title=\"Guest at CDKitchen.com\"></span>\n                                </div>\n
+        \                               <div class=\"comment-body clearfix\">\n                                    <header
+        class=\"clearfix\">                                \n                                        <div
+        class=\"pull-left\">\n                                            <span class=\"h6
+        s14\">Judy</span>\n                                            \n                                            <span
+        class=\"entry-date\">February 6, 2016</span>\n                                        </div>\n
+        \                                       <div class=\"clear\"></div>\n                                    </header>\n
+        \                                   <p>Can I use a frozen roast?\r\n</p>\n
+        \                               </div><!--comment-body -->\n                            </div>
+        \    <ul class=\"children\">\n                            <li class=\"comment
+        clearfix\" style=\"background-color:#ececec\">\n                                <article
+        class=\"comment-wrap clearfix\"> \n                                    <div
+        class=\"comment-avatar pull-left\">\n                                        \n
+        \                                   </div>\n                                    <div
+        class=\"comment-body clearfix\">\n                                        <header
+        class=\"clearfix\">                                \n                                            <div
+        class=\"pull-left\">\n                                                <span
+        class=\"h6 s14\"><a href=\"#\">CDKitchen Reply:</a></span>\n                                                \n
+        \                                           </div>\n                                            \n
+        \                                      \n                                            <div
+        class=\"clear\"></div>\n                                        </header>\n
+        \                                       <p>You technically can, but it just
+        won't be as good (less flavor, possibly overcooked exterior). </p>\n                                    </div><!--comment-body
+        -->\n                                </article>  \n                            </li>\n
+        \                       </ul>    </li>\n<li class=\"comment clearfix\">\n
+        \                           <div class=\"comment-wrap clearfix\"> \n                                <div
+        class=\"comment-avatar pull-left\">\n                                <span
+        style=\"font-size:60px;opacity:0.2\" class=\"fa fa-user-o\" title=\"Guest
+        at CDKitchen.com\"></span>\n                                </div>\n                                <div
+        class=\"comment-body clearfix\">\n                                    <header
+        class=\"clearfix\">                                \n                                        <div
+        class=\"pull-left\">\n                                            <span class=\"h6
+        s14\">TJ</span>\n                                            \n                                            <span
+        class=\"entry-date\">August 2, 2015</span>\n                                        </div>\n
+        \                                       <div class=\"clear\"></div>\n                                    </header>\n
+        \                                   <p>I have read other recipes and everyone
+        says after about 30 minutes open the lid THEN put in the vegetables?  I tried
+        putting everything in the first time I cooked a roast and all the vegetables
+        were all mushy.  How is this different?\r\n</p>\n                                </div><!--comment-body
+        -->\n                            </div>     <ul class=\"children\">\n                            <li
+        class=\"comment clearfix\" style=\"background-color:#ececec\">\n                                <article
+        class=\"comment-wrap clearfix\"> \n                                    <div
+        class=\"comment-avatar pull-left\">\n                                        \n
+        \                                   </div>\n                                    <div
+        class=\"comment-body clearfix\">\n                                        <header
+        class=\"clearfix\">                                \n                                            <div
+        class=\"pull-left\">\n                                                <span
+        class=\"h6 s14\"><a href=\"#\">CDKitchen Reply:</a></span>\n                                                \n
+        \                                           </div>\n                                            \n
+        \                                      \n                                            <div
+        class=\"clear\"></div>\n                                        </header>\n
+        \                                       <p> I definitely wouldn't attempt
+        to put the vegetables in after 30 minutes. You'd have to release the pressure
+        which would let out valuable steam and I'd think you'd end up with a drier
+        roast. As you can see from our staff photo the veggies aren't mushy. They
+        came out perfect as did the meat. </p>\n                                    </div><!--comment-body
+        -->\n                                </article>  \n                            </li>\n
+        \                       </ul>    </li>\n<li class=\"comment clearfix\">\n
+        \                           <div class=\"comment-wrap clearfix\"> \n                                <div
+        class=\"comment-avatar pull-left\">\n                                <span
+        style=\"font-size:55px;opacity:0.4\" class=\"fa fa-user-circle\" title=\"Registered
+        Member at CDKitchen.com\"></span>\n                                </div>\n
+        \                               <div class=\"comment-body clearfix\">\n                                    <header
+        class=\"clearfix\">                                \n                                        <div
+        class=\"pull-left\">\n                                            <span class=\"h6
+        s14\">Kaspar</span>\n                                            \n                                            <span
+        style=\"font-family:Courier;color:#F93;font-weight: bold;text-transform:uppercase;\">REVIEW:</span>
+        <span class=\"stars-active\" style=\"width:88%;color:#FFD700\">\n        <i
+        class=\"fa fa-star\" aria-hidden=\"true\"></i>\n        <i class=\"fa fa-star\"
+        aria-hidden=\"true\"></i>\n        <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n
+        \       <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n        <i class=\"fa
+        fa-star\" aria-hidden=\"true\"></i>\n    </span><br /> \n                                            <span
+        class=\"entry-date\" >November 2, 2013</span>\n                                        </div>\n
+        \                                       \n                     \n                                        <div
+        class=\"clear\"></div>\n                                    </header>\n                                    <p>Turned
+        out perfectly! </p>\n                                </div><!--comment-body
+        -->\n                            </div>                                                                     \n
+        \                           </li>\n<li class=\"comment clearfix\">\n                            <div
+        class=\"comment-wrap clearfix\"> \n                                <div class=\"comment-avatar
+        pull-left\">\n                                <span style=\"font-size:60px;opacity:0.2\"
+        class=\"fa fa-user-o\" title=\"Guest at CDKitchen.com\"></span>\n                                </div>\n
+        \                               <div class=\"comment-body clearfix\">\n                                    <header
+        class=\"clearfix\">                                \n                                        <div
+        class=\"pull-left\">\n                                            <span class=\"h6
+        s14\">PC QUEEN</span>\n                                            \n                                            <span
+        style=\"font-family:Courier;color:#F93;font-weight: bold;text-transform:uppercase;\">REVIEW:</span>
+        <span class=\"stars-active\" style=\"width:88%;color:#FFD700\">\n        <i
+        class=\"fa fa-star\" aria-hidden=\"true\"></i>\n        <i class=\"fa fa-star\"
+        aria-hidden=\"true\"></i>\n        <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n
+        \       <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n        <i class=\"fa
+        fa-star\" aria-hidden=\"true\"></i>\n    </span><br /> \n                                            <span
+        class=\"entry-date\" >July 14, 2013</span>\n                                        </div>\n
+        \                                       \n                     \n                                        <div
+        class=\"clear\"></div>\n                                    </header>\n                                    <p>I
+        use my PC about once a week so I'm always looking for new recipes. This is
+        a GREAT recipe for pressure cooked roast. Very good flavor and of course,
+        the meat is perfectly tender from the overall process. If you are new to pressure
+        cooking I recommend this as a fool proof recipe to try.</p>\n                                </div><!--comment-body
+        -->\n                            </div>                                                                     \n
+        \                           </li>\n<li class=\"comment clearfix\">\n                            <div
+        class=\"comment-wrap clearfix\"> \n                                <div class=\"comment-avatar
+        pull-left\">\n                                <span style=\"font-size:60px;opacity:0.2\"
+        class=\"fa fa-user-o\" title=\"Guest at CDKitchen.com\"></span>\n                                </div>\n
+        \                               <div class=\"comment-body clearfix\">\n                                    <header
+        class=\"clearfix\">                                \n                                        <div
+        class=\"pull-left\">\n                                            <span class=\"h6
+        s14\">Guest Foodie</span>\n                                            \n
+        \                                           <span style=\"font-family:Courier;color:#F93;font-weight:
+        bold;text-transform:uppercase;\">REVIEW:</span> <span class=\"stars-active\"
+        style=\"width:88%;color:#FFD700\">\n        <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n
+        \       <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n        <i class=\"fa
+        fa-star\" aria-hidden=\"true\"></i>\n        <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n
+        \       <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n    </span><br
+        /> \n                                            <span class=\"entry-date\"
+        >December 29, 2012</span>\n                                        </div>\n
+        \                                       \n                     \n                                        <div
+        class=\"clear\"></div>\n                                    </header>\n                                    <p>This
+        is, without question, the absolutely BEST pot roast recipe I have tried in
+        a month of Sundays.  The meat was incredibly tender, juicy, and flavorful.
+        \ The juices were so delicious!!  It was one of those times when you try a
+        new recipe and you just turn orgasmic over the results.  This recipe is easy,
+        economical, and just flat delicious.  You really gotta try this one.</p>\n
+        \                               </div><!--comment-body -->\n                            </div>
+        \                                                                    \n                            </li>\n<li
+        class=\"comment clearfix\">\n                            <div class=\"comment-wrap
+        clearfix\"> \n                                <div class=\"comment-avatar
+        pull-left\">\n                                <span style=\"font-size:60px;opacity:0.2\"
+        class=\"fa fa-user-o\" title=\"Guest at CDKitchen.com\"></span>\n                                </div>\n
+        \                               <div class=\"comment-body clearfix\">\n                                    <header
+        class=\"clearfix\">                                \n                                        <div
+        class=\"pull-left\">\n                                            <span class=\"h6
+        s14\">foodlover</span>\n                                            \n                                            <span
+        style=\"font-family:Courier;color:#F93;font-weight: bold;text-transform:uppercase;\">REVIEW:</span>
+        <span class=\"stars-active\" style=\"width:88%;color:#FFD700\">\n        <i
+        class=\"fa fa-star\" aria-hidden=\"true\"></i>\n        <i class=\"fa fa-star\"
+        aria-hidden=\"true\"></i>\n        <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n
+        \       <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n        <i class=\"fa
+        fa-star\" aria-hidden=\"true\"></i>\n    </span><br /> \n                                            <span
+        class=\"entry-date\" >December 28, 2012</span>\n                                        </div>\n
+        \                                       \n                     \n                                        <div
+        class=\"clear\"></div>\n                                    </header>\n                                    <p>Haven't
+        actually made this yet, but I know it's a &quot;5&quot; because this is exactly
+        how I make mine...except I also add smoked paprika ~1 tsp (or to taste)...Try
+        it...It makes it even better!</p>\n                                </div><!--comment-body
+        -->\n                            </div>                                                                     \n
+        \                           </li>\n<li class=\"comment clearfix\">\n                            <div
+        class=\"comment-wrap clearfix\"> \n                                <div class=\"comment-avatar
+        pull-left\">\n                                <span style=\"font-size:60px;opacity:0.2\"
+        class=\"fa fa-user-o\" title=\"Guest at CDKitchen.com\"></span>\n                                </div>\n
+        \                               <div class=\"comment-body clearfix\">\n                                    <header
+        class=\"clearfix\">                                \n                                        <div
+        class=\"pull-left\">\n                                            <span class=\"h6
+        s14\">Jay</span>\n                                            \n                                            <span
+        style=\"font-family:Courier;color:#F93;font-weight: bold;text-transform:uppercase;\">REVIEW:</span>
+        <span class=\"stars-active\" style=\"width:88%;color:#FFD700\">\n        <i
+        class=\"fa fa-star\" aria-hidden=\"true\"></i>\n        <i class=\"fa fa-star\"
+        aria-hidden=\"true\"></i>\n        <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n
+        \       <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n        <i class=\"fa
+        fa-star-o\" aria-hidden=\"true\" style=\"color:#D3D3D3\"></i>\n    </span><br
+        /> \n                                            <span class=\"entry-date\"
+        >December 2, 2012</span>\n                                        </div>\n
+        \                                       \n                     \n                                        <div
+        class=\"clear\"></div>\n                                    </header>\n                                    <p>Just
+        made this for the first time in the pressure cooker and it was tough as well.
+        \ Since I've made other things that fall off the bone, I'm going to rack this
+        up to the choice of meat I had available on a Sunday morning, which was a
+        rump roast.  I think the meat would matter, and I really couldn't find a pot
+        roast small enough at the time to fit in the pressure cooker.\r\nIf I had
+        tenderized the meat, I think it would have been okay, my kiddo's still gave
+        it a thumbs up!</p>\n                                </div><!--comment-body
+        -->\n                            </div>                                                                     \n
+        \                           </li>\n<li class=\"comment clearfix\">\n                            <div
+        class=\"comment-wrap clearfix\"> \n                                <div class=\"comment-avatar
+        pull-left\">\n                                <span style=\"font-size:55px;opacity:0.4\"
+        class=\"fa fa-user-circle\" title=\"Registered Member at CDKitchen.com\"></span>\n
+        \                               </div>\n                                <div
+        class=\"comment-body clearfix\">\n                                    <header
+        class=\"clearfix\">                                \n                                        <div
+        class=\"pull-left\">\n                                            <span class=\"h6
+        s14\">eLigARF</span>\n                                            \n                                            <span
+        class=\"entry-date\">November 21, 2012</span>\n                                        </div>\n
+        \                                       <div class=\"clear\"></div>\n                                    </header>\n
+        \                                   <p>Well, I must say this is smelling awfully
+        good. I just turned off the heat on my pressure cooker after adding 1 clove
+        of garlic and some extra carrots.\r\n\r\nI'll bet I'll be back here in about
+        an hour with a 5 star review; thank you for the recipe!</p>\n                                </div><!--comment-body
+        -->\n                            </div>        </li>\n<li class=\"comment
+        clearfix\">\n                            <div class=\"comment-wrap clearfix\">
+        \n                                <div class=\"comment-avatar pull-left\">\n
+        \                               <span style=\"font-size:60px;opacity:0.2\"
+        class=\"fa fa-user-o\" title=\"Guest at CDKitchen.com\"></span>\n                                </div>\n
+        \                               <div class=\"comment-body clearfix\">\n                                    <header
+        class=\"clearfix\">                                \n                                        <div
+        class=\"pull-left\">\n                                            <span class=\"h6
+        s14\">Tina</span>\n                                            \n                                            <span
+        style=\"font-family:Courier;color:#F93;font-weight: bold;text-transform:uppercase;\">REVIEW:</span>
+        <span class=\"stars-active\" style=\"width:88%;color:#FFD700\">\n        <i
+        class=\"fa fa-star\" aria-hidden=\"true\"></i>\n        <i class=\"fa fa-star\"
+        aria-hidden=\"true\"></i>\n        <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n
+        \       <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n        <i class=\"fa
+        fa-star\" aria-hidden=\"true\"></i>\n    </span><br /> \n                                            <span
+        class=\"entry-date\" >November 18, 2012</span>\n                                        </div>\n
+        \                                       \n                     \n                                        <div
+        class=\"clear\"></div>\n                                    </header>\n                                    <p>Wow!
+        this was the most delicious pot roast meal that I have ever had in my entire
+        49 years of life. I'm not sure it can get any better than this!     </p>\n
+        \                               </div><!--comment-body -->\n                            </div>
+        \                                                                    \n                            </li>\n<li
+        class=\"comment clearfix\">\n                            <div class=\"comment-wrap
+        clearfix\"> \n                                <div class=\"comment-avatar
+        pull-left\">\n                                <span style=\"font-size:60px;opacity:0.2\"
+        class=\"fa fa-user-o\" title=\"Guest at CDKitchen.com\"></span>\n                                </div>\n
+        \                               <div class=\"comment-body clearfix\">\n                                    <header
+        class=\"clearfix\">                                \n                                        <div
+        class=\"pull-left\">\n                                            <span class=\"h6
+        s14\">N499SF</span>\n                                            \n                                            <span
+        style=\"font-family:Courier;color:#F93;font-weight: bold;text-transform:uppercase;\">REVIEW:</span>
+        <span class=\"stars-active\" style=\"width:88%;color:#FFD700\">\n        <i
+        class=\"fa fa-star\" aria-hidden=\"true\"></i>\n        <i class=\"fa fa-star\"
+        aria-hidden=\"true\"></i>\n        <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n
+        \       <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n        <i class=\"fa
+        fa-star\" aria-hidden=\"true\"></i>\n    </span><br /> \n                                            <span
+        class=\"entry-date\" >June 21, 2012</span>\n                                        </div>\n
+        \                                       \n                     \n                                        <div
+        class=\"clear\"></div>\n                                    </header>\n                                    <p>This
+        is too easy- and incorporates a savory flavor with simplicity to  good old
+        comfort food. </p>\n                                </div><!--comment-body
+        -->\n                            </div>                                                                     \n
+        \                           </li>\n<li class=\"comment clearfix\">\n                            <div
+        class=\"comment-wrap clearfix\"> \n                                <div class=\"comment-avatar
+        pull-left\">\n                                <img src=\"//recipebox.cdkitchen.com/users/186242_thumb.jpg\"
+        alt=\"member review\"/>\n                                </div>\n                                <div
+        class=\"comment-body clearfix\">\n                                    <header
+        class=\"clearfix\">                                \n                                        <div
+        class=\"pull-left\">\n                                            <span class=\"h6
+        s14\">David48</span>\n                                            \n                                            <span
+        style=\"font-family:Courier;color:#F93;font-weight: bold;text-transform:uppercase;\">REVIEW:</span>
+        <span class=\"stars-active\" style=\"width:88%;color:#FFD700\">\n        <i
+        class=\"fa fa-star\" aria-hidden=\"true\"></i>\n        <i class=\"fa fa-star\"
+        aria-hidden=\"true\"></i>\n        <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n
+        \       <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n        <i class=\"fa
+        fa-star\" aria-hidden=\"true\"></i>\n    </span><br /> \n                                            <span
+        class=\"entry-date\" >December 2, 2011</span>\n                                        </div>\n
+        \                                       \n                     \n                                        <div
+        class=\"clear\"></div>\n                                    </header>\n                                    <p>I'm
+        doing today this for the third time. It's now half past four and I expect
+        to serve it at six and I will.\r\n I'm using a bit more meat, more carrots
+        onions and spuds only because my son and I eat lots.\r\n Every time I've made
+        it it's become easier but it's still as good, which is well nigh perfect.
+        I found adding ten minutes to cover the extra pound of meat and the extra
+        veggies is plenty, just let the pressure drop naturally.\r\n It's absolutely
+        bloody fabulous.\r\n Thank you very much for this recipe.</p>\n                                </div><!--comment-body
+        -->\n                            </div>                                                                     \n
+        \                           </li>\n<li class=\"comment clearfix\">\n                            <div
+        class=\"comment-wrap clearfix\"> \n                                <div class=\"comment-avatar
+        pull-left\">\n                                <span style=\"font-size:60px;opacity:0.2\"
+        class=\"fa fa-user-o\" title=\"Guest at CDKitchen.com\"></span>\n                                </div>\n
+        \                               <div class=\"comment-body clearfix\">\n                                    <header
+        class=\"clearfix\">                                \n                                        <div
+        class=\"pull-left\">\n                                            <span class=\"h6
+        s14\">colleen</span>\n                                            \n                                            <span
+        style=\"font-family:Courier;color:#F93;font-weight: bold;text-transform:uppercase;\">REVIEW:</span>
+        <span class=\"stars-active\" style=\"width:88%;color:#FFD700\">\n        <i
+        class=\"fa fa-star\" aria-hidden=\"true\"></i>\n        <i class=\"fa fa-star\"
+        aria-hidden=\"true\"></i>\n        <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n
+        \       <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n        <i class=\"fa
+        fa-star\" aria-hidden=\"true\"></i>\n    </span><br /> \n                                            <span
+        class=\"entry-date\" >January 11, 2011</span>\n                                        </div>\n
+        \                                       \n                     \n                                        <div
+        class=\"clear\"></div>\n                                    </header>\n                                    <p>I
+        was looking for something quicker than an oven roast so gave this a try. So
+        glad, because it was better than any oven version.\r\nThree changes: I used
+        one can of beef broth with a cup of water at the first addition. No bay leaf,
+        so I used dried thyme. I didn't have the patience to scoop out all the veggies,
+        so I used an immersion blender after thickening a bit.\r\nHave saved the leftover
+        gravy to use as a stew base, it was that good!</p>\n                                </div><!--comment-body
+        -->\n                            </div>                                                                     \n
+        \                           </li>\n<li class=\"comment clearfix\">\n                            <div
+        class=\"comment-wrap clearfix\"> \n                                <div class=\"comment-avatar
+        pull-left\">\n                                <span style=\"font-size:60px;opacity:0.2\"
+        class=\"fa fa-user-o\" title=\"Guest at CDKitchen.com\"></span>\n                                </div>\n
+        \                               <div class=\"comment-body clearfix\">\n                                    <header
+        class=\"clearfix\">                                \n                                        <div
+        class=\"pull-left\">\n                                            <span class=\"h6
+        s14\">Better_Lite</span>\n                                            \n                                            <span
+        style=\"font-family:Courier;color:#F93;font-weight: bold;text-transform:uppercase;\">REVIEW:</span>
+        <span class=\"stars-active\" style=\"width:88%;color:#FFD700\">\n        <i
+        class=\"fa fa-star\" aria-hidden=\"true\"></i>\n        <i class=\"fa fa-star\"
+        aria-hidden=\"true\"></i>\n        <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n
+        \       <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n        <i class=\"fa
+        fa-star\" aria-hidden=\"true\"></i>\n    </span><br /> \n                                            <span
+        class=\"entry-date\" >October 29, 2009</span>\n                                        </div>\n
+        \                                       \n                     \n                                        <div
+        class=\"clear\"></div>\n                                    </header>\n                                    <p>YUM!
+        This turned out absolutely perfect! I had a 4 lb roast so I guessed and added
+        10 minutes to cook time.  Perhaps the person that was not happy because it
+        was tough... did you let the pressure cooker let off the steam naturally?
+        \ If you did a quick release, it would have definitely been tough. I am not
+        familiar with pressure cooking, so I was pleasantly surprised and will do
+        this one often!  THANK YOU!</p>\n                                </div><!--comment-body
+        -->\n                            </div>                                                                     \n
+        \                           </li>\n<li class=\"comment clearfix\">\n                            <div
+        class=\"comment-wrap clearfix\"> \n                                <div class=\"comment-avatar
+        pull-left\">\n                                <span style=\"font-size:60px;opacity:0.2\"
+        class=\"fa fa-user-o\" title=\"Guest at CDKitchen.com\"></span>\n                                </div>\n
+        \                               <div class=\"comment-body clearfix\">\n                                    <header
+        class=\"clearfix\">                                \n                                        <div
+        class=\"pull-left\">\n                                            <span class=\"h6
+        s14\">Alloe</span>\n                                            \n                                            <span
+        style=\"font-family:Courier;color:#F93;font-weight: bold;text-transform:uppercase;\">REVIEW:</span>
+        <span class=\"stars-active\" style=\"width:88%;color:#FFD700\">\n        <i
+        class=\"fa fa-star\" aria-hidden=\"true\"></i>\n        <i class=\"fa fa-star\"
+        aria-hidden=\"true\"></i>\n        <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n
+        \       <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n        <i class=\"fa
+        fa-star\" aria-hidden=\"true\"></i>\n    </span><br /> \n                                            <span
+        class=\"entry-date\" >January 31, 2009</span>\n                                        </div>\n
+        \                                       \n                     \n                                        <div
+        class=\"clear\"></div>\n                                    </header>\n                                    <p>This
+        was simply amazing! Thank you for this recipe. I have been serching for a
+        pot roast recipe I would use regularly and this is the one! I followed it
+        to the letter with the exception of adding some celery to the veggies. My
+        entire family was drooling over it!! To the one comment about not knowing
+        why yours came out so tough: I was wondering if you were using a slow cooker
+        instead of a pressure cooker? They are very different and this recipe would
+        come out tough in this amount of time in the slow cooker. Just a thought,
+        it's the only thing I can think of that might have gone wrong if you followed
+        the recipe =/</p>\n                                </div><!--comment-body
+        -->\n                            </div>                                                                     \n
+        \                           </li>\n<li class=\"comment clearfix\">\n                            <div
+        class=\"comment-wrap clearfix\"> \n                                <div class=\"comment-avatar
+        pull-left\">\n                                <span style=\"font-size:60px;opacity:0.2\"
+        class=\"fa fa-user-o\" title=\"Guest at CDKitchen.com\"></span>\n                                </div>\n
+        \                               <div class=\"comment-body clearfix\">\n                                    <header
+        class=\"clearfix\">                                \n                                        <div
+        class=\"pull-left\">\n                                            <span class=\"h6
+        s14\">Illine</span>\n                                            \n                                            <span
+        style=\"font-family:Courier;color:#F93;font-weight: bold;text-transform:uppercase;\">REVIEW:</span>
+        <span class=\"stars-active\" style=\"width:88%;color:#FFD700\">\n        <i
+        class=\"fa fa-star\" aria-hidden=\"true\"></i>\n        <i class=\"fa fa-star\"
+        aria-hidden=\"true\"></i>\n        <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n
+        \       <i class=\"fa fa-star\" aria-hidden=\"true\"></i>\n        <i class=\"fa
+        fa-star\" aria-hidden=\"true\"></i>\n    </span><br /> \n                                            <span
+        class=\"entry-date\" >October 26, 2008</span>\n                                        </div>\n
+        \                                       \n                     \n                                        <div
+        class=\"clear\"></div>\n                                    </header>\n                                    <p>I
+        made this for dinner today and it was my FIRST EVER pressure cooker meal!
+        It was falling apart tender and absolutely wonderful! We especially liked
+        the wonderful gravy! All of it was perfect! Thanks for sharing this recipe.</p>\n
+        \                               </div><!--comment-body -->\n                            </div>
+        \                                                                    \n                            </li>\n<li
+        class=\"comment clearfix\">\n                            <div class=\"comment-wrap
+        clearfix\"> \n                                <div class=\"comment-avatar
+        pull-left\">\n                                <span style=\"font-size:60px;opacity:0.2\"
+        class=\"fa fa-user-o\" title=\"Guest at CDKitchen.com\"></span>\n                                </div>\n
+        \                               <div class=\"comment-body clearfix\">\n                                    <header
+        class=\"clearfix\">                                \n                                        <div
+        class=\"pull-left\">\n                                            <span class=\"h6
+        s14\">Jenn</span>\n                                            \n                                            <span
+        class=\"entry-date\">October 23, 2008</span>\n                                        </div>\n
+        \                                       <div class=\"clear\"></div>\n                                    </header>\n
+        \                                   <p>Just made this for dinner...so sad
+        - it came out very tough. Not sure what I did wrong ;(</p>\n                                </div><!--comment-body
+        -->\n                            </div>        </li></ol><!--comments-list--><div
+        data-aaad=\"true\" data-aa-adunit=\"/22181265/cdkitchen_728v_2\"></div></section><p></p><div
+        id=\"sreviews\"><script>document.write('<div class=\"recipe-inpagereview-div\"><iframe
+        id=\"inpagereview\" src=\"https://recipebox.cdkitchen.com/inpage-review1.html?photomid=53013\"
+        class=\"recipe-inpagereview-frame\" importance=\"low\"></iframe></div>');</script><div
+        class=\"recipe-nojs\"><noscript>Looks like you have javascript disabled. Please
+        enable it and refresh the page to add a review.</noscript></div></div>\n\n\n\n\t\n\t\n\t\n\t\n</div>\n</div>\n<!--end
+        recipe div -->\n\n\n\n\n<!-- add trending here-->\n<!-- end trending-->                \n\n\t
+        \               \n            </div>\n            <!-- end:widget-area-2 -->\n\t\t\t\n
+        \           <div class=\"widget-area-3 sidebar pull-left\">\n\t            \n<div
+        class=\"widget punica-article-list-1-widget recipe-quickjump\">\n                    <span
+        class=\"widget-title h4 s20\">Recipe Quick Jump</span>\n                    <ul
+        class=\"clearfix recipe-quickjump-left\">\n                                    <li
+        class=\"quickjumpli\"><a href=\"https://www.cdkitchen.com/recipes/course/main-dish/\">dinners</a></li>\n
+        \                                   <li class=\"quickjumpli\"><a href=\"https://www.cdkitchen.com/recipes/course/main-dish/casseroles/\">casseroles</a></li>\n\t\t\t\t\t\t\t\t\t<li
+        class=\"quickjumpli\"><a href=\"https://www.cdkitchen.com/recipes/course/soup-salad/\">soups
+        &amp; salads</a></li>\n\t\t\t\t\t\t\t\t\t<li class=\"quickjumpli\"><a href=\"https://www.cdkitchen.com/recipes/course/appetizers-snacks/\">appetizers</a></li>\n\t\t\t\t\t\t\t\t\t<li
+        class=\"quickjumpli\"><a href=\"https://www.cdkitchen.com/recipes/course/desserts/\">desserts</a></li>\n\t\t\t\t\t\t\t\t\t<li
+        class=\"quickjumpli\"><a href=\"https://www.cdkitchen.com/recipes/dish/breads-and-baking/\">baked
+        goods</a></li>\n                                </ul>                                \n
+        \                   <ul class=\"clearfix recipe-quickjump-right\">\n                                    <li
+        class=\"quickjumpli\"><a href=\"https://www.cdkitchen.com/recipes/cooking-method/crockpot/\">crockpot</a></li>\n
+        \                                   <li class=\"quickjumpli\"><a href=\"https://www.cdkitchen.com/recipes/copy-cat-recipes/\">copycat</a></li>\n\t\t\t\t\t\t\t\t\t<li
+        class=\"quickjumpli\"><a href=\"https://www.cdkitchen.com/recipes/course/drinks/\">drinks</a></li>\n\t\t\t\t\t\t\t\t\t<li
+        class=\"quickjumpli\"><a href=\"https://www.cdkitchen.com/recipes/course/side-dish/\">side
+        dishes</a></li>\n\t\t\t\t\t\t\t\t\t<li class=\"quickjumpli\"><a href=\"https://www.cdkitchen.com/recipes/course/breakfast-brunch/\">breakfast</a></li>\n\t\t\t\t\t\t\t\t\t<li
+        class=\"quickjumpli\"><a href=\"https://www.cdkitchen.com/recipes/holidays-parties/\">holidays</a></li>\n
+        \                               </ul>                                \n                </div><br>\n
+        \               <!-- end:punica-article-list-1-widget -->  \n\n                <div
+        class=\"widget punica-ads-2-widget\">\n                    <div data-aaad=\"true\"
+        data-aa-adunit=\"/22181265/cdkitchen_siderail\"></div><div data-aaad=\"true\"
+        data-aa-adunit=\"/22181265/cdkitchen_mob_300v_1\"></div>\t                    \n
+        \                </div>\n                <!-- end:punica-ads-2-widget -->\n\n\n
+        \               <!-- end:punica-article-list-1-widget -->\n               <div
+        class=\"widget punica-ads-2-widget\">\n                    <div data-aaad=\"true\"
+        data-aa-adunit=\"/22181265/cdkitchen_sticky_rail\"></div>                </div>\n\n\n\n
+        \               \n                <!-- if short page end sidebar here-->\n
+        \               \n                \n                <div class=\"widget punica-ads-2-widget\">\n
+        \                                   </div>\n                <!-- end:punica-ads-2-widget
+        -->\n\n               <div class=\"widget punica-ads-2-widget\">\n                                   </div>\n\n
+        \               <div class=\"widget punica-ads-2-widget\">\n                                    </div>\n
+        \               <!-- end:punica-ads-2-widget -->\n               <div class=\"widget
+        punica-ads-2-widget\">\n                    <a href=\"https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.cdkitchen.com%2Frecipes%2Frecs%2F364%2FPot-Roast-With-Vegetables82229.shtml&amp;description=Pressure+Cooker+Pot+Roast+With+Vegetables+-+A+pressure+cooker+is+a+home+cook%27s+secret+weapon+when+it+comes+to+making+a+perfect+pot+roast.+Made+with+beef+sirloin+tip+roast%2C+vegetable+oil%2C+potatoes%2C+carrots%2C+onion%2C+water%2C+beef+bouillon+granules%2C+salt%2C+black+pepper%2C+cornstarch+%7C+CDKitchen.com&amp;media=https%3A%2F%2Fcdn.cdkitchen.com%2Frecipes%2Fimages%2Fpinterest%2F0%2Fpot-roast-with-vegetables-53013.jpg\"
+        onclick=\"javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return
+        false;\" target=\"_blank\" rel=\"nofollow\"><div class=\"punica-button big-button
+        red-button\" style=\"position:relative;top:200px;font-size:170%;line-height:1\">Click
+        To Save This Recipe To Pinterest</div><br><img src=\"https://cdn.cdkitchen.com/recipes/images/pinterest/0/pot-roast-with-vegetables-53013.jpg\"
+        data-pin-description=\"Pressure Cooker Pot Roast With Vegetables - A pressure
+        cooker is a home cook's secret weapon when it comes to making a perfect pot
+        roast. Made with beef sirloin tip roast, vegetable oil, potatoes, carrots,
+        onion, water, beef bouillon granules, salt, black pepper, cornstarch | CDKitchen.com\"
+        alt=\"Pot Roast With Vegetables Recipe\" style=\"max-width:300px;\" loading=\"lazy\"/></a>
+        \              </div>\n\n\n<div style=\"height:25px;\"><br />&nbsp;<br /></div><div
+        style=\"background-color:#ececec;\"><span class=\"widget-title h4 s22\" style=\"display:block;padding-left:15%;\">Today
+        On CDKitchen:</span><br><div class=\"col-sm-12 col-md-12\" style=\"background-color:#ececec\">\n
+        \                               <div class=\"entry-item clearfix\">\n<div
+        class=\"entry-thumb\"><a href=\"https://www.cdkitchen.com/recipes/ideas/ground-beef-recipes/\"><img
+        src=\"https://cdn.cdkitchen.com/recipes/images/2017/09/56548-7730-s300.jpg\"
+        alt=\"Dinner dilemma solved!\" class=\"nada\" data-pin-nopin=\"true\" importance=\"low\"></a></div><span
+        class=\"h6 s18\"><a href=\"https://www.cdkitchen.com/recipes/ideas/ground-beef-recipes/\">25
+        Dinner Ideas Using Ground Beef</a></span>\n                                    <div
+        class=\"entry-content\">\n                                        <p class=\"small\">In
+        a cooking rut? Try one of these taste-tested, family-approved recipes using
+        <span class=\"inlink\">ground beef</span>.\n                                        </p>\n
+        \                                   </div>\n                                    <!--
+        end:entry-content -->\n                                </div>    \n                                <!--
+        end:entry-item -->\n                            </div><div class=\"col-sm-12
+        col-md-12\" style=\"background-color:#ececec\">\n                                <div
+        class=\"entry-item clearfix\">\n<div class=\"entry-thumb\"><a href=\"https://www.cdkitchen.com/recipes/ideas/buffalo-wing-everything/\"><img
+        src=\"https://cdn.cdkitchen.com/recipes/images/2017/10/10431-7777-s300.jpg\"
+        alt=\"Hot stuff!\" class=\"nada\" data-pin-nopin=\"true\" importance=\"low\"></a></div><span
+        class=\"h6 s18\"><a href=\"https://www.cdkitchen.com/recipes/ideas/buffalo-wing-everything/\">15
+        Buffalo Wing Flavored Recipes (And Not Just Wings!)</a></span>\n                                    <div
+        class=\"entry-content\">\n                                        <p class=\"small\">Love
+        buffalo wings? Get that same <span class=\"inlink\">hot, zippy flavor</span>
+        in everything from deviled eggs to enchiladas. And of course: wings.\n                                        </p>\n
+        \                                   </div>\n                                    <!--
+        end:entry-content -->\n                                </div>    \n                                <!--
+        end:entry-item -->\n                            </div><div class=\"col-sm-12
+        col-md-12\" style=\"background-color:#ececec\">\n                                <div
+        class=\"entry-item clearfix\">\n<div class=\"entry-thumb\"><a href=\"https://www.cdkitchen.com/recipes/ideas/cooking-with-beer/\"><img
+        src=\"https://cdn.cdkitchen.com/recipes/images/2016/02/17439-4275-s300.jpg\"
+        alt=\"Beer will make it better!\" class=\"nada\" data-pin-nopin=\"true\" importance=\"low\"></a></div><span
+        class=\"h6 s18\"><a href=\"https://www.cdkitchen.com/recipes/ideas/cooking-with-beer/\">17
+        Unexpected Ways To Cook With Beer</a></span>\n                                    <div
+        class=\"entry-content\">\n                                        <p class=\"small\"><span
+        class=\"inlink\">Beer</span> makes batters better, meat more tender, and sauces
+        more flavorful. \n                                        </p>\n                                    </div>\n
+        \                                   <!-- end:entry-content -->\n                                </div>
+        \   \n                                <!-- end:entry-item -->\n                            </div></div><br
+        style=\"clear:both;\"/><div style=\"height:25px;\"><br />&nbsp;<br /></div>\n<span
+        class=\"widget-title h4 s20 ggnoads\"><a href=\"https://www.cdkitchen.com/recipes/ingredient/beef/pot-roast/\">see
+        more pot roast recipes<br><img src=\"https://cdn.cdkitchen.com/images/cats/2497/cat-2497-300-1.jpg\"
+        alt=\"pot roast\" data-pin-nopin=\"true\" loading=\"lazy\"/></a></span><br><span
+        class=\"widget-title h4 s20 ggnoads\"><a href=\"https://www.cdkitchen.com/recipes/cooking-method/pressure-cooker/\">see
+        more pressure cooker recipes<br><img src=\"https://cdn.cdkitchen.com/images/cats/152/cat-152-300-1.jpg\"
+        alt=\"pressure cooker\" data-pin-nopin=\"true\" loading=\"lazy\"/></a></span><br>\n<!--
+        full page sidebar -->\n                        </div>\n            <!-- end:widget-area-3
+        -->\n\n            <div class=\"clear\"></div>\n            \n        </div>\n
+        \       <!-- end:wrapper -->\n        \n    </div>\n    <!-- end:main-content
+        -->\n\n            <div class=\"row text-center\"></div>\n    <div id=\"bottom-sidebar\">\n
+        \       <div class=\"wrapper\">\n            <div class=\"row\">\n                <div
+        class=\"col-md-4 col-sm-4 widget-area-9\">\n                    <div class=\"widget
+        widget_text\">\n                        <span class=\"widget-title h4 s20\">About
+        CDKitchen</span>\n                        <p class=\"hpblock\">Online since
+        1995, CDKitchen has grown into a large collection of delicious recipes created
+        by home cooks and professional chefs from around the world. We are all about
+        tasty treats, good eats, and fun food. Join our community of 200K+ members
+        - browse for a recipe, submit your own, add a review, or upload a recipe photo.
+        <br><br></p>\n                    </div>\n                    <!-- end:widget_text
+        -->\n                </div>\n                <!-- end:col-md-3 -->\n               <div
+        class=\"col-md-4 col-sm-4 widget-area-11\">\n                    <div class=\"widget
+        punica-categories-widget  hpblock\">\n                        <span class=\"widget-title
+        h4 s20\">Contact Us</span>\n                        <ul>\n                            <li
+        class=\"clearfix\"><a class=\"pull-left\" href=\"https://www.cdkitchen.com/helpdesk/contact/publicity.php\"
+        title=\"\">Media Inquiries</a></li>\n                            <li class=\"clearfix\"><a
+        class=\"pull-left\" href=\"https://www.cdkitchen.com/helpdesk/contact/advertising.php\"
+        title=\"\">Advertise</a></li>\n                            <li class=\"clearfix\"><a
+        class=\"pull-left\" href=\"https://www.cdkitchen.com/helpdesk/\" title=\"\">Help
+        Desk</a></li>\n                            <li class=\"clearfix\"><a class=\"pull-left\"
+        href=\"https://www.cdkitchen.com/aboutcdkitchen.html\" title=\"\">About CDKitchen</a></li>\n
+        \                       </ul>\n                    </div>\n                    <!--
+        end:punica-categories-widget -->\n                </div>\n                <!--
+        end:col-md-3 -->\n                <div class=\"col-md-4 col-sm-4 widget-area-11\">\n
+        \                   <div class=\"widget punica-categories-widget  hpblock\">\n
+        \                       <span class=\"widget-title h4 s20\">Legal</span>\n
+        \                       <ul>\n                            <li class=\"clearfix\"><a
+        class=\"pull-left\" href=\"https://www.cdkitchen.com/admin/privacy.html\"
+        title=\"\">Privacy Policy</a></li>\n                            <li class=\"clearfix\"><a
+        class=\"pull-left\" href=\"https://www.cdkitchen.com/copyright.html\" title=\"\">Copyright</a></li>\n
+        \                           <li class=\"clearfix\"><a class=\"pull-left\"
+        href=\"https://www.cdkitchen.com/admin/use.php\" title=\"\">Recipe Use</a></li>\n
+        \                           <li class=\"clearfix\"><a class=\"pull-left\"
+        href=\"https://www.cdkitchen.com/admin/photouse.html\" title=\"\">Photo Use</a></li>\n
+        \                       </ul>\n                    </div>\n                    <!--
+        end:punica-categories-widget -->\n                </div>\n                <!--
+        end:col-md-3 -->\n            </div>\n            <!-- end:row -->\n        </div>\n
+        \       <!-- end:wrapper -->\n        <i class=\"fa fa-arrow-up back-to-top\"></i>
+        \    \n    </div>\n    <!-- end:bottom-sidebar -->\n    <footer id=\"punica-page-footer\">\n
+        \       <div class=\"wrapper clearfix\">\n            <p id=\"copyright\"
+        class=\"pull-left\">Copyright &copy; 1995-2026 . All Rights Reserved. CDKitchen,
+        Inc. 26:09:27:04:00:47&nbsp;&nbsp; :C:<br></p>\n        </div>\n        <!--
+        end:wrapper -->\n    </footer>\n    <!-- end:punica-page-footer -->\n    <script
+        src=\"https://www.cdkitchen.com/recst.js\"></script>\n    <script src=\"https://cdn.cdkitchen.com/js/jquery-1.10.2.min.js\"></script><script
+        src=\"https://cdn.cdkitchen.com/js/bootstrap.min.js\"></script>\n    <script
+        src=\"https://cdn.cdkitchen.com/js/custom.min.js\" charset=\"utf-8\"></script>\n
+        \   <!-- LiveConnectTag for advertisers -->\n  <script src=\"//b-code.liadm.com/a-00xr.min.js\"
+        async=\"true\" charset=\"utf-8\"></script>\n<!-- LiveConnectTag for advertisers
+        -->\n<script type=\"text/javascript\">\nwindow.liQ = window.liQ || [];\nwindow.liQ.push(\n
+        {\"event\": \"conversion\", \t\t\t //required\n\"email\": \"[USER_EMAIL]\",
+        \t\t\t //required\n});\n</script>\n    \n    <div data-aaad=\"true\" data-aa-adunit=\"/22181265/cdkitchen_sticky_footer\"></div><div
+        data-aaad=\"true\" data-aa-adunit=\"/22181265/cdkitchen_mob_stickyfooter\"></div>
+        \  \n    \n<noscript><div class=\"statcounter\"><a href=\"https://statcounter.com/\"
+        target=\"_blank\"><img class=\"statcounter\" src=\"//c.statcounter.com/642571/0/69287ad8/1/\"
+        alt=\"\"></a></div></noscript>\n\n\n\n\n<!-- all code on this site is copyrighted
+        by CDKitchen, Inc. No portion of this code may be used for any purpose.   0
+        on/off-->\n<br><br><br>\n</body>\n</html>\n"
+  recorded_at: Sun, 27 Sep 2026 08:00:47 GMT
+recorded_with: VCR 6.4.0
