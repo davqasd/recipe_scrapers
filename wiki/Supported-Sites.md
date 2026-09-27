@@ -1,6 +1,6 @@
 # Supported Sites
 
-The gem reads recipes from **627 popular cooking websites** out of the box. A page of any other
+The gem reads recipes from **626 popular cooking websites** out of the box. A page of any other
 website that publishes schema.org or OpenGraph markup can still be read with
 `supported_only: false`, see [Usage](Usage.md#unsupported-sites).
 
@@ -263,7 +263,6 @@ or [add it yourself](Adding-a-Site.md).
 - [hofer.at](https://hofer.at/)
 - [hogarmania.com](https://hogarmania.com/)
 - [homeandplate.com](https://homeandplate.com/)
-- [hostthetoast.com](https://hostthetoast.com/)
 - [houseofnasheats.com](https://houseofnasheats.com/)
 - [houseofyumm.com](https://houseofyumm.com/)
 - [howtocook.recipes](https://howtocook.recipes/)
