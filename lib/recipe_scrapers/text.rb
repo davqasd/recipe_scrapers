@@ -6,7 +6,7 @@ module RecipeScrapers
   module Text
     MARKUP = /[&<]/
     WHITESPACE = /[[:space:]]+/
-    DROPPED = ["​", "‎", "‏"].freeze
+    DROPPED = ["​", "‎", "‏", "⠀"].freeze
     TEXTLESS = %w[script style template noscript].freeze
 
     class << self

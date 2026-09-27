@@ -45,6 +45,10 @@ RSpec.describe RecipeScrapers::Text do
     expect(described_class.normalize("400\u200bg")).to eq("400g")
   end
 
+  it "drops the blank braille pattern some sites pad lines with" do
+    expect(described_class.normalize("\u00bd onion, chopped\u2800")).to eq("\u00bd onion, chopped")
+  end
+
   describe ".content" do
     def node(html) = Nokogiri::HTML5.fragment(html).children.first
 
