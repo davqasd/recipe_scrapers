@@ -26,6 +26,18 @@ RSpec.describe RecipeScrapers::Scraper do
     expect(described_class.new(html, url: "https://example.com/r/1").image).to eq("https://example.com/img/toast.jpg")
   end
 
+  it "reads the address a site glued behind its own host" do
+    html = '<meta property="og:title" content="Toast">' \
+           '<meta property="og:image" content="http://example.comhttps://cdn.example.com/t.jpg">'
+    expect(described_class.new(html, url: "https://example.com/r/1").image).to eq("https://cdn.example.com/t.jpg")
+  end
+
+  it "keeps an image address that carries another address in its query" do
+    html = '<meta property="og:image" content="https://img.example.com/fit?src=https://cdn.example.com/t.jpg">'
+    expect(described_class.new(html, url: "https://example.com/r/1").image).
+      to eq("https://img.example.com/fit?src=https://cdn.example.com/t.jpg")
+  end
+
   it "gives a protocol relative image the scheme of the page" do
     html = '<script type="application/ld+json">{"@type":"Recipe","image":"//cdn.example.com/t.jpg"}</script>'
     expect(described_class.new(html, url: "https://example.com/r/1").image).to eq("https://cdn.example.com/t.jpg")
