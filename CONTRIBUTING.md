@@ -45,8 +45,8 @@ constant.
 - No comments in Ruby code, apart from YARD documentation of the public API. Everything public is
   documented, and an internal method or constant is `private`, `private_constant` or
   `@api private`.
-- The ingredient parser's words for each language live in
-  `lib/recipe_scrapers/parsers/vocabulary/<language>.yml`.
+- The words of each language live in `lib/recipe_scrapers/parsers/vocabulary/<language>.yml`: the
+  ingredient parser's units and qualifiers, and the words that label a numbered step.
 
 ## Supported versions
 

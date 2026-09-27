@@ -29,15 +29,10 @@ RSpec.describe "bettycrocker.com" do
 
   it "reads every instruction step" do
     expect(recipe.instructions_list).to eq([
-      "Step 1",
       "Heat oven to 375°F. Spray bottom only of 13x9-inch pan with cooking spray.",
-      "Step 2",
       "Unroll crescent dough; press in bottom of pan. Bake 12 to 14 minutes or until golden brown and baked through. Remove from oven to cooling rack; cool 20 minutes.",
-      "Step 3",
       "In medium bowl, beat dry pudding mixes and half-and-half with whisk about 2 minutes or until thick. Spread over cooled bar base.",
-      "Step 4",
       "In medium microwavable bowl, microwave chocolate chips and whipping cream uncovered on High 1 minute; stir. Microwave 30 seconds; stir until smooth. Carefully spread mixture on top of pudding layer. Refrigerate about 4 hours or until cooled completely.",
-      "Step 5",
       "When ready to serve, using a sharp knife and up-and-down sawing motion for cleaner cuts, cut into 6 rows by 4 rows. Store covered in refrigerator."
     ])
   end
@@ -48,7 +43,7 @@ RSpec.describe "bettycrocker.com" do
   end
 
   it "joins the steps into the instructions text" do
-    expect(recipe.instructions).to eq("Step 1\nHeat oven to 375°F. Spray bottom only of 13x9-inch pan with cooking spray.\nStep 2\nUnroll crescent dough; press in bottom of pan. Bake 12 to 14 minutes or until golden brown and baked through. Remove from oven to cooling rack; cool 20 minutes.\nStep 3\nIn medium bowl, beat dry pudding mixes and half-and-half with whisk about 2 minutes or until thick. Spread over cooled bar base.\nStep 4\nIn medium microwavable bowl, microwave chocolate chips and whipping cream uncovered on High 1 minute; stir. Microwave 30 seconds; stir until smooth. Carefully spread mixture on top of pudding layer. Refrigerate about 4 hours or until cooled completely.\nStep 5\nWhen ready to serve, using a sharp knife and up-and-down sawing motion for cleaner cuts, cut into 6 rows by 4 rows. Store covered in refrigerator.")
+    expect(recipe.instructions).to eq("Heat oven to 375°F. Spray bottom only of 13x9-inch pan with cooking spray.\nUnroll crescent dough; press in bottom of pan. Bake 12 to 14 minutes or until golden brown and baked through. Remove from oven to cooling rack; cool 20 minutes.\nIn medium bowl, beat dry pudding mixes and half-and-half with whisk about 2 minutes or until thick. Spread over cooled bar base.\nIn medium microwavable bowl, microwave chocolate chips and whipping cream uncovered on High 1 minute; stir. Microwave 30 seconds; stir until smooth. Carefully spread mixture on top of pudding layer. Refrigerate about 4 hours or until cooled completely.\nWhen ready to serve, using a sharp knife and up-and-down sawing motion for cleaner cuts, cut into 6 rows by 4 rows. Store covered in refrigerator.")
   end
 
   it "reads the recipe metadata", :aggregate_failures do

@@ -33,11 +33,8 @@ RSpec.describe "pingodoce.pt" do
 
   it "reads every instruction step" do
     expect(recipe.instructions_list).to eq([
-      "Passo 1",
       "Tempere os secretos com sal a gosto, o sumo de limão e o vinho branco. Deixe repousar cerca de 20 minutos.",
-      "Passo 2",
       "Corte as rodelas de abacaxi em quartos e grelhe até estarem bem marcadas. A seguir, grelhe a carne até estar bem cozinhada por dentro e bem suculenta.",
-      "Passo 3",
       "Verta a marinada dos secretos numa panela pequena e junte o mel e o alecrim. Deixe ferver, misture bem e regue o ananás e a carne antes de servir."
     ])
   end
@@ -48,7 +45,7 @@ RSpec.describe "pingodoce.pt" do
   end
 
   it "joins the steps into the instructions text" do
-    expect(recipe.instructions).to eq("Passo 1\nTempere os secretos com sal a gosto, o sumo de limão e o vinho branco. Deixe repousar cerca de 20 minutos.\nPasso 2\nCorte as rodelas de abacaxi em quartos e grelhe até estarem bem marcadas. A seguir, grelhe a carne até estar bem cozinhada por dentro e bem suculenta.\nPasso 3\nVerta a marinada dos secretos numa panela pequena e junte o mel e o alecrim. Deixe ferver, misture bem e regue o ananás e a carne antes de servir.")
+    expect(recipe.instructions).to eq("Tempere os secretos com sal a gosto, o sumo de limão e o vinho branco. Deixe repousar cerca de 20 minutos.\nCorte as rodelas de abacaxi em quartos e grelhe até estarem bem marcadas. A seguir, grelhe a carne até estar bem cozinhada por dentro e bem suculenta.\nVerta a marinada dos secretos numa panela pequena e junte o mel e o alecrim. Deixe ferver, misture bem e regue o ananás e a carne antes de servir.")
   end
 
   it "reads the recipe metadata", :aggregate_failures do

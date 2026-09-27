@@ -161,6 +161,21 @@ RSpec.describe RecipeScrapers::Sources::SchemaOrg do
     expect(scraper.instructions_list).to eq(["Wash it well"])
   end
 
+  it "drops a HowToStep name that only numbers the step" do
+    scraper = build(<<~JSON)
+      {"@type":"Recipe","name":"X","recipeInstructions":[
+        {"@type":"HowToStep","name":"Step 1:","text":"Wash the beets."},
+        {"@type":"HowToStep","name":"Schritt 2","text":"Toss them."},
+        {"@type":"HowToStep","name":"Lépés 3","text":"Serve."}]}
+    JSON
+    expect(scraper.instructions_list).to eq(["Wash the beets.", "Toss them.", "Serve."])
+  end
+
+  it "drops a line of string instructions that only numbers the step" do
+    scraper = build('{"@type":"Recipe","name":"X","recipeInstructions":"Step 1\\nWash them.\\nstep2\\nToss them."}')
+    expect(scraper.instructions_list).to eq(["Wash them.", "Toss them."])
+  end
+
   it "names every author the page lists" do
     scraper = build('{"@type":"Recipe","author":[{"@type":"Person","name":"Holly"},{"name":"Natalie"}]}')
     expect(scraper.author).to eq("Holly, Natalie")

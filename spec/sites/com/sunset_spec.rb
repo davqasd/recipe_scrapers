@@ -37,25 +37,15 @@ RSpec.describe "sunset.com" do
 
   it "reads every instruction step" do
     expect(recipe.instructions_list).to eq([
-      "Step 1",
       "Slice bread into 1 1/2-in.-thick slices and tear into irregular 1- to 2-in. pieces. Spread on a rimmed baking sheet and leave to dry at room temperature until needed (up to 2 days). For the best stuffing, the bread should be very dry.",
-      "Step 2",
       "Preheat oven to 350°. Melt butter in a large frying pan over medium heat. Pour out 2 tbsp. butter and set aside.",
-      "Step 3",
       "Add onion, celery, herbs, and 1/2 tsp. each salt and pepper to hot pan. Cook until onions are translucent and celery is tender-crisp, about 15 minutes. Transfer to a large bowl.",
-      "Step 4",
       "Add torn bread and broth to vegetables and mix in until bread is soaked. Add salt and pepper to taste.",
-      "Step 5",
       "Generously coat a 9- by 13-in. glass baking pan with 1 tsp. reserved melted butter. Pour stuffing into pan and drizzle with remaining melted butter.",
-      "Step 6",
       "Cover with foil; bake 25 minutes. Remove foil and bake until starting to brown on top, about 30 minutes more.",
-      "Step 7",
       "Make ahead: Up to 2 days, chilled. Reheat at 350°, covered, until hot (about 30 minutes). Remove foil and cook 10 more minutes for a crunchy top layer.",
-      "Step 8",
       "VARIATIONS",
-      "Step 9",
       "Crisp-Top Sourdough Stuffing with Sausage and Greens: Add 8 oz. sautéed crumbled Italian ­sausage and 1 lb. briefly sautéed fresh spinach leaves to stuffing before baking.",
-      "Step 10",
       "Scandinavian Stuffing: Replace sourdough with a 1-lb. loaf of crusty rye bread, then add 1 cup chopped fresh dill and 8 oz. diced smoked pork chops to stuffing before baking. Top with 2 tbsp. fresh dill sprigs before serving."
     ])
   end
@@ -66,7 +56,7 @@ RSpec.describe "sunset.com" do
   end
 
   it "joins the steps into the instructions text" do
-    expect(recipe.instructions).to eq("Step 1\nSlice bread into 1 1/2-in.-thick slices and tear into irregular 1- to 2-in. pieces. Spread on a rimmed baking sheet and leave to dry at room temperature until needed (up to 2 days). For the best stuffing, the bread should be very dry.\nStep 2\nPreheat oven to 350°. Melt butter in a large frying pan over medium heat. Pour out 2 tbsp. butter and set aside.\nStep 3\nAdd onion, celery, herbs, and 1/2 tsp. each salt and pepper to hot pan. Cook until onions are translucent and celery is tender-crisp, about 15 minutes. Transfer to a large bowl.\nStep 4\nAdd torn bread and broth to vegetables and mix in until bread is soaked. Add salt and pepper to taste.\nStep 5\nGenerously coat a 9- by 13-in. glass baking pan with 1 tsp. reserved melted butter. Pour stuffing into pan and drizzle with remaining melted butter.\nStep 6\nCover with foil; bake 25 minutes. Remove foil and bake until starting to brown on top, about 30 minutes more.\nStep 7\nMake ahead: Up to 2 days, chilled. Reheat at 350°, covered, until hot (about 30 minutes). Remove foil and cook 10 more minutes for a crunchy top layer.\nStep 8\nVARIATIONS\nStep 9\nCrisp-Top Sourdough Stuffing with Sausage and Greens: Add 8 oz. sautéed crumbled Italian ­sausage and 1 lb. briefly sautéed fresh spinach leaves to stuffing before baking.\nStep 10\nScandinavian Stuffing: Replace sourdough with a 1-lb. loaf of crusty rye bread, then add 1 cup chopped fresh dill and 8 oz. diced smoked pork chops to stuffing before baking. Top with 2 tbsp. fresh dill sprigs before serving.")
+    expect(recipe.instructions).to eq("Slice bread into 1 1/2-in.-thick slices and tear into irregular 1- to 2-in. pieces. Spread on a rimmed baking sheet and leave to dry at room temperature until needed (up to 2 days). For the best stuffing, the bread should be very dry.\nPreheat oven to 350°. Melt butter in a large frying pan over medium heat. Pour out 2 tbsp. butter and set aside.\nAdd onion, celery, herbs, and 1/2 tsp. each salt and pepper to hot pan. Cook until onions are translucent and celery is tender-crisp, about 15 minutes. Transfer to a large bowl.\nAdd torn bread and broth to vegetables and mix in until bread is soaked. Add salt and pepper to taste.\nGenerously coat a 9- by 13-in. glass baking pan with 1 tsp. reserved melted butter. Pour stuffing into pan and drizzle with remaining melted butter.\nCover with foil; bake 25 minutes. Remove foil and bake until starting to brown on top, about 30 minutes more.\nMake ahead: Up to 2 days, chilled. Reheat at 350°, covered, until hot (about 30 minutes). Remove foil and cook 10 more minutes for a crunchy top layer.\nVARIATIONS\nCrisp-Top Sourdough Stuffing with Sausage and Greens: Add 8 oz. sautéed crumbled Italian ­sausage and 1 lb. briefly sautéed fresh spinach leaves to stuffing before baking.\nScandinavian Stuffing: Replace sourdough with a 1-lb. loaf of crusty rye bread, then add 1 cup chopped fresh dill and 8 oz. diced smoked pork chops to stuffing before baking. Top with 2 tbsp. fresh dill sprigs before serving.")
   end
 
   it "reads the recipe metadata", :aggregate_failures do

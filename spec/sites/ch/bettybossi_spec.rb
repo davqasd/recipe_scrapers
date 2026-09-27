@@ -39,15 +39,10 @@ RSpec.describe "bettybossi.ch" do
 
   it "reads every instruction step" do
     expect(recipe.instructions_list).to eq([
-      "Schritt 1",
       "Zwiebeln schälen, halbieren, in feine Streifen schneiden. Butter in einer Pfanne warm werden lassen. Zwiebeln unter gelegentlichem Wenden zugedeckt ca. 10 Min. dämpfen, bis sie weich und goldgelb sind.",
-      "Schritt 2",
       "Ofen auf 240 Grad vorheizen. Mehl unter die Zwiebeln mischen, kurz mitdämpfen. Wein und Bouillon dazugiessen, aufkochen. Hitze reduzieren, zugedeckt ca. 20 Min. köcheln.",
-      "Schritt 3",
       "Brot in 12 Scheiben schneiden, auf ein Backblech legen. Petersilie fein schneiden, mit dem Käse mischen, auf den Brotscheiben verteilen.",
-      "Schritt 4",
       "Backen: ca. 6 Min. in der oberen Hälfte des Ofens.",
-      "Schritt 5",
       "Suppe würzen, in tiefe Teller verteilen, Brotscheiben darauf anrichten."
     ])
   end
@@ -58,7 +53,7 @@ RSpec.describe "bettybossi.ch" do
   end
 
   it "joins the steps into the instructions text" do
-    expect(recipe.instructions).to eq("Schritt 1\nZwiebeln schälen, halbieren, in feine Streifen schneiden. Butter in einer Pfanne warm werden lassen. Zwiebeln unter gelegentlichem Wenden zugedeckt ca. 10 Min. dämpfen, bis sie weich und goldgelb sind.\nSchritt 2\nOfen auf 240 Grad vorheizen. Mehl unter die Zwiebeln mischen, kurz mitdämpfen. Wein und Bouillon dazugiessen, aufkochen. Hitze reduzieren, zugedeckt ca. 20 Min. köcheln.\nSchritt 3\nBrot in 12 Scheiben schneiden, auf ein Backblech legen. Petersilie fein schneiden, mit dem Käse mischen, auf den Brotscheiben verteilen.\nSchritt 4\nBacken: ca. 6 Min. in der oberen Hälfte des Ofens.\nSchritt 5\nSuppe würzen, in tiefe Teller verteilen, Brotscheiben darauf anrichten.")
+    expect(recipe.instructions).to eq("Zwiebeln schälen, halbieren, in feine Streifen schneiden. Butter in einer Pfanne warm werden lassen. Zwiebeln unter gelegentlichem Wenden zugedeckt ca. 10 Min. dämpfen, bis sie weich und goldgelb sind.\nOfen auf 240 Grad vorheizen. Mehl unter die Zwiebeln mischen, kurz mitdämpfen. Wein und Bouillon dazugiessen, aufkochen. Hitze reduzieren, zugedeckt ca. 20 Min. köcheln.\nBrot in 12 Scheiben schneiden, auf ein Backblech legen. Petersilie fein schneiden, mit dem Käse mischen, auf den Brotscheiben verteilen.\nBacken: ca. 6 Min. in der oberen Hälfte des Ofens.\nSuppe würzen, in tiefe Teller verteilen, Brotscheiben darauf anrichten.")
   end
 
   it "reads the recipe metadata", :aggregate_failures do

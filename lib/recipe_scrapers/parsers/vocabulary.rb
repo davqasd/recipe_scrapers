@@ -4,12 +4,13 @@ require "yaml"
 
 module RecipeScrapers
   module Parsers
-    # The words {Ingredients} reads: units, pinch words, size adjectives, qualifiers and number words.
+    # The words the gem reads recipes with: units, pinch words, size adjectives, qualifiers and number
+    # words for {Ingredients}, and the words that label a numbered step.
     # The gem bundles one vocabulary per language, plus a common one with the metric units.
     #
     # @api private
     class Vocabulary
-      WORD_LISTS = %i[units pinches sizes qualifiers].freeze
+      WORD_LISTS = %i[units pinches sizes qualifiers steps].freeze
       BUNDLED = File.expand_path("vocabulary/*.yml", __dir__)
       NEVER = "(?!)"
       private_constant :WORD_LISTS, :BUNDLED, :NEVER
@@ -25,6 +26,9 @@ module RecipeScrapers
 
       # @return [Array<String>] words before an amount that are not part of it, such as "about"
       attr_reader :qualifiers
+
+      # @return [Array<String>] words that label a numbered step, such as "step" in "Step 2"
+      attr_reader :steps
 
       # @return [Hash{String => Numeric}] amounts written as words, such as "two" => 2
       attr_reader :number_words
@@ -55,6 +59,13 @@ module RecipeScrapers
         # @return [Vocabulary] the vocabularies of the language combined
         def for(language)
           combine(names_for(language))
+        end
+
+        # @return [Vocabulary] every vocabulary in the catalog added together
+        #
+        # @api private
+        def all
+          combine(catalog.keys)
         end
 
         # @param names [Array<Symbol>]
@@ -96,16 +107,14 @@ module RecipeScrapers
         end
       end
 
-      # @param units [Array<String>]
-      # @param pinches [Array<String>]
-      # @param sizes [Array<String>]
-      # @param qualifiers [Array<String>]
       # @param number_words [Hash{String => Numeric}]
-      def initialize(units: [], pinches: [], sizes: [], qualifiers: [], number_words: {})
-        @units = units.uniq.freeze
-        @pinches = pinches.uniq.freeze
-        @sizes = sizes.uniq.freeze
-        @qualifiers = qualifiers.uniq.freeze
+      # @param lists [Hash{Symbol => Array<String>}] the word lists: units, pinches, sizes, qualifiers and steps
+      # @raise [ArgumentError] when a list is not one of those
+      def initialize(number_words: {}, **lists)
+        unknown = lists.keys - WORD_LISTS
+        raise ArgumentError, "unknown word lists: #{unknown.join(", ")}" unless unknown.empty?
+
+        WORD_LISTS.each { |list| instance_variable_set(:"@#{list}", Array(lists[list]).uniq.freeze) }
         @number_words = number_words.freeze
       end
 

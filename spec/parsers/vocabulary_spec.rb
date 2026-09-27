@@ -29,6 +29,10 @@ RSpec.describe RecipeScrapers::Parsers::Vocabulary do
     expect(described_class.catalog.keys).to match_array(bundled)
   end
 
+  it "refuses a word list it does not know" do
+    expect { described_class.new(stepz: %w[step]) }.to raise_error(ArgumentError, /stepz/)
+  end
+
   it "builds an alternation that never matches from no words" do
     expect("anything").not_to match(/#{described_class.alternation([])}/)
   end
