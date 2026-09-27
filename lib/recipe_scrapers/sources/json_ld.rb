@@ -7,6 +7,8 @@ module RecipeScrapers
     class JsonLd
       SELECTOR = 'script[type="application/ld+json"]'
       ESCAPED_CONTROL = { "\b" => "\\b", "\f" => "\\f", "\n" => "\\n", "\r" => "\\r", "\t" => "\\t" }.freeze
+      PARSE_OPTIONS = { allow_duplicate_key: true }.freeze
+      WRAPPER = %r{\A\s*(?://\s*)?(?:<!\[CDATA\[)?|(?://\s*)?(?:\]\]>)?[\s;]*\z}
 
       def initialize(document)
         @nodes = flatten(document.css(SELECTOR).flat_map { |tag| parse(tag.text) })
@@ -46,13 +48,13 @@ module RecipeScrapers
       end
 
       def parse(text)
-        JSON.parse(text)
+        JSON.parse(text, **PARSE_OPTIONS)
       rescue JSON::ParserError
         parse_leniently(text)
       end
 
       def parse_leniently(text)
-        JSON.parse(escape_control_characters(text))
+        JSON.parse(escape_control_characters(text.gsub(WRAPPER, "")), **PARSE_OPTIONS)
       rescue JSON::ParserError
         []
       end

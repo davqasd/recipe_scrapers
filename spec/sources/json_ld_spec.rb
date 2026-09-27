@@ -64,6 +64,21 @@ RSpec.describe RecipeScrapers::Sources::JsonLd do
     expect(reader.website_name).to eq("Eda")
   end
 
+  it "keeps the last value of a key the recipe repeats" do
+    reader = build('{"@type":"Recipe","name":"Old","name":"Borscht"}')
+    expect(reader.recipe["name"]).to eq("Borscht")
+  end
+
+  it "reads a recipe wrapped in a commented CDATA section" do
+    reader = build("// <![CDATA[\n{\"@type\":\"Recipe\",\"name\":\"Borscht\"}\n// ]]>")
+    expect(reader.recipe["name"]).to eq("Borscht")
+  end
+
+  it "reads a recipe followed by a stray semicolon" do
+    reader = build('{"@type":"Recipe","name":"Borscht"};')
+    expect(reader.recipe["name"]).to eq("Borscht")
+  end
+
   it "survives a script tag holding invalid json" do
     reader = build("{ not json")
     expect(reader.recipe).to be_nil
