@@ -13,11 +13,24 @@ publish neither. It does not get around bot protection.
 
 ## Installation
 
-```console
-bundle add recipe_scrapers
+Add it to your Gemfile:
+
+<!-- x-release-please-start-version -->
+```ruby
+gem "recipe_scrapers", "~> 0.1.0"
 ```
 
-The gem runs on every Ruby version that has not reached its end of life.
+Or install it manually:
+
+```console
+gem install recipe_scrapers --version "~> 0.1.0"
+```
+<!-- x-release-please-end -->
+
+The gem follows [Semantic Versioning](https://semver.org/). Until 1.0, a minor release can change
+the public API, so the constraint above takes only patch releases.
+[GitHub releases](https://github.com/davqasd/recipe_scrapers/releases) list the changes of each
+version. The gem runs on every Ruby version that has not reached its end of life.
 
 ## Usage
 
@@ -40,14 +53,14 @@ recipe = RecipeScrapers.parse(html, url: url)
 
 ## Documentation
 
-- [Supported Sites](wiki/Supported-Sites.md): every site the gem reads out of the box
-- [Usage](wiki/Usage.md): fetching, other HTTP clients, unsupported sites, errors
-- [Recipe Fields](wiki/Recipe-Fields.md): every field with its type and an example
-- [Configuration](wiki/Configuration.md): timeouts, size limits, your own connection
-- [Parsers](wiki/Parsers.md): your own ingredient and nutrient parsers
+- [Supported Sites](https://github.com/davqasd/recipe_scrapers/wiki/Supported-Sites): every site the gem reads out of the box
+- [Usage](https://github.com/davqasd/recipe_scrapers/wiki/Usage): fetching, other HTTP clients, unsupported sites, errors
+- [Recipe Fields](https://github.com/davqasd/recipe_scrapers/wiki/Recipe-Fields): every field with its type and an example
+- [Configuration](https://github.com/davqasd/recipe_scrapers/wiki/Configuration): timeouts, size limits, your own connection
+- [Parsers](https://github.com/davqasd/recipe_scrapers/wiki/Parsers): your own ingredient and nutrient parsers
 - [API reference](https://rubydoc.info/gems/recipe_scrapers)
 - [Changelog](CHANGELOG.md)
-- [Copyright and Usage](wiki/Copyright-and-Usage.md): what you are responsible for
+- [Copyright and Usage](https://github.com/davqasd/recipe_scrapers/wiki/Copyright-and-Usage): what you are responsible for
 
 ## Contributing
 
@@ -58,4 +71,4 @@ security problem privately, see [SECURITY](SECURITY.md).
 ## License
 
 MIT, see [LICENSE](LICENSE). The pages recorded for the tests are not covered by it, see
-[License](wiki/License.md).
+[License](https://github.com/davqasd/recipe_scrapers/wiki/License).

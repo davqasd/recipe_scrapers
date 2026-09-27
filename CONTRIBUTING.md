@@ -28,16 +28,20 @@ such as `fix: read yields written as a range`. A breaking change adds `!` after 
 `BREAKING CHANGE:` footer that says what to change.
 
 Each change a user would notice gets a commit of its own, and every commit passes `bin/ci`. A pull
-request is squash-merged, so its title is the changelog entry that reaches `main`. When it carries
-more than one such change, its description ends with a "Release notes" block that lists the
-others, one conventional message per paragraph, and that block becomes the body of the squash
-commit, which release-please reads as more entries:
+request is squash-merged, and on its own only its title reaches the changelog. When it carries more
+than one such change, its description ends with a block that lists every entry, the title's
+included, one conventional message per line. release-please reads that block instead of the squash
+commit message, whatever GitHub put there:
 
 ```text
+BEGIN_COMMIT_OVERRIDE
+feat: read recipes from example.com
 fix: read JSON-LD that repeats a key
-
-fix: find a microdata recipe nested in another item
+END_COMMIT_OVERRIDE
 ```
+
+The block also fixes the changelog of a pull request that is already merged: edit its description,
+and the next release-please run picks it up.
 
 ## Repository structure
 
@@ -78,4 +82,6 @@ only for an old version goes into `lib/recipe_scrapers/compat/` with a `REQUIRED
 ## Releasing
 
 [release-please](https://github.com/googleapis/release-please) keeps a release pull request open
-with the next version and its changelog. Merging it tags the release and publishes the gem.
+with the next version and its changelog. It raises the version in `version.rb` and in the
+installation lines of the README, between the `x-release-please` markers. Merging it tags the
+release and publishes the gem.
