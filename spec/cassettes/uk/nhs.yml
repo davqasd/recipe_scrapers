@@ -1,0 +1,366 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.nhs.uk/healthier-families/recipes/apple-apricot-sultana-squares/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - recipe_scrapers/0.1.0 (+https://github.com/davqasd/recipe_scrapers)
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - text/html; charset=utf-8
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - same-origin
+      Cross-Origin-Opener-Policy:
+      - same-origin
+      X-Frame-Options:
+      - DENY
+      X-Azure-Ref:
+      - 20260926T174100Z-166978f957dcqrd6hC1FRAfq280000000reg000000002ece
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=5
+      Expires:
+      - Sun, 27 Sep 2026 08:03:43 GMT
+      Date:
+      - Sun, 27 Sep 2026 08:03:38 GMT
+      Content-Length:
+      - '35573'
+      Connection:
+      - keep-alive
+      Strict-Transport-Security:
+      - max-age=63072000
+    body:
+      encoding: UTF-8
+      string: "\n\n\n\n\n\n\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta
+        charset=\"utf-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n
+        \ <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n
+        \ <meta name=\"description\" content=\"Perfect for packed lunches and picnics,
+        and a tasty treat with a cup of tea too!\">\n\n  <title>Apple, apricot and
+        sultana squares - Recipes - Healthier Families - NHS</title>\n\n  \n  <link
+        href=\"https://www.nhs.uk/\" rel=\"preconnect\">\n  <link href=\"https://assets.nhs.uk/\"
+        rel=\"preconnect\" crossorigin>\n\n  \n  <link rel=\"stylesheet\" href=\"https://assets.nhs.uk/campaigns-cms-prod/static/nhsuk/css/main.58b60e07b6e4.css\"
+        type=\"text/css\" />\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"https://assets.nhs.uk/campaigns-cms-prod/static/css/hf.a31931e90e49.css\">\n\n
+        \ \n  \n  \n\n  \n  <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\"
+        crossorigin />\n  <link rel=\"preload\" as=\"style\" href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&font-display=swap\"
+        />\n  <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&font-display=swap\"
+        media=\"print\" onload=\"this.media='all'\" />\n\n  <noscript>\n    <link
+        rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&font-display=swap\"
+        />\n  </noscript>\n\n  <link rel=\"shortcut icon\" href=\"https://assets.nhs.uk/campaigns-cms-prod/static/nhsuk/img/favicons/favicon.68c7f017cfba.ico\"
+        type=\"image/x-icon\">\n  <link rel=\"apple-touch-icon\" href=\"https://assets.nhs.uk/campaigns-cms-prod/static/nhsuk/img/favicons/apple-touch-icon-180x180.15a5044def06.png\">\n
+        \ <link rel=\"mask-icon\" href=\"https://assets.nhs.uk/campaigns-cms-prod/static/nhsuk/img/favicons/favicon.c82ae1c9f7ee.svg\"
+        color=\"#005eb8\">\n  <link rel=\"icon\" sizes=\"192x192\" href=\"https://assets.nhs.uk/campaigns-cms-prod/static/nhsuk/img/favicons/favicon-192x192.43924bfe6c7e.png\">\n
+        \ <meta name=\"msapplication-TileImage\" content=\"https://assets.nhs.uk/campaigns-cms-prod/static/nhsuk/img/favicons/mediumtile-144x144.cf4985872492.png\">\n
+        \ <meta name=\"msapplication-TileColor\" content=\"#005eb8\">\n  <meta name=\"msapplication-square70x70logo\"
+        content=\"https://assets.nhs.uk/campaigns-cms-prod/static/nhsuk/img/favicons/smalltile-70x70.29f75b06cf75.png\">\n
+        \ <meta name=\"msapplication-square150x150logo\" content=\"https://assets.nhs.uk/campaigns-cms-prod/static/nhsuk/img/favicons/mediumtile-150x150.89688d93af5b.png\">\n
+        \ <meta name=\"msapplication-wide310x150logo\" content=\"https://assets.nhs.uk/campaigns-cms-prod/static/nhsuk/img/favicons/widetile-310x150.535c3996630d.png\">\n
+        \ <meta name=\"msapplication-square310x310logo\" content=\"https://assets.nhs.uk/campaigns-cms-prod/static/nhsuk/img/favicons/largetile-310x310.294742e00ff4.png\">\n\n
+        \ \n\n  \n\n  \n    <meta property=\"og:url\" content=\"https://www.nhs.uk/healthier-families/recipes/apple-apricot-sultana-squares/\">\n
+        \   <meta property=\"og:site_name\" content=\"nhs.uk\">\n    <meta property=\"og:title\"
+        content=\"Apple, apricot and sultana squares - Recipes - Healthier Families\"/>\n
+        \   <meta property=\"og:description\" content=\"Perfect for packed lunches
+        and picnics, and a tasty treat with a cup of tea too!\">\n    <meta property=\"og:type\"
+        content=\"website\">\n    <meta property=\"og:locale\" content=\"en_GB\">\n
+        \   <meta property=\"og:image\" content=\"https://assets.nhs.uk/campaigns-cms-prod/images/Apple_apricot__sultana_squares.width-1200.png\">\n
+        \   <meta property=\"og:image:alt\" content=\"nhs.uk\"/>\n    <meta property=\"article:author\"
+        content=\"https://www.facebook.com/nhswebsite/\">\n    <meta property=\"article:modified_time\"
+        content=\"18 Aug 2023, 10:35 a.m.\">\n    <meta property=\"article:published_time\"
+        content=\"18 Aug 2023, 10:35 a.m.\">\n    <meta property=\"article:section\"
+        content=\"HFSiteHubPage\">\n    <meta name=\"twitter:card\" content=\"summary_large_image\">\n
+        \   <meta name=\"twitter:site\" content=\"@nhsuk\">\n    <meta name=\"twitter:creator\"
+        content=\"@nhsuk\">\n    <meta name=\"twitter:image:alt\" content=\"nhs.uk\"/>\n\n
+        \   \n  \n\n  <script src=\"https://assets.nhs.uk/scripts/cookie-consent.js\"></script>\n\n
+        \ \n\n\n\n\n\n\n\n  \n  \n\n  <script type=\"application/javascript\">window.digitalData=
+        {\"page\": {\"pageInfo\": {\"pageName\": \"nhs:phe:healthier-families:recipes:apple-apricot-sultana-squares\"},
+        \"category\": {\"primaryCategory\": \"healthier-families\", \"subCategory1\":
+        \"recipes\", \"subCategory2\": \"apple-apricot-sultana-squares\", \"subCategory3\":
+        \"\"}}};</script>\n\n  \n  <script\n    id=\"adobe-analytics\"\n    src=\"https://assets.adobedtm.com/launch-ENe7f6cdd7cc05409b86547d9153429788.min.js\"\n
+        \   type=\"text/plain\"\n    data-cookieconsent=\"statistics\"\n    async\n
+        \ ></script>\n\n\n\n\n  <!-- Google tag (gtag.js) -->\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-1K4S0MRD2T\"
+        type=\"text/plain\" data-cookieconsent=\"statistics\"></script>\n  <script>\n
+        \   window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n
+        \   gtag('js', new Date());\n\n    gtag('config', 'G-1K4S0MRD2T');\n  </script>\n\n
+        \ <!--  js for card component-->\n  <script src=\"https://assets.nhs.uk/campaigns-cms-prod/static/js/card.bd87dbb941c3.js\"></script>\n\n
+        \ <!-- js for components-->\n  <script src=\"https://assets.nhs.uk/campaigns-cms-prod/static/js/min/main-hf.min.2e0bf60f13d5.js\"
+        defer></script>\n</head>\n\n<body class=\"\">\n  <a class=\"nhsuk-skip-link\"
+        data-module=\"nhsuk-skip-link\" href=\"#maincontent\" id=\"nhsuk-skip-link\">Skip
+        to main content</a>\n\n  \n  \n\n\n\n<header  id=\"hf_header\" class=\"nhsuk-header\"
+        role=\"banner\">\n    <div class=\"nhsuk-width-container nhsuk-header__container
+        app-article-header\">\n      <div class=\"app-article-logo\">\n        <a
+        href=\"/healthier-families\">\n          <span class=\"nhsuk-u-visually-hidden\">Healthier
+        Families - Home</span>\n          <svg class=\"app-hero-logo\" focusable=\"false\"
+        xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 171.06 94\">\n    <defs>\n
+        \       <style>\n            .a {\n                fill: #007a39;\n            }\n\n
+        \           .a,\n            .c {\n                isolation: isolate;\n            }\n\n
+        \           .b {\n                fill: #fff;\n            }\n        </style>\n
+        \   </defs>\n    <rect class=\"a\" width=\"76.84\" height=\"76.84\" />\n    <path
+        class=\"b\"\n        d=\"M9.45,37.25V13.84h4.92a7.34,7.34,0,0,1,2.72.51A4.69,4.69,0,0,1,19,15.71a4,4,0,0,1,1,1.86,10,10,0,0,1,.34,2.21v.85a5.23,5.23,0,0,1-.17,1.61,6.18,6.18,0,0,1-.42,1.18A5.27,5.27,0,0,1,18,25a4,4,0,0,1,1.78,1.61,7,7,0,0,1,.6,3V31a7,7,0,0,1-1.53,4.75c-1,1.1-2.63,1.61-4.75,1.61ZM12.76,17v6.44h1.53a2.62,2.62,0,0,0,2.29-.84,5.1,5.1,0,0,0,.59-2.46,3.39,3.39,0,0,0-.68-2.38A2.8,2.8,0,0,0,14.2,17Zm0,9.41v7.47H14.2a5.38,5.38,0,0,0,1.62-.26,2.08,2.08,0,0,0,.84-.85A3.54,3.54,0,0,0,17,31.48a9.2,9.2,0,0,0,.09-1.61A8.73,8.73,0,0,0,17,28.34a2.5,2.5,0,0,0-.42-1.1,2.19,2.19,0,0,0-.85-.68,4.69,4.69,0,0,0-1.44-.25Z\"
+        />\n    <path class=\"b\"\n        d=\"M31.42,30.12H24.81v2.29a1.79,1.79,0,0,0,.42,1.19,2,2,0,0,0,1.19.43,1.26,1.26,0,0,0,1.27-.6,2.75,2.75,0,0,0,.34-1.1h3.39a4.55,4.55,0,0,1-1.36,3.56A5.28,5.28,0,0,1,28.45,37a5.69,5.69,0,0,1-2,.43,5.17,5.17,0,0,1-2.72-.68,4.41,4.41,0,0,1-2.2-3.22,13.26,13.26,0,0,1-.17-1.87V26.14a7,7,0,0,1,.17-1.87,4.39,4.39,0,0,1,2.2-3.22,6.18,6.18,0,0,1,2.72-.68,6.39,6.39,0,0,1,2.12.42,5.12,5.12,0,0,1,1.61,1.11,5.47,5.47,0,0,1,1.36,3.73Zm-6.7-2.63H28V25.63a2.21,2.21,0,0,0-.43-1.44,1.63,1.63,0,0,0-2.37,0,1.79,1.79,0,0,0-.42,1.44Z\"
+        />\n    <path class=\"b\"\n        d=\"M33.63,20.54V15.45H37v5.09h2v2.63H36.93v9.24a3.33,3.33,0,0,0,.09.94,1.68,1.68,0,0,0,.34.51A1.66,1.66,0,0,0,38,34H39v3.13H37.61a4.86,4.86,0,0,1-2-.34,2.79,2.79,0,0,1-1.27-.93,3,3,0,0,1-.68-1.27,7.22,7.22,0,0,1-.25-1.36V23.17h-1.7V20.54Z\"
+        />\n    <path class=\"b\"\n        d=\"M41.6,20.54V15.45H45v5.09h2v2.63H45v9.24a3.33,3.33,0,0,0,.09.94,1.64,1.64,0,0,0,.33.51,1.7,1.7,0,0,0,.68.17H47v3.13H45.67a4.86,4.86,0,0,1-2-.34,2.79,2.79,0,0,1-1.27-.93,3,3,0,0,1-.68-1.27,8.15,8.15,0,0,1-.26-1.36V23.17H39.82V20.54Z\"
+        />\n    <path class=\"b\"\n        d=\"M57.88,30.12H51.27v2.29a1.85,1.85,0,0,0,.42,1.19,2,2,0,0,0,1.19.43,1.26,1.26,0,0,0,1.27-.6,2.75,2.75,0,0,0,.34-1.1h3.39a4.55,4.55,0,0,1-1.36,3.56A5.28,5.28,0,0,1,54.91,37a5.69,5.69,0,0,1-2,.43,5.17,5.17,0,0,1-2.72-.68A4.41,4.41,0,0,1,48,33.52a13.26,13.26,0,0,1-.17-1.87V26.14A7,7,0,0,1,48,24.27a4.39,4.39,0,0,1,2.2-3.22,6.18,6.18,0,0,1,2.72-.68,4.87,4.87,0,0,1,2.12.42,5.12,5.12,0,0,1,1.61,1.11A5.47,5.47,0,0,1,58,25.63Zm-6.61-2.63h3.3V25.63a2.2,2.2,0,0,0-.42-1.44,1.63,1.63,0,0,0-2.37,0,1.84,1.84,0,0,0-.43,1.44v1.86Z\"
+        />\n    <path class=\"b\"\n        d=\"M59.58,37.25V20.54H63v1.78a8.61,8.61,0,0,1,2-1.44,5,5,0,0,1,2.46-.51v3.56a2.16,2.16,0,0,0-1-.17,4.54,4.54,0,0,0-1.11.17,2.83,2.83,0,0,0-1.1.6,3.43,3.43,0,0,0-.85,1.1,3.86,3.86,0,0,0-.34,1.7v9.92Z\"
+        />\n    <path class=\"b\" d=\"M9.45,63V39.54h3.4v10H17v-10h3.4V63H17V52.51H12.85V63Z\"
+        />\n    <path class=\"b\"\n        d=\"M31.68,55.91H25.06V58.2a1.84,1.84,0,0,0,.42,1.18,2,2,0,0,0,1.19.43,1.26,1.26,0,0,0,1.27-.6,2.75,2.75,0,0,0,.34-1.1h3.4a4.62,4.62,0,0,1-1.36,3.56,5.57,5.57,0,0,1-1.61,1.11,6,6,0,0,1-2,.42A5.16,5.16,0,0,1,24,62.52a4.38,4.38,0,0,1-2.21-3.22,14.77,14.77,0,0,1-.17-1.87V51.92a7,7,0,0,1,.17-1.87A4.4,4.4,0,0,1,24,46.83a6.18,6.18,0,0,1,2.71-.68,4.74,4.74,0,0,1,2.12.43,4.82,4.82,0,0,1,1.61,1.1,5.44,5.44,0,0,1,1.36,3.73ZM25,53.28h3.31V51.41A2.2,2.2,0,0,0,27.86,50a1.64,1.64,0,0,0-2.38,0,1.79,1.79,0,0,0-.42,1.44Z\"
+        />\n    <path class=\"b\"\n        d=\"M39.65,63v-1.7h-.09a7.32,7.32,0,0,1-1.35,1.44,3.65,3.65,0,0,1-1.87.51A4.81,4.81,0,0,1,35.15,63,3.38,3.38,0,0,1,34,62.35,3,3,0,0,1,33,61a7.23,7.23,0,0,1-.34-2.29A11.43,11.43,0,0,1,33,56.25a4.31,4.31,0,0,1,.85-1.79,3.28,3.28,0,0,1,1.61-1A8.71,8.71,0,0,1,38,53.11h1.61V51.33a2.87,2.87,0,0,0-.34-1.45A1.7,1.7,0,0,0,38,49.29a2,2,0,0,0-1.19.43A2.25,2.25,0,0,0,36.09,51H32.86a5.46,5.46,0,0,1,1.53-3.65,5.39,5.39,0,0,1,1.61-1A4.44,4.44,0,0,1,38,46a5.1,5.1,0,0,1,2,.34,3.32,3.32,0,0,1,1.61,1,4.81,4.81,0,0,1,1,1.61A7.45,7.45,0,0,1,43,51.24V62.86Zm0-7.21a3.33,3.33,0,0,0-.94-.09,3.62,3.62,0,0,0-1.86.51A2,2,0,0,0,36.09,58a2.85,2.85,0,0,0,.42,1.52,1.51,1.51,0,0,0,1.27.6,1.68,1.68,0,0,0,1.36-.6,2.58,2.58,0,0,0,.51-1.61Z\"
+        />\n    <path class=\"b\"\n        d=\"M44.65,39.54H48V58.28a1.76,1.76,0,0,0,.34,1.27,2.25,2.25,0,0,0,1.27.43v3.14a17.55,17.55,0,0,1-2-.17A3.94,3.94,0,0,1,46,62.27a3.17,3.17,0,0,1-1-1.36,7.77,7.77,0,0,1-.34-2.37Z\"
+        />\n    <path class=\"b\"\n        d=\"M50.84,46.24V41.15h3.39v5.09h2v2.63h-2v9.24a3.27,3.27,0,0,0,.09.93,1.68,1.68,0,0,0,.34.51,1.51,1.51,0,0,0,.68.17h.93v3.14H54.91A4.89,4.89,0,0,1,53,62.52a2.79,2.79,0,0,1-1.27-.93A3,3,0,0,1,51,60.32,7.37,7.37,0,0,1,50.76,59V48.87h-1.7V46.24Z\"
+        />\n    <path class=\"b\"\n        d=\"M57.37,63V39.54h3.39v8.31h.09a4.52,4.52,0,0,1,1.27-1.27A3.65,3.65,0,0,1,64,46.07a3.38,3.38,0,0,1,1.27.25,5.08,5.08,0,0,1,1.1.68,3.19,3.19,0,0,1,.77,1.27,3.6,3.6,0,0,1,.25,1.87V63H64V51.41A2.21,2.21,0,0,0,63.56,50a1.39,1.39,0,0,0-1.18-.51,1.49,1.49,0,0,0-1.36.59,2.94,2.94,0,0,0-.34,1.7V63Z\"
+        />\n    <g class=\"c\">\n        <path\n            d=\"M85.79,39.7H89.1v8.08a4.21,4.21,0,0,1,1.09-1,3.87,3.87,0,0,1,2.19-.63,3.17,3.17,0,0,1,2.44,1,3.8,3.8,0,0,1,1,2.78V62.86H92.47V51.25A1.79,1.79,0,0,0,92,49.93a1.41,1.41,0,0,0-1.15-.5,1.73,1.73,0,0,0-1.26.53,2.18,2.18,0,0,0-.53,1.65V62.86H85.79Z\"
+        />\n        <path\n            d=\"M100.91,58a1.87,1.87,0,0,0,.43,1.42,1.66,1.66,0,0,0,1.26.46,1.47,1.47,0,0,0,1.32-.69,2.28,2.28,0,0,0,.3-1.13h3.3v.14a4.57,4.57,0,0,1-1.85,4,5.4,5.4,0,0,1-3.07.92,5.16,5.16,0,0,1-3.81-1.58,5.71,5.71,0,0,1-1.19-4V51.28a4.68,4.68,0,0,1,4.9-5.09,5.15,5.15,0,0,1,3.44,1.19,5.21,5.21,0,0,1,1.65,4.2v4.3h-6.68Zm3.37-4.67V51.18a1.68,1.68,0,0,0-.46-1.29,1.74,1.74,0,0,0-1.22-.46,1.62,1.62,0,0,0-1.29.56,2,2,0,0,0-.4,1.33v2Z\"
+        />\n        <path\n            d=\"M115.76,61.24h-.07a5.73,5.73,0,0,1-1.12,1.26,2.89,2.89,0,0,1-1.92.62,3.55,3.55,0,0,1-2.51-.86,5,5,0,0,1-1.2-3.77c0-1.19.07-3,1-4.1a5.09,5.09,0,0,1,3.9-1.42,18.52,18.52,0,0,1,1.89.1V51.35a1.86,1.86,0,0,0-.43-1.39,1.75,1.75,0,0,0-1.32-.53,1.71,1.71,0,0,0-1.33.59,1.89,1.89,0,0,0-.43,1.06h-3.14a5,5,0,0,1,1.36-3.54,5.28,5.28,0,0,1,3.7-1.35,5.06,5.06,0,0,1,3.54,1.32,5.27,5.27,0,0,1,1.36,3.87V62.86h-3.31Zm0-5.53a7.91,7.91,0,0,0-1.16-.1,2.31,2.31,0,0,0-1.85.7,2.61,2.61,0,0,0-.5,1.72,2.56,2.56,0,0,0,.33,1.36,1.46,1.46,0,0,0,1.33.76c1,0,1.85-.66,1.85-2.12Z\"
+        />\n        <path\n            d=\"M124.33,39.7V58.2a1.6,1.6,0,0,0,.46,1.25,1.57,1.57,0,0,0,1.06.33h.33v3.08h-1a4.2,4.2,0,0,1-3.38-1.39,4.69,4.69,0,0,1-.82-3.11V39.7Z\"
+        />\n        <path\n            d=\"M131,41.46v5h2.11V49.1H131v9a1.87,1.87,0,0,0,.46,1.39,2,2,0,0,0,1.22.29h.43v3.08h-.89a4.62,4.62,0,0,1-3.57-1.16,4.57,4.57,0,0,1-1-3.31V49.1H126V46.45h1.69v-5Z\"
+        />\n        <path\n            d=\"M134.68,39.7H138v8.08a4,4,0,0,1,1.09-1,3.81,3.81,0,0,1,2.18-.63,3.17,3.17,0,0,1,2.45,1,3.8,3.8,0,0,1,1,2.78V62.86h-3.31V51.25a1.79,1.79,0,0,0-.43-1.32,1.43,1.43,0,0,0-1.16-.5,1.75,1.75,0,0,0-1.26.53,2.21,2.21,0,0,0-.52,1.65V62.86h-3.31Z\"
+        />\n        <path d=\"M149.89,40.17v3.24h-3.31V40.17Zm-3.31,6.28h3.31V62.86h-3.31Z\"
+        />\n        <path\n            d=\"M155,58a1.87,1.87,0,0,0,.43,1.42,1.64,1.64,0,0,0,1.25.46,1.47,1.47,0,0,0,1.33-.69,2.38,2.38,0,0,0,.29-1.13h3.31v.14a4.57,4.57,0,0,1-1.85,4,5.41,5.41,0,0,1-3.08.92,5.16,5.16,0,0,1-3.8-1.58,5.71,5.71,0,0,1-1.19-4V51.28a5,5,0,0,1,1.62-4,4.93,4.93,0,0,1,3.27-1.12A5.11,5.11,0,0,1,160,47.38a5.19,5.19,0,0,1,1.66,4.2v4.3H155Zm3.37-4.67V51.18a1.72,1.72,0,0,0-.46-1.29,1.77,1.77,0,0,0-1.23-.46,1.65,1.65,0,0,0-1.29.56,2,2,0,0,0-.39,1.33v2Z\"
+        />\n        <path d=\"M166.66,46.45V48.2l.07,0a5.47,5.47,0,0,1,4.33-2.05v3.54c-1.59-.27-4.4.13-4.4,3.74v9.39h-3.31V46.45Z\"
+        />\n    </g>\n    <g class=\"c\">\n        <path\n            d=\"M87.36,79.53H85.64V76.88h1.72V74.7a4.38,4.38,0,0,1,1.26-3.54,5.23,5.23,0,0,1,3.54-1h1.19v2.91h-.67a1.84,1.84,0,0,0-1.55.56,2.17,2.17,0,0,0-.5,1.59v1.68h2.68v2.65H90.67V93.29H87.36Z\"
+        />\n        <path\n            d=\"M100.66,91.67h-.07a5.55,5.55,0,0,1-1.13,1.26,2.86,2.86,0,0,1-1.91.63A3.62,3.62,0,0,1,95,92.7a5,5,0,0,1-1.19-3.78c0-1.19.07-3,1-4.1a5.09,5.09,0,0,1,3.9-1.42,18.64,18.64,0,0,1,1.89.1V81.78a1.92,1.92,0,0,0-.43-1.39,1.81,1.81,0,0,0-1.33-.53,1.7,1.7,0,0,0-1.32.6,1.76,1.76,0,0,0-.43,1.05H94A4.9,4.9,0,0,1,95.36,78a5.29,5.29,0,0,1,3.71-1.36,5.06,5.06,0,0,1,3.54,1.32A5.26,5.26,0,0,1,104,81.81V93.29h-3.3Zm0-5.52a6.82,6.82,0,0,0-1.16-.1,2.29,2.29,0,0,0-1.85.69,2.61,2.61,0,0,0-.5,1.72,2.56,2.56,0,0,0,.33,1.36,1.45,1.45,0,0,0,1.32.76,1.85,1.85,0,0,0,1.86-2.12Z\"
+        />\n        <path\n            d=\"M109.19,76.88v1.49a6.14,6.14,0,0,1,1-1,3.6,3.6,0,0,1,2.25-.73,3.22,3.22,0,0,1,3,1.95,4.25,4.25,0,0,1,1.46-1.49,3.38,3.38,0,0,1,1.82-.46,3.29,3.29,0,0,1,3,1.32,4.67,4.67,0,0,1,.73,2.85v12.5h-3.31V81.68a1.89,1.89,0,0,0-.43-1.32,1.39,1.39,0,0,0-1.12-.5,1.59,1.59,0,0,0-1.23.53,2.21,2.21,0,0,0-.52,1.65V93.29H112.5V81.68a1.83,1.83,0,0,0-.43-1.32,1.4,1.4,0,0,0-1.13-.5,1.57,1.57,0,0,0-1.22.53,2.18,2.18,0,0,0-.53,1.65V93.29h-3.31V76.88Z\"
+        />\n        <path d=\"M127.65,70.6v3.24h-3.31V70.6Zm-3.31,6.28h3.31V93.29h-3.31Z\"
+        />\n        <path\n            d=\"M132.87,70.14V88.63a1.64,1.64,0,0,0,.46,1.25,1.61,1.61,0,0,0,1.06.34h.33v3.07h-1a4.18,4.18,0,0,1-3.37-1.39,4.7,4.7,0,0,1-.83-3.11V70.14Z\"
+        />\n        <path d=\"M139.49,70.6v3.24h-3.31V70.6Zm-3.31,6.28h3.31V93.29h-3.31Z\"
+        />\n        <path\n            d=\"M144.58,88.43a1.87,1.87,0,0,0,.43,1.42,1.66,1.66,0,0,0,1.26.46,1.45,1.45,0,0,0,1.32-.69,2.28,2.28,0,0,0,.3-1.13h3.31v.14a4.58,4.58,0,0,1-1.86,4,5.31,5.31,0,0,1-3.07.93A5.19,5.19,0,0,1,142.46,92a5.71,5.71,0,0,1-1.19-4V81.71a5,5,0,0,1,1.62-4,5,5,0,0,1,3.28-1.12,5.15,5.15,0,0,1,3.44,1.19,5.21,5.21,0,0,1,1.65,4.2v4.3h-6.68ZM148,83.76V81.61a1.68,1.68,0,0,0-.46-1.29,1.72,1.72,0,0,0-1.22-.46,1.62,1.62,0,0,0-1.29.56,2,2,0,0,0-.4,1.33v2Z\"
+        />\n        <path\n            d=\"M159,81.32a1.87,1.87,0,0,0-.5-1.19,1.65,1.65,0,0,0-1.19-.43,1.54,1.54,0,0,0-1.62,1.65,1.76,1.76,0,0,0,.33,1.06,2.75,2.75,0,0,0,1.29.86l2,.83a5.5,5.5,0,0,1,2.12,1.58,4.92,4.92,0,0,1,.83,3,5.12,5.12,0,0,1-1.06,3.21,4.84,4.84,0,0,1-4,1.66,4.94,4.94,0,0,1-3.84-1.46,5.12,5.12,0,0,1-1.22-3.41h3.3a2,2,0,0,0,.43,1.26,2,2,0,0,0,1.36.53,1.69,1.69,0,0,0,1.29-.56,1.91,1.91,0,0,0,.43-1.33c0-.86-.26-1.48-1.65-2.08l-2-.83a5.36,5.36,0,0,1-2-1.39,4.31,4.31,0,0,1-.89-2.78,5.1,5.1,0,0,1,1.23-3.57,4.76,4.76,0,0,1,3.53-1.32A5.15,5.15,0,0,1,161,77.94a4.88,4.88,0,0,1,1.26,3.38Z\"
+        />\n    </g>\n</svg>\n        </a>\n      </div>\n      <div class=\"nhsuk-header__logo
+        nhsuk-header__logo--only\">\n        <svg id=\"a\" class=\"nhsuk-logo\" xmlns=\"http://www.w3.org/2000/svg\"
+        width=\"100\" height=\"40\" aria-labelledby=\"altText\" focusable=\"false\"
+        role=\"img\" viewBox=\"0 0 63.39 25.53\">\n          <defs>\n            <style>.nhsuk-logo__text{fill:#005eb8;}.nhsuk-logo__background{fill:#fff;}</style>\n
+        \         </defs>\n          <title id=\"altText\">NHS logo</title>\n          <rect
+        class=\"nhsuk-logo__background\" x=\".74\" y=\".87\" width=\"61.02\" height=\"23.62\"/>\n
+        \         <path class=\"nhsuk-logo__text\" d=\"M61.02,3.02l-1.33,4.09c-1.06-.5-2.52-.94-4.56-.94-2.19,0-3.96,.32-3.96,1.97,0,2.91,8.02,1.83,8.02,8.07,0,5.68-5.3,7.15-10.09,7.15-2.13,0-4.59-.5-6.39-1.06l1.3-4.18c1.09,.71,3.28,1.18,5.09,1.18s4.41-.33,4.41-2.44c0-3.3-8.02-2.06-8.02-7.86,0-5.3,4.68-6.89,9.2-6.89,2.55,0,4.94,.27,6.33,.91m-15.89-.56l-4.29,20.55h-5.53l1.83-8.8h-6.54l-1.83,8.8h-5.53L27.53,2.46h5.53l-1.62,7.86h6.54l1.63-7.86h5.53Zm-19.64,0l-4.38,20.55h-6.87l-4.32-14.22h-.06l-2.87,14.22H1.79L6.2,2.46h6.89l4.23,14.25h.06l2.9-14.25h5.21ZM63.39,0H0V25.53H63.39V0Z\"/>\n
+        \       </svg>\n      </div>\n    </div>\n\n</header>\n\n\n\n  \n\n<nav>\n
+        \   <div class=\"nhsuk-width-container hf-navigation\">\n      <ul class=\"bh-new-nav\">\n
+        \     \n        <li class=\"bh-new-nav__item ia-new-nav__item--active\">\n
+        \           <a class=\"bh-new-nav__link \" href=\"/healthier-families/food-facts/\"
+        >\n                <span class=\"bh-new-nav__link--break\">Food facts</span>\n
+        \           </a>\n        </li>\n        \n        <li class=\"bh-new-nav__item
+        ia-new-nav__item--active\">\n            <a class=\"bh-new-nav__link app-nav-active\"
+        href=\"/healthier-families/recipes/\" >\n                <span class=\"bh-new-nav__link--break\">Recipes</span>\n
+        \           </a>\n        </li>\n        \n        <li class=\"bh-new-nav__item
+        ia-new-nav__item--active\">\n            <a class=\"bh-new-nav__link \" href=\"/healthier-families/activities/\"
+        >\n                <span class=\"bh-new-nav__link--break\">Activities</span>\n
+        \           </a>\n        </li>\n        \n        <li class=\"bh-new-nav__item
+        ia-new-nav__item--active\">\n            <a class=\"bh-new-nav__link \" href=\"/healthier-families/child-healthy-growth-weight/\"
+        >\n                <span class=\"bh-new-nav__link--break\">Healthy growth
+        and weight</span>\n            </a>\n        </li>\n        \n      </ul>\n
+        \   </div>\n  </nav>\n\n\n  \n  \n\n\n\n\n\n\n  <div class=\"hf-breadcrumbs-container\">\n
+        \   \n  \n\n\n  <div class=\"nhsuk-width-container\">\n    <nav class=\"nhsuk-breadcrumb\"
+        aria-label=\"Breadcrumb\">\n      <ol class=\"nhsuk-breadcrumb__list\">\n
+        \       \n            \n\n\n  <li class=\"nhsuk-breadcrumb__list-item\">\n
+        \   <a class=\"nhsuk-breadcrumb__link\" href=\"/healthier-families/\">Home</a>\n
+        \ </li>\n\n\n        \n        \n          \n        \n          \n            \n\n\n
+        \ <li class=\"nhsuk-breadcrumb__list-item\">\n    <a class=\"nhsuk-breadcrumb__link\"
+        href=\"/healthier-families/recipes/\">Recipes</a>\n  </li>\n\n\n          \n
+        \       \n      </ol>\n\n      \n        \n\n\n<a class=\"nhsuk-back-link\"
+        href=\"/healthier-families/recipes/\">Back to Recipes</a>\n\n\n      \n    </nav>\n
+        \ </div>\n\n\n\n  </div>\n\n  \n\n  <main id=\"maincontent\" class=\"nhsuk-main-wrapper\">\n
+        \   \n    \n    \n        \n        \n          \n\n<section class=\"nhsuk-section
+        app-section \" >\n  <div class=\"nhsuk-width-container\">\n    <div class=\"nhsuk-grid-row\">\n
+        \     \n        <div class=\"nhsuk-grid-column-full nhsuk-section__content\">\n
+        \          <div class=\"nhsuk-u-reading-width\">\n            \n            \n
+        \           </div>\n            \n              \n                  \n\n\n\n\n\n\n\n\n\n\n\n\n<div
+        class=\"nhsuk-grid-row bh-recipe nhsuk-u-padding-bottom-0\">\n  <div class=\"nhsuk-grid-column-two-thirds\">\n
+        \   <h1>Apple, apricot and sultana squares recipe</h1>\n      <div class=\"bh-recipe__description\"><p
+        data-block-key=\"mee6e\">Perfect for packed lunches and picnics, and a tasty
+        treat with a cup of tea too!</p><p data-block-key=\"zaeom\">Prep: 15 mins<br/>Cook:
+        20 mins<br/>Makes 16 squares</p></div>\n      <div class=\"bh-recipe__details\">\n
+        \       \n        \n          <details class=\"nhsuk-details nhsuk-expander\">\n
+        \           <summary class=\"nhsuk-details__summary\">\n              <span
+        class=\"nhsuk-details__summary-text\">\n              Nutritional information\n
+        \             </span>\n            </summary>\n            <div class=\"nhsuk-details__text\">\n
+        \             \n                \n                  <p data-block-key=\"m3xl8\">Per
+        square:</p><ul><li data-block-key=\"uqy1j\">560kJ / 134kcal</li><li data-block-key=\"dcii4\">2.5g
+        protein</li><li data-block-key=\"2lb0\">17.9g carbohydrate, of which 7.5g
+        sugars</li><li data-block-key=\"2mosd\">5.4g fat, of which 1.9g saturates</li><li
+        data-block-key=\"ej4nb\">1.7g fibre</li><li data-block-key=\"988i4\">0.1g
+        salt</li></ul>\n                \n              \n            </div>\n          </details>\n
+        \       \n      </div>\n  </div>\n  <div class=\"nhsuk-grid-column-one-third
+        bh-recipe__image\">\n    <figure class=\"nhsuk-image\">\n      <img\n        class=\"nhsuk-image__img\"\n
+        \       src=\"https://assets.nhs.uk/campaigns-cms-prod/images/Apple_apricot__sultana_squares_7ubq6ki.width-320.png\"\n
+        \       sizes=\"\n          (min-width: 1020px) 320px,\n          (min-width:
+        768px) 50vw,\n          100vw\n        \"\n        srcset=\"\n          https://assets.nhs.uk/campaigns-cms-prod/images/Apple_apricot__sultana_squares_7ubq6ki.width-320.png
+        320w,\n          https://assets.nhs.uk/campaigns-cms-prod/images/Apple_apricot__sultana_squares_7ubq6ki.width-510.png
+        510w,\n          https://assets.nhs.uk/campaigns-cms-prod/images/Apple_apricot__sultana_squares_7ubq6ki.width-640.png
+        640w,\n          https://assets.nhs.uk/campaigns-cms-prod/images/Apple_apricot__sultana_squares_7ubq6ki.width-767.png
+        767w,\n          https://assets.nhs.uk/campaigns-cms-prod/images/Apple_apricot__sultana_squares_7ubq6ki.width-1019.png
+        1019w,\n          https://assets.nhs.uk/campaigns-cms-prod/images/Apple_apricot__sultana_squares_7ubq6ki.width-1125.png
+        1125w,\n          https://assets.nhs.uk/campaigns-cms-prod/images/Apple_apricot__sultana_squares_7ubq6ki.width-1534.png
+        1534w\n        \"\n        alt=\"Baked oat squares with piece of apple and
+        apricot, and sultanas embedded\"\n      />\n    </figure>\n  </div>\n</div>\n<div
+        class=\"bh-recipe-instructions\">\n  <div class=\"nhsuk-width-container\">\n
+        \   <div class=\"nhsuk-grid-row\">\n      <div class=\"nhsuk-grid-column-one-third\">\n
+        \         \n            <h2 data-block-key=\"mxbpn\">Ingredients</h2><ul><li
+        data-block-key=\"pumh9\">100g lower-fat spread</li><li data-block-key=\"aujtv\">4
+        tablespoons golden syrup</li><li data-block-key=\"dem6d\">250g high-fibre
+        porridge oats</li><li data-block-key=\"a78ij\">1 apple, cored and chopped
+        into small chunks</li><li data-block-key=\"53gls\">50g ready-to-eat apricots,
+        chopped</li><li data-block-key=\"ac83i\">50g sultanas or raisins (or a mixture)</li><li
+        data-block-key=\"3gh29\">half a teapsoon ground mixed spice (optional)</li><li
+        data-block-key=\"19o57\">1 egg, beaten</li></ul>\n          \n      </div>\n
+        \     <div class=\"nhsuk-grid-column-two-thirds bh-recipe-instructions__method\">\n
+        \       <h2>Method</h2>\n        <ol>\n          \n            \n\n<li>\n
+        \ \n    <p data-block-key=\"bvirt\">Preheat the oven to 180C (fan 160C, gas
+        mark 4). Grease a 23cm (9-inch) shallow square cake tin with a little reduced-fat
+        spread, then line the base with baking parchment or greaseproof paper.</p>\n
+        \ \n</li>\n          \n            \n\n<li>\n  \n    <p data-block-key=\"dy2nz\">Melt
+        the remaining spread in a large saucepan with the golden syrup. Take care
+        that the mixture doesn&#x27;t get too hot.</p>\n  \n</li>\n          \n            \n\n<li>\n
+        \ \n    <p data-block-key=\"zs4ef\">Remove the pan from the heat and add the
+        porridge oats, apple, apricots, sultanas (or raisins) and mixed spice (if
+        using). Stir well.</p>\n  \n    <div class=\"nhsuk-inset-text\">\n  <span
+        class=\"nhsuk-u-visually-hidden\">Information: </span>\n  <p data-block-key=\"wf78j\">If
+        you have a microwave, you can melt the spread and golden syrup in a large
+        microwave-safe bowl for 40 to 50 seconds on high, then add the remaining ingredients
+        as above.</p>\n</div>\n\n  \n</li>\n          \n            \n\n<li>\n  \n
+        \   <p data-block-key=\"dx8y3\">Add the beaten egg and mix well again.</p>\n
+        \ \n</li>\n          \n            \n\n<li>\n  \n    <p data-block-key=\"h6lfa\">Tip
+        the mixture into the prepared tin and level the surface. Bake for 20 to 25
+        minutes until firm.</p>\n  \n</li>\n          \n            \n\n<li>\n  \n
+        \   <p data-block-key=\"h6lfa\">Cool in the tin for about 20 minutes, then
+        cut into 16 squares.</p>\n  \n    <div class=\"nhsuk-inset-text\">\n  <span
+        class=\"nhsuk-u-visually-hidden\">Information: </span>\n  <p data-block-key=\"a5ayn\">Store
+        in an airtight container for up to a week, or freeze for up to 3 months.</p>\n</div>\n\n
+        \ \n</li>\n          \n        </ol>\n      </div>\n    </div>\n  </div>\n</div>\n\n\n<script
+        type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\":
+        \"Recipe\", \"cookTime\": \"PT20M\", \"datePublished\": \"2023-08-18T09:35:50.910687+00:00\",
+        \"description\": \"Perfect for packed lunches and picnics, and a tasty treat
+        with a cup of tea too!\", \"image\": \"https://assets.nhs.uk/campaigns-cms-prod/images/Apple_apricot__sultana_squares_7ubq6ki.width-320.png\",
+        \"name\": \"Apple, apricot and sultana squares recipe\", \"nutrition\": {\"@type\":
+        \"NutritionInformation\", \"calories\": \"134kcal\", \"carbohydrateContent\":
+        \"17.9g\", \"fatContent\": \"5.4g\", \"proteinContent\": \"2.5g\", \"saturatedFatContent\":
+        \"1.9g\", \"sugarContent\": \"7.5g\"}, \"prepTime\": \"PT15M\", \"publisher\":
+        {\"@type\": \"Organization\", \"name\": \"NHS Better Health - Healthier Families\"},
+        \"recipeCategory\": [\"Lunchbox\", \"Puddings\", \"Snacks\"], \"recipeIngredient\":
+        [\"100g lower-fat spread\", \"4 tablespoons golden syrup\", \"250g high-fibre
+        porridge oats\", \"1 apple, cored and chopped into small chunks\", \"50g ready-to-eat
+        apricots, chopped\", \"50g sultanas or raisins (or a mixture)\", \"half a
+        teapsoon ground mixed spice (optional)\", \"1 egg, beaten\"], \"recipeInstructions\":
+        \"Preheat the oven to 180C (fan 160C, gas mark 4). Grease a 23cm (9-inch)
+        shallow square cake tin with a little reduced-fat spread, then line the base
+        with baking parchment or greaseproof paper. Melt the remaining spread in a
+        large saucepan with the golden syrup. Take care that the mixture doesn\\u0026#x27;t
+        get too hot. Remove the pan from the heat and add the porridge oats, apple,
+        apricots, sultanas (or raisins) and mixed spice (if using). Stir well. If
+        you have a microwave, you can melt the spread and golden syrup in a large
+        microwave-safe bowl for 40 to 50 seconds on high, then add the remaining ingredients
+        as above. Add the beaten egg and mix well again. Tip the mixture into the
+        prepared tin and level the surface. Bake for 20 to 25 minutes until firm.
+        Cool in the tin for about 20 minutes, then cut into 16 squares. Store in an
+        airtight container for up to a week, or freeze for up to 3 months.\", \"recipeYield\":
+        \"makes 16 squares\", \"suitableForDiet\": [\"https://schema.org/GlutenFreeDiet\",
+        \"https://schema.org/VegetarianDiet\"], \"totalTime\": \"PT35M\"}</script>\n
+        \             \n            \n          </div>\n      \n    </div>\n  </div>\n</section>\n\n
+        \       \n          \n\n<section class=\"nhsuk-section app-section--banana\"
+        \ id=\"more-recipes\" >\n  <div class=\"nhsuk-width-container\">\n    <div
+        class=\"nhsuk-grid-row\">\n      \n        <div class=\"nhsuk-grid-column-full
+        nhsuk-section__content\">\n           <div class=\"nhsuk-u-reading-width\">\n
+        \           \n              <h2>More recipes</h2>\n            \n            \n
+        \           </div>\n            \n              \n                  \n\n<div
+        class=\"nhsuk-grid-row nhsuk-card-group bh-partners-card-group\">\n  \n    <div
+        class=\" nhsuk-grid-column-one-third  nhsuk-card-group__item  bh-partners-promo\">\n
+        \     \n\n\n<div class=\"nhsuk-card nhsuk-card--clickable app-card--promo\">\n
+        \ \n    \n    <img class=\"nhsuk-card__img\" src=\"https://assets.nhs.uk/campaigns-cms-prod/images/Mini_apple_and_banana_muffins.2e16d0ba.fill-720x405.png\"
+        alt=\"\">\n  \n  <div class=\"nhsuk-card__content\">\n    <h3 class=\"nhsuk-card__heading
+        nhsuk-heading-m\">\n      <a class=\"nhsuk-card__link\" href=\"/healthier-families/recipes/mini-apple-and-banana-muffins/\">\n
+        \       Mini apple and banana muffins\n      </a>\n    </h3>\n    <div class=\"nhsuk-card__description\">\n
+        \     \n      \n    </div>\n  </div>\n</div>\n    </div>\n  \n    <div class=\"
+        nhsuk-grid-column-one-third  nhsuk-card-group__item  bh-partners-promo\">\n
+        \     \n\n\n<div class=\"nhsuk-card nhsuk-card--clickable app-card--promo\">\n
+        \ \n    \n    <img class=\"nhsuk-card__img\" src=\"https://assets.nhs.uk/campaigns-cms-prod/images/Choc_cherry_popcorn_cakes_YJmsXLh.2e16d0ba.fill-720x405.png\"
+        alt=\"\">\n  \n  <div class=\"nhsuk-card__content\">\n    <h3 class=\"nhsuk-card__heading
+        nhsuk-heading-m\">\n      <a class=\"nhsuk-card__link\" href=\"/healthier-families/recipes/chocolate-cherry-popcorn-cakes/\">\n
+        \       Choc cherry popcorn cakes\n      </a>\n    </h3>\n    <div class=\"nhsuk-card__description\">\n
+        \     \n      \n    </div>\n  </div>\n</div>\n    </div>\n  \n    <div class=\"
+        nhsuk-grid-column-one-third  nhsuk-card-group__item  bh-partners-promo\">\n
+        \     \n\n\n<div class=\"nhsuk-card nhsuk-card--clickable app-card--promo\">\n
+        \ \n    \n    <img class=\"nhsuk-card__img\" src=\"https://assets.nhs.uk/campaigns-cms-prod/images/Carrot-and-sultana-mini-pancakes_T.2e16d0ba.fill-720x405.jpg\"
+        alt=\"\">\n  \n  <div class=\"nhsuk-card__content\">\n    <h3 class=\"nhsuk-card__heading
+        nhsuk-heading-m\">\n      <a class=\"nhsuk-card__link\" href=\"/healthier-families/recipes/carrot-and-sultana-pancakes/\">\n
+        \       Carrot and sultana mini pancakes\n      </a>\n    </h3>\n    <div
+        class=\"nhsuk-card__description\">\n      \n      \n    </div>\n  </div>\n</div>\n
+        \   </div>\n  \n</div>\n\n              \n            \n          </div>\n
+        \     \n    </div>\n  </div>\n</section>\n\n        \n          \n\n<section
+        class=\"nhsuk-section app-section--pomegranate\"  id=\"signup-emails\" >\n
+        \ <div class=\"nhsuk-width-container\">\n    <div class=\"nhsuk-grid-row\">\n
+        \     \n        <div class=\"nhsuk-grid-column-full nhsuk-section__content\">\n
+        \          <div class=\"nhsuk-u-reading-width\">\n            \n            \n
+        \           </div>\n            \n              \n                      <div
+        class=\"nhsuk-card  nhsuk-card--clickable  nhsuk-card--landscape-promo app-card--promo\">\n
+        \       <div class=\"nhsuk-grid-row\">\n            <div class=\"nhsuk-grid-column-one-half\">\n
+        \               <figure class=\"nhsuk-image landscape-promo__image\">\n                    \n\n\n\n\n\n\n\n<img
+        class=\"nhsuk-image__img\"\n    src=\"https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-320_FTyFBcq.jpg\"\n
+        \       sizes=\"(min-width: 1020px) 510px, (min-width: 768px) 50vw, 100vw\"\n
+        \   srcset=\"https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-320_FTyFBcq.jpg
+        320w,\n            https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-510_lPr8Kpr.jpg
+        510w,\n            https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-640_AYnTxz7.jpg
+        640w,\n            https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggle.width-767_7uQvqwG.jpg
+        767w,\n            https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggl.width-1019_aEvKLmw.jpg
+        1019w,\n            https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggl.width-1125_z3uRE2f.jpg
+        1125w,\n            https://assets.nhs.uk/campaigns-cms-prod/images/868951_Healthy_Steps_1414px_w_x_796px_h_Juggl.width-1534_3HctLtl.jpg
+        1534w\"\n    alt=\"\" />\n\n                </figure>\n            </div>\n\n
+        \       <div class=\"nhsuk-card__content nhsuk-grid-column-one-half\">\n            \n
+        \               <h2\n                class=\"nhsuk-card__heading\n                \n
+        \               \n                \n                \"\n                >\n
+        \               \n                    <a class=\"nhsuk-card__link\" href=\"https://healthysteps.betterhealth-healthierfamilies.co.uk/signup/?bh_hf\">\n
+        \                   Sign up for Healthy Steps emails\n                    </a>\n
+        \               \n                </h2>\n            \n            \n            <p
+        data-block-key=\"fuvbv\">Want the recipe for a healthier family? Join today
+        and over 8 weeks you&#x27;ll get easy tips from nutrition experts and parents,
+        healthy swaps and tasty recipes on a budget.</p>\n            \n        </div>\n
+        \   </div>\n</div>\n\n              \n            \n          </div>\n      \n
+        \   </div>\n  </div>\n</section>\n\n        \n      \n    \n    \n\n<section
+        class=\"nhsuk-section nhsuk-feedback-section\" id=\"nhsuk-feedback-section\"
+        style=\"display: none;\" aria-live=\"polite\">\n  <div class=\"nhsuk-width-container\">\n
+        \   <div class=\"nhsuk-grid-row\">\n      <div class=\"nhsuk-grid-column-full
+        nhsuk-section__content\">\n        <div class=\"nhsuk-card nhsuk-u-reading-width
+        nhsuk-feedback-form\" data-page-id=\"763\">\n          <div class=\"nhsuk-card__content\">\n
+        \           <h2 class=\"nhsuk-card__heading\">\n              Is this page
+        useful?\n            </h2>\n            <div class=\"nhsuk-button-group\">\n
+        \             <button data-value=\"yes\" class=\"nhsuk-button nhsuk-feedback-form__button\"\n
+        \               data-module=\"nhsuk-button\">\n                Yes\n              </button>\n
+        \             <button data-value=\"no\" class=\"nhsuk-button nhsuk-feedback-form__button\"\n
+        \               data-module=\"nhsuk-button\">\n                No\n              </button>\n
+        \           </div>\n          </div>\n        </div>\n        <div class=\"nhsuk-card
+        nhsuk-u-reading-width nhsuk-feedback-form__thank-you\" style=\"display: none;\"
+        role=\"status\" aria-live=\"assertive\" aria-atomic=\"true\" aria-hidden=\"true\">\n
+        \         <div class=\"nhsuk-card__content\">\n            <h2 class=\"nhsuk-card__heading\">\n
+        \             Thank you for your feedback!\n            </h2>\n          </div>\n
+        \       </div>\n      </div>\n    </div>\n  </div>\n</section>\n\n<script
+        type=\"module\" src=\"https://assets.nhs.uk/campaigns-cms-prod/static/nhsuk_campaigns/js/inline-feedback-component.fdcbb2e33686.js\"
+        data-cookieconsent=\"statistics\" defer></script>\n  </main>\n\n  \n\n<footer
+        role=\"contentinfo\">\n  <div class=\"nhsuk-footer\" id=\"nhsuk-footer\">\n
+        \   <div class=\"nhsuk-width-container\">\n      <nav class=\"footer-nav\">\n
+        \       <h2 class=\"nhsuk-u-visually-hidden\">Support links</h2>\n        <ul
+        class=\"nhsuk-footer__list\">\n        \n          <li class=\"nhsuk-footer__list-item\"><a
+        href=\"/healthier-families/about-and-contact/\"  class=\"nhsuk-footer__list-item-link\">About
+        and contact</a></li>\n        \n          <li class=\"nhsuk-footer__list-item\"><a
+        href=\"/healthier-families/accessibility-statement/\"  class=\"nhsuk-footer__list-item-link\">Accessibility
+        statement</a></li>\n        \n          <li class=\"nhsuk-footer__list-item\"><a
+        href=\"https://www.nhs.uk/our-policies/cookies-policy/\"  class=\"nhsuk-footer__list-item-link\">Cookies</a></li>\n
+        \       \n          <li class=\"nhsuk-footer__list-item\"><a href=\"/healthier-families/privacy-policy/\"
+        \ class=\"nhsuk-footer__list-item-link\">Privacy policy</a></li>\n        \n
+        \         <li class=\"nhsuk-footer__list-item\"><a href=\"/healthier-families/site-map/\"
+        \ class=\"nhsuk-footer__list-item-link\">Site map</a></li>\n        \n          <li
+        class=\"nhsuk-footer__list-item\"><a href=\"/healthier-families/terms-and-conditions/\"
+        \ class=\"nhsuk-footer__list-item-link\">Terms and conditions</a></li>\n        \n
+        \       </ul>\n      </nav>\n      <p class=\"nhsuk-footer__copyright nhsuk-body-s\">&copy;
+        Crown copyright</p>\n    </div>\n  </div>\n</footer>\n\n\n  \n\n  \n  \n  \n</body>\n\n</html>\n"
+  recorded_at: Sun, 27 Sep 2026 08:03:38 GMT
+recorded_with: VCR 6.4.0

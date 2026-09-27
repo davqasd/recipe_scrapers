@@ -6,3 +6,4 @@ units: [xícara, xícaras, colher, colheres, dente, dentes, pitada, pitadas, fat
 number_words:
   meia: 0.5
   meio: 0.5
+steps: [passo]

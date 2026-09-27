@@ -41,15 +41,10 @@ RSpec.describe "tine.no" do
 
   it "reads every instruction step" do
     expect(recipe.instructions_list).to eq([
-      "Step 1",
       "Sett på en kjele med vann og legg romtempererte egg oppi. Kok opp og beregn ca. 10 minutter fra du la eggene i vannet. Eggene skal være hardkokte.",
-      "Step 2",
       "Strø sukker over fisken, krydre med salt og nykvernet pepper.",
-      "Step 3",
       "Varm smør i en stekepanne og stek torsken på den ene siden. Legg på lokk til fisken er ferdig, ca.10 minutter.",
-      "Step 4",
       "Kok opp fløte og buljong i en kjele, la koke i ca. 5 minutter. Jevn med maisenna utrørt i litt kaldt vann. Bland i hakket egg og dill, krydre med salt og pepper.",
-      "Step 5",
       "Server torsken med saus, revet pepperrot og dill. Grønne bønner og poteter smaker godt til."
     ])
   end
@@ -60,7 +55,7 @@ RSpec.describe "tine.no" do
   end
 
   it "joins the steps into the instructions text" do
-    expect(recipe.instructions).to eq("Step 1\nSett på en kjele med vann og legg romtempererte egg oppi. Kok opp og beregn ca. 10 minutter fra du la eggene i vannet. Eggene skal være hardkokte.\nStep 2\nStrø sukker over fisken, krydre med salt og nykvernet pepper.\nStep 3\nVarm smør i en stekepanne og stek torsken på den ene siden. Legg på lokk til fisken er ferdig, ca.10 minutter.\nStep 4\nKok opp fløte og buljong i en kjele, la koke i ca. 5 minutter. Jevn med maisenna utrørt i litt kaldt vann. Bland i hakket egg og dill, krydre med salt og pepper.\nStep 5\nServer torsken med saus, revet pepperrot og dill. Grønne bønner og poteter smaker godt til.")
+    expect(recipe.instructions).to eq("Sett på en kjele med vann og legg romtempererte egg oppi. Kok opp og beregn ca. 10 minutter fra du la eggene i vannet. Eggene skal være hardkokte.\nStrø sukker over fisken, krydre med salt og nykvernet pepper.\nVarm smør i en stekepanne og stek torsken på den ene siden. Legg på lokk til fisken er ferdig, ca.10 minutter.\nKok opp fløte og buljong i en kjele, la koke i ca. 5 minutter. Jevn med maisenna utrørt i litt kaldt vann. Bland i hakket egg og dill, krydre med salt og pepper.\nServer torsken med saus, revet pepperrot og dill. Grønne bønner og poteter smaker godt til.")
   end
 
   it "reads the recipe metadata", :aggregate_failures do

@@ -41,21 +41,13 @@ RSpec.describe "bestrecipes.com.au" do
 
   it "reads every instruction step" do
     expect(recipe.instructions_list).to eq([
-      "Step 1",
       "Cook meat and onion until meat is well browned.",
-      "Step 2",
       "Add ¾ cup water, stock cubes, sauces and seasonings.",
-      "Step 3",
       "Bring to the boil and simmer for 15 minutes.",
-      "Step 4",
       "Blend flour and the remaining water, add to meat, bring to the boil and simmer for 5 minutes. Cool.",
-      "Step 5",
       "Line a pie plate with the shortcrust pastry.",
-      "Step 6",
       "Spoon in the cooled meat mixture. Moisten edges of pastry with water.",
-      "Step 7",
       "Top with puff pastry, pressing down to seal the edges, trim and glaze with egg.",
-      "Step 8",
       "Bake at 230C for 15 minutes. Reduce heat to 190C and bake for a futher 25 minutes until golden."
     ])
   end
@@ -66,7 +58,7 @@ RSpec.describe "bestrecipes.com.au" do
   end
 
   it "joins the steps into the instructions text" do
-    expect(recipe.instructions).to eq("Step 1\nCook meat and onion until meat is well browned.\nStep 2\nAdd ¾ cup water, stock cubes, sauces and seasonings.\nStep 3\nBring to the boil and simmer for 15 minutes.\nStep 4\nBlend flour and the remaining water, add to meat, bring to the boil and simmer for 5 minutes. Cool.\nStep 5\nLine a pie plate with the shortcrust pastry.\nStep 6\nSpoon in the cooled meat mixture. Moisten edges of pastry with water.\nStep 7\nTop with puff pastry, pressing down to seal the edges, trim and glaze with egg.\nStep 8\nBake at 230C for 15 minutes. Reduce heat to 190C and bake for a futher 25 minutes until golden.")
+    expect(recipe.instructions).to eq("Cook meat and onion until meat is well browned.\nAdd ¾ cup water, stock cubes, sauces and seasonings.\nBring to the boil and simmer for 15 minutes.\nBlend flour and the remaining water, add to meat, bring to the boil and simmer for 5 minutes. Cool.\nLine a pie plate with the shortcrust pastry.\nSpoon in the cooled meat mixture. Moisten edges of pastry with water.\nTop with puff pastry, pressing down to seal the edges, trim and glaze with egg.\nBake at 230C for 15 minutes. Reduce heat to 190C and bake for a futher 25 minutes until golden.")
   end
 
   it "reads the recipe metadata", :aggregate_failures do

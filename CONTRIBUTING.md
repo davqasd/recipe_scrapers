@@ -27,6 +27,18 @@ built from them. `feat:`, `fix:`, `perf:`, `deps:` and `revert:` go into it. `do
 such as `fix: read yields written as a range`. A breaking change adds `!` after the type and a
 `BREAKING CHANGE:` footer that says what to change.
 
+Each change a user would notice gets a commit of its own, and every commit passes `bin/ci`. A pull
+request is squash-merged, so its title is the changelog entry that reaches `main`. When it carries
+more than one such change, its description ends with a "Release notes" block that lists the
+others, one conventional message per paragraph, and that block becomes the body of the squash
+commit, which release-please reads as more entries:
+
+```text
+fix: read JSON-LD that repeats a key
+
+fix: find a microdata recipe nested in another item
+```
+
 ## Repository structure
 
 - `lib/recipe_scrapers/` holds the gem, one namespace per folder: `sources/` reads the page,
@@ -45,8 +57,8 @@ constant.
 - No comments in Ruby code, apart from YARD documentation of the public API. Everything public is
   documented, and an internal method or constant is `private`, `private_constant` or
   `@api private`.
-- The ingredient parser's words for each language live in
-  `lib/recipe_scrapers/parsers/vocabulary/<language>.yml`.
+- The words of each language live in `lib/recipe_scrapers/parsers/vocabulary/<language>.yml`: the
+  ingredient parser's units and qualifiers, and the words that label a numbered step.
 
 ## Supported versions
 

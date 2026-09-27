@@ -72,7 +72,7 @@ RSpec.describe "goodstuff.recipes" do
     expect(recipe.total_time).to eq(120)
     expect(recipe.prep_time).to eq(60)
     expect(recipe.cook_time).to eq(60)
-    expect(recipe.keywords).to eq(["marmalade", "jam", "small batch", "Meyer lemon"])
+    expect(recipe.keywords).to eq(["jam", "small batch", "Meyer lemon", "marmalade"])
     expect(recipe.equipment).to be_nil
     expect(recipe.dietary_restrictions).to be_nil
     expect(recipe.ratings).to be_nil

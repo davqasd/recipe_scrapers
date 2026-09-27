@@ -60,7 +60,7 @@ end
 ```
 
 If the markup is there but has to be read in its own way, write a `Scraper` subclass. See
-[Declarations](Declarations.md#reading-schemaorg-differently).
+[Declarations](Declarations.md#when-selectors-are-not-enough).
 
 A site that serves the same recipes on several domains registers them together:
 
@@ -120,6 +120,14 @@ The first run fetches the page and records it in `spec/cassettes/com/example.yml
 replays the recording. See [Testing](Testing.md). Try a few other recipes of the site in the console
 as well, to catch the cases one page does not show.
 
-## 7. Submit
+## 7. List it
 
-Commit the site file, the spec and the cassette together, run `bin/ci`, and open a pull request.
+Add the host to [Supported Sites](Supported-Sites.md), in alphabetical order, as
+`- [example.com](https://example.com/)`. A site registered with `also:` gets one line per host.
+Raise the number of sites at the top of the page by the lines you added. It matches
+`RecipeScrapers::Registry.hosts.size`.
+
+## 8. Submit
+
+Commit the site file, the spec, the cassette and the updated list together, run `bin/ci`, and
+open a pull request.

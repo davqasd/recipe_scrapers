@@ -112,11 +112,15 @@ module RecipeScrapers
 
       def steps_in(value)
         case value
-        when String then value.split("\n").filter_map { |line| Text.normalize(line) }
+        when String then string_steps(value)
         when Array then value.flat_map { |item| listed_step(item) }
         when Hash then steps_in_hash(value)
         else []
         end
+      end
+
+      def string_steps(value)
+        Text.split_lines(value).filter_map { |line| Text.normalize(line) }.reject { |line| StepLabels.label?(line) }
       end
 
       def listed_step(value) = value.is_a?(String) ? [Text.normalize(value)].compact : steps_in(value)
@@ -145,6 +149,7 @@ module RecipeScrapers
       def step_heading(value)
         name = value["name"]
         return nil unless name.is_a?(String)
+        return nil if StepLabels.label?(name)
         return nil if value["text"].to_s.start_with?(name.sub(/\.+\z/, ""))
 
         Text.normalize(name)

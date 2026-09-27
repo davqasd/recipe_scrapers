@@ -65,7 +65,7 @@ RSpec.describe "bofrost.de" do
     expect(recipe.language).to eq("de")
     expect(recipe.author).to eq("bofrost*")
     expect(recipe.description).to be_nil
-    expect(recipe.image).to eq("https://www.bofrost.de/medias/W920xH575R1.6-47990dd3-798c-41fb-8ec6-ad06727c3c67-0e26d8f1-9fdd-41d8-85e6-13849e1ab7ce?context=bWFzdGVyfHJvb3R8MTc2NTY4fGltYWdlL2pwZWd8YURVNUwyaGxaUzh4TURnNU5qQTFNelkyTlRneU1pOVhPVEl3ZUVnMU56VlNNUzQyWHpRM09Ua3daR1F6TFRjNU9HTXROREZtWWkwNFpXTTJMV0ZrTURZM01qZGpNMk0yTjE4d1pUSTJaRGhtTVMwNVptUmtMVFF4WkRndE9EVmxOaTB4TXpnME9XVXhZV0kzWTJVfDdmYTUxYWZkNjE4NzE5Y2IwNTFmMjIxZDZjNDZiY2QxNjRlNWViZWYwOWExYzNlNGE0ZDIwNjU0OTkyZWVhYTk")
+    expect(recipe.image).to eq("https://www.bofrost.de/medias/W920xH575R1.6-47990dd3-798c-41fb-8ec6-ad06727c3c67-281aaed5-2008-47aa-8d52-d9193dbb713b?context=bWFzdGVyfHJvb3R8MTc2NTY4fGltYWdlL2pwZWd8YURWaUwyaGxZeTh4TURnNU56WXpOVEkwTmpFeE1DOVhPVEl3ZUVnMU56VlNNUzQyWHpRM09Ua3daR1F6TFRjNU9HTXROREZtWWkwNFpXTTJMV0ZrTURZM01qZGpNMk0yTjE4eU9ERmhZV1ZrTlMweU1EQTRMVFEzWVdFdE9HUTFNaTFrT1RFNU0yUmlZamN4TTJJfDkyODNlMDI1ODUzZGNiYzY5ODRjYWZlMDEyMGEyMmEyMDRkNWY1ZTJkZDU0ODhiNGVlMzUyMDMzNmRkNTI3ZTg")
     expect(recipe.category).to eq("Festliches")
     expect(recipe.cuisine).to be_nil
     expect(recipe.cooking_method).to be_nil

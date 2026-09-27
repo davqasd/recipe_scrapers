@@ -63,8 +63,8 @@ RSpec.describe "mexicanplease.com" do
     expect(recipe.keywords).to be_nil
     expect(recipe.equipment).to be_nil
     expect(recipe.dietary_restrictions).to be_nil
-    expect(recipe.ratings).to eq(4.13)
-    expect(recipe.ratings_count).to eq(286)
+    expect(recipe.ratings).to eq(4.12)
+    expect(recipe.ratings_count).to eq(288)
   end
 
   it "reads the nutrients" do

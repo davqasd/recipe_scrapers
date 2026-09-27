@@ -15,9 +15,9 @@ module RecipeScrapers
       HEADING = /\A(?<purpose>\D+?)\s*:\z/
 
       class << self
-        def sections(lines)
+        def sections(lines, headings: [])
           found = lines.grep_v(SEPARATOR).each_with_object([]) do |line, sections|
-            purpose = line[HEADING, :purpose]
+            purpose = headings.include?(line) ? line : line[HEADING, :purpose]
             next sections << [purpose, []] if purpose
 
             sections << [nil, []] if sections.empty?
@@ -39,6 +39,8 @@ module RecipeScrapers
         end
 
         def call(document:, ingredients:, heading:, item:)
+          return [ungrouped(ingredients)] if item.nil?
+
           headings = document.css(heading)
           return [ungrouped(ingredients)] if headings.empty?
           return [ungrouped(ingredients)] unless document.css(item).size == ingredients.size

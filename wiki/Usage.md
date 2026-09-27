@@ -65,7 +65,8 @@ JSON.generate(recipe.to_h)
 recipe = RecipeScrapers.scrape(url, supported_only: false)
 ```
 
-`RecipeScrapers::Registry.hosts` lists the supported hosts.
+[Supported Sites](Supported-Sites.md) lists the supported hosts, and so does
+`RecipeScrapers::Registry.hosts`.
 
 ## Errors
 

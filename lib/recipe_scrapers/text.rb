@@ -6,8 +6,16 @@ module RecipeScrapers
   module Text
     MARKUP = /[&<]/
     WHITESPACE = /[[:space:]]+/
-    DROPPED = ["​", "‎", "‏"].freeze
+    DROPPED = ["​", "‎", "‏", "⠀"].freeze
     TEXTLESS = %w[script style template noscript].freeze
+    BLOCKS = %w[
+      address article aside blockquote dd details div dl dt fieldset figcaption figure footer form
+      h1 h2 h3 h4 h5 h6 header hr li main nav ol p pre section summary table tbody tfoot thead tr ul
+    ].freeze
+    CELLS = %w[td th].freeze
+    LINE_BREAK = "\n"
+    LINE_BREAKS = %r{\r?\n|<br\s*/?>}i
+    CLOSING = /\A[\s.,;:!?)\]}%]/
 
     class << self
       def content(node)
@@ -15,7 +23,15 @@ module RecipeScrapers
         return node.text if node.text? || node.cdata?
         return nil unless node.element?
 
-        node.children.filter_map { |child| content(child) }.join
+        joined(node.children)
+      end
+
+      def lines(node)
+        split_lines(content(node)).filter_map { |line| normalize(line) }
+      end
+
+      def split_lines(value)
+        value.to_s.split(LINE_BREAKS)
       end
 
       def normalize(value)
@@ -38,6 +54,32 @@ module RecipeScrapers
       end
 
       private
+
+      def joined(children)
+        previous = nil
+        children.each_with_object(+"") do |child, text|
+          part = rendered(child)
+          next if part.nil?
+
+          text << " " if touching?(previous, child, text, part)
+          text << part
+          previous = child
+        end
+      end
+
+      def touching?(previous, current, text, part)
+        previous&.element? && current.element? && !text.match?(/\s\z/) && !part.match?(CLOSING)
+      end
+
+      def rendered(node)
+        inner = content(node)
+        return inner unless node.element?
+        return LINE_BREAK if node.name == "br"
+        return "#{LINE_BREAK}#{inner}#{LINE_BREAK}" if BLOCKS.include?(node.name)
+        return " #{inner} " if CELLS.include?(node.name)
+
+        inner
+      end
 
       def strip_markup(value)
         previous = nil

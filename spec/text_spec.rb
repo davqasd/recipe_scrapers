@@ -45,6 +45,10 @@ RSpec.describe RecipeScrapers::Text do
     expect(described_class.normalize("400\u200bg")).to eq("400g")
   end
 
+  it "drops the blank braille pattern some sites pad lines with" do
+    expect(described_class.normalize("\u00bd onion, chopped\u2800")).to eq("\u00bd onion, chopped")
+  end
+
   describe ".content" do
     def node(html) = Nokogiri::HTML5.fragment(html).children.first
 
@@ -63,7 +67,29 @@ RSpec.describe RecipeScrapers::Text do
 
     it "leaves out a script nested deeper in the element" do
       html = %(<div><p>Fry the onion<script>render("ad")</script></p></div>)
-      expect(described_class.content(node(html))).to eq("Fry the onion")
+      expect(described_class.content(node(html))).to eq("\nFry the onion\n")
+    end
+
+    it "breaks the line at a br and around a block, the way a browser renders them" do
+      html = "<div>200 g flour<br>2 eggs<p>300 ml milk</p></div>"
+      expect(described_class.content(node(html))).to eq("200 g flour\n2 eggs\n300 ml milk\n")
+    end
+
+    it "keeps a word whole when an element splits it" do
+      expect(described_class.content(node("<p>I<span>n a pan</span></p>"))).to eq("In a pan")
+    end
+
+    it "puts a space between two elements that touch" do
+      expect(described_class.content(node("<p><span>1</span><span>cup</span> flour</p>"))).to eq("1 cup flour")
+    end
+
+    it "puts no space before punctuation that sits in its own element" do
+      expect(described_class.content(node("<p><a>lemon</a><span>.</span></p>"))).to eq("lemon.")
+    end
+
+    it "keeps table cells apart" do
+      html = "<table><tr><td>Salt</td><td>1 tsp</td></tr></table>"
+      expect(described_class.normalize(described_class.content(node(html)))).to eq("Salt 1 tsp")
     end
 
     it "leaves out styles, templates and noscript blocks", :aggregate_failures do
@@ -78,6 +104,25 @@ RSpec.describe RecipeScrapers::Text do
 
     it "returns nil for a script node itself" do
       expect(described_class.content(node("<script>render()</script>"))).to be_nil
+    end
+  end
+
+  describe ".lines" do
+    def node(html) = Nokogiri::HTML5.fragment(html).children.first
+
+    it "reads one line per rendered line" do
+      html = "<p><strong>GLAZE</strong><br>¼ cup orange juice<br><span>3 tbsp honey<br>1 tsp zest</span></p>"
+      expect(described_class.lines(node(html))).to eq(["GLAZE", "¼ cup orange juice", "3 tbsp honey", "1 tsp zest"])
+    end
+
+    it "skips a line with no text" do
+      expect(described_class.lines(node("<p>salt<br><br> <br>pepper</p>"))).to eq(%w[salt pepper])
+    end
+  end
+
+  describe ".split_lines" do
+    it "splits a published string at every line break, typed or tagged" do
+      expect(described_class.split_lines("salt\r\npepper<br>oil<br/>vinegar")).to eq(%w[salt pepper oil vinegar])
     end
   end
 end

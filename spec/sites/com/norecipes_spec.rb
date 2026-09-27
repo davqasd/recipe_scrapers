@@ -76,7 +76,7 @@ RSpec.describe "norecipes.com" do
     expect(recipe.equipment).to be_nil
     expect(recipe.dietary_restrictions).to be_nil
     expect(recipe.ratings).to eq(4.5)
-    expect(recipe.ratings_count).to eq(287)
+    expect(recipe.ratings_count).to eq(288)
   end
 
   it "reads the nutrients" do

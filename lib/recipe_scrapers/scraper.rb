@@ -27,6 +27,8 @@ module RecipeScrapers
 
     # Every field a scraper answers, in the order {#to_h} returns them.
     CONTRACT = (Models::Recipe.members - %i[url]).freeze
+    EMBEDDED_ADDRESS = %r{\Ahttps?://[^/?#]*?(?<address>https?://.+)\z}
+    private_constant :EMBEDDED_ADDRESS
 
     class << self
       # Names the host a subclass reads, or returns it.
@@ -145,7 +147,7 @@ module RecipeScrapers
     # (see Models::Recipe#image)
     def image
       address = @declared.text(:image) || @schema.image || @open_graph.image
-      address && URI.join(url, address).to_s
+      address && URI.join(url, address[EMBEDDED_ADDRESS, :address] || address).to_s
     rescue URI::Error
       address
     end
@@ -181,8 +183,10 @@ module RecipeScrapers
     private
 
     def ingredient_sections
-      @ingredient_sections ||=
-        Sources::IngredientGroups.sections(@declared.rows(:ingredients) || @schema.ingredients || [])
+      @ingredient_sections ||= Sources::IngredientGroups.sections(
+        @declared.rows(:ingredients) || @schema.ingredients || [],
+        headings: @declared.headings_among_rows
+      )
     end
 
     def marked_groups(lines)

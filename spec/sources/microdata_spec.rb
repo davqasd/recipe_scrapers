@@ -15,6 +15,15 @@ RSpec.describe RecipeScrapers::Sources::Microdata do
     expect(reader.recipe["name"]).to eq("Borscht")
   end
 
+  it "finds a recipe that sits inside another item without being one of its properties" do
+    reader = described_class.new(Nokogiri::HTML5(<<~HTML))
+      <html itemscope itemtype="https://schema.org/WebPage"><body>
+        <div itemscope itemtype="http://schema.org/Recipe"><h1 itemprop="name">Salmorejo</h1></div>
+      </body></html>
+    HTML
+    expect(reader.recipe["name"]).to eq("Salmorejo")
+  end
+
   it "returns nil when no element declares a recipe" do
     reader = build('<div itemscope itemtype="https://schema.org/Article"><h1 itemprop="name">News</h1></div>')
     expect(reader.recipe).to be_nil

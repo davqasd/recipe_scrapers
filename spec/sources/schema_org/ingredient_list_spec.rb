@@ -13,6 +13,15 @@ RSpec.describe RecipeScrapers::Sources::SchemaOrg::IngredientList do
     expect(described_class.parse("1 beet")).to eq(["1 beet"])
   end
 
+  it "splits a list the site published as one string at its line breaks" do
+    published = "\r\n20 dumplings\r\n20 cl cream\n1 tbsp miso"
+    expect(described_class.parse(published)).to eq(["20 dumplings", "20 cl cream", "1 tbsp miso"])
+  end
+
+  it "splits a list the site published as one string at a line break tag" do
+    expect(described_class.parse("1 egg<br>2 cups flour")).to eq(["1 egg", "2 cups flour"])
+  end
+
   it "collapses the whitespace and the markup in a line" do
     expect(described_class.parse(["  1 <b>large</b>\n  beet  "])).to eq(["1 large beet"])
   end
