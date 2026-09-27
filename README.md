@@ -17,13 +17,13 @@ Add it to your Gemfile:
 
 <!-- x-release-please-start-version -->
 ```ruby
-gem "recipe_scrapers", "~> 0.1.0"
+gem "recipe_scrapers", "~> 0.2.0"
 ```
 
 Or install it manually:
 
 ```console
-gem install recipe_scrapers --version "~> 0.1.0"
+gem install recipe_scrapers --version "~> 0.2.0"
 ```
 <!-- x-release-please-end -->
 
