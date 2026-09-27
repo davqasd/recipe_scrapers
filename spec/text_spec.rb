@@ -106,4 +106,23 @@ RSpec.describe RecipeScrapers::Text do
       expect(described_class.content(node("<script>render()</script>"))).to be_nil
     end
   end
+
+  describe ".lines" do
+    def node(html) = Nokogiri::HTML5.fragment(html).children.first
+
+    it "reads one line per rendered line" do
+      html = "<p><strong>GLAZE</strong><br>¼ cup orange juice<br><span>3 tbsp honey<br>1 tsp zest</span></p>"
+      expect(described_class.lines(node(html))).to eq(["GLAZE", "¼ cup orange juice", "3 tbsp honey", "1 tsp zest"])
+    end
+
+    it "skips a line with no text" do
+      expect(described_class.lines(node("<p>salt<br><br> <br>pepper</p>"))).to eq(%w[salt pepper])
+    end
+  end
+
+  describe ".split_lines" do
+    it "splits a published string at every line break, typed or tagged" do
+      expect(described_class.split_lines("salt\r\npepper<br>oil<br/>vinegar")).to eq(%w[salt pepper oil vinegar])
+    end
+  end
 end

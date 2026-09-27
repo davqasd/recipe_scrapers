@@ -106,4 +106,50 @@ RSpec.describe RecipeScrapers::Declaration do
       expect(recipe.instructions_list).to eq(["Peel the carrots."])
     end
   end
+
+  describe "splitting a row and skipping parts of it" do
+    subject(:recipe) { RecipeScrapers.parse(page, url: "https://example.com/r/1", supported_only: false) }
+
+    let(:page) do
+      <<~HTML
+        <html><body>
+          <h1>Carrots</h1>
+          <div class="ingredients">
+            <p>- 6 carrots<br>2 tbsp honey</p>
+            <p><strong>GLAZE</strong><br>1 tbsp <em>sesame</em> seeds<br><br>salt</p>
+          </div>
+          <div class="step"><span class="number">1</span>Pe<span>el the carrots.</span></div>
+          <div class="step"><span class="number">2</span>Roast them.</div>
+        </body></html>
+      HTML
+    end
+
+    before do
+      RecipeScrapers::Registry.register("example.com") do
+        title "h1"
+        ingredients rows: "div.ingredients p", split: true
+        ingredient_groups heading: "div.ingredients strong"
+        instructions rows: "div.step", skip: "span.number"
+      end
+    end
+
+    around do |example|
+      saved = RecipeScrapers::Registry.snapshot
+      example.run
+      RecipeScrapers::Registry.restore(saved)
+    end
+
+    it "splits a row into its rendered lines" do
+      expect(recipe.ingredients).to eq(["6 carrots", "2 tbsp honey", "1 tbsp sesame seeds", "salt"])
+    end
+
+    it "starts a group at a line the heading selector names" do
+      expect(recipe.ingredient_groups.map { |group| [group.purpose, group.ingredients] }).
+        to eq([[nil, ["6 carrots", "2 tbsp honey"]], ["GLAZE", ["1 tbsp sesame seeds", "salt"]]])
+    end
+
+    it "leaves out the skipped elements" do
+      expect(recipe.instructions_list).to eq(["Peel the carrots.", "Roast them."])
+    end
+  end
 end

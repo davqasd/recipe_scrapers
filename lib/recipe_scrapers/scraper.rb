@@ -181,8 +181,10 @@ module RecipeScrapers
     private
 
     def ingredient_sections
-      @ingredient_sections ||=
-        Sources::IngredientGroups.sections(@declared.rows(:ingredients) || @schema.ingredients || [])
+      @ingredient_sections ||= Sources::IngredientGroups.sections(
+        @declared.rows(:ingredients) || @schema.ingredients || [],
+        headings: @declared.headings_among_rows
+      )
     end
 
     def marked_groups(lines)

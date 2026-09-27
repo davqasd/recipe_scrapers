@@ -14,6 +14,7 @@ module RecipeScrapers
     ].freeze
     CELLS = %w[td th].freeze
     LINE_BREAK = "\n"
+    LINE_BREAKS = %r{\r?\n|<br\s*/?>}i
     CLOSING = /\A[\s.,;:!?)\]}%]/
 
     class << self
@@ -23,6 +24,14 @@ module RecipeScrapers
         return nil unless node.element?
 
         joined(node.children)
+      end
+
+      def lines(node)
+        split_lines(content(node)).filter_map { |line| normalize(line) }
+      end
+
+      def split_lines(value)
+        value.to_s.split(LINE_BREAKS)
       end
 
       def normalize(value)

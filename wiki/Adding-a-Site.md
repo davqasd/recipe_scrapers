@@ -60,7 +60,7 @@ end
 ```
 
 If the markup is there but has to be read in its own way, write a `Scraper` subclass. See
-[Declarations](Declarations.md#reading-schemaorg-differently).
+[Declarations](Declarations.md#when-selectors-are-not-enough).
 
 A site that serves the same recipes on several domains registers them together:
 
