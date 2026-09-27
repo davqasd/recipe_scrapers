@@ -94,7 +94,7 @@ RSpec.describe "ica.se" do
     expect(recipe.equipment).to be_nil
     expect(recipe.dietary_restrictions).to be_nil
     expect(recipe.ratings).to eq(4.6)
-    expect(recipe.ratings_count).to eq(1668)
+    expect(recipe.ratings_count).to eq(1669)
   end
 
   it "reads the nutrients" do

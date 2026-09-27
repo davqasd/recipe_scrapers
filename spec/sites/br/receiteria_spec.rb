@@ -69,7 +69,7 @@ RSpec.describe "receiteria.com.br" do
     expect(recipe.equipment).to be_nil
     expect(recipe.dietary_restrictions).to be_nil
     expect(recipe.ratings).to eq(4.7)
-    expect(recipe.ratings_count).to eq(588)
+    expect(recipe.ratings_count).to eq(602)
   end
 
   it "reads the nutrients" do

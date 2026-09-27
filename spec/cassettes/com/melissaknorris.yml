@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 25 Sep 2026 13:39:00 GMT
+      - Sun, 27 Sep 2026 08:02:40 GMT
       Content-Type:
       - text/html; charset=UTF-8
       Transfer-Encoding:
@@ -40,7 +40,7 @@ http_interactions:
       X-Elasticpress-Query:
       - 'true'
       Expires:
-      - Fri, 25 Sep 2026 13:54:00 GMT
+      - Sun, 27 Sep 2026 08:17:40 GMT
       Cache-Control:
       - max-age=900
       X-Content-Type-Options:
@@ -54,11 +54,11 @@ http_interactions:
       Nel:
       - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
       Report-To:
-      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=DkSYET488Ywue4WbESnqNdzRx4JBQWYDBL3OZBDOUN%2FDaIQU0oVNhTN557vyi1vvuEBS3yhr%2FmZduqQexUA2%2FkX0zMDqrnW9i7eCbw1n4hhg00K8bF4o65Y6P1DiQ44FN0yAhA%3D%3D"}]}'
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=uudIxwt4Yber0D4O0mZSclYwXEuXUXi1H%2BpLAf2aK9qx9lJEPQsohT2rO1NwDEwnTzJrdUSJOBZjNZgCQ%2FW8YfT%2FRW6RUeDrP3wKdo6J8qKhKkNztntFHNXeOfc8zs4e3ZcXJg%3D%3D"}]}'
       Cf-Cache-Status:
       - DYNAMIC
       Cf-Ray:
-      - a40a6eb4f882526e-LIS
+      - a418fcca4c6e7113-LIS
     body:
       encoding: ASCII-8BIT
       string: "<!DOCTYPE html>\n<html lang=\"en-US\">\n<head>\n<meta charset=\"UTF-8\">\n<script>\nvar
@@ -94,7 +94,7 @@ http_interactions:
         {\n    display: none !important;\n    height: 0px;\n    width: 0px;\n    visibility:hidden;\n
         \ }\n}</style>\n<script data-no-optimize=\"1\" data-cfasync=\"false\">\n\twindow.adthriveCLS
         = {\n\t\tenabledLocations: ['Content', 'Recipe'],\n\t\tinjectedSlots: [],\n\t\tinjectedFromPlugin:
-        true,\n\t\tbranch: '69cbaf5',bucket: 'prod',\t\t\t};\n\twindow.adthriveCLS.siteAds
+        true,\n\t\tbranch: 'bbc531b',bucket: 'prod',\t\t\t};\n\twindow.adthriveCLS.siteAds
         = {\"betaTester\":false,\"targeting\":[{\"value\":\"570fe40deca6b1b109f86d1f\",\"key\":\"siteId\"},{\"value\":\"6233884de0cc6e7088ccafbd\",\"key\":\"organizationId\"},{\"value\":\"Melissa
         K Norris\",\"key\":\"siteName\"},{\"value\":\"AdThrive Edge\",\"key\":\"service\"},{\"value\":\"on\",\"key\":\"bidding\"},{\"value\":[\"Food\",\"Gardening\"],\"key\":\"verticals\"}],\"siteUrl\":\"https://melissaknorris.com/\",\"siteId\":\"570fe40deca6b1b109f86d1f\",\"siteName\":\"Melissa
         K Norris\",\"breakpoints\":{\"tablet\":768,\"desktop\":1024},\"cloudflare\":null,\"adUnits\":[{\"sequence\":9,\"thirdPartyAdUnitName\":\"\",\"targeting\":[{\"value\":[\"Sidebar\"],\"key\":\"location\"},{\"value\":true,\"key\":\"sticky\"}],\"devices\":[\"desktop\"],\"name\":\"Sidebar_9\",\"sticky\":true,\"location\":\"Sidebar\",\"dynamic\":{\"pageSelector\":\"body:not(.single-product)\",\"spacing\":0,\"max\":1,\"lazyMax\":null,\"enable\":true,\"lazy\":false,\"elementSelector\":\".sidebar-primary\",\"skip\":0,\"classNames\":[],\"position\":\"beforeend\",\"every\":1,\"enabled\":true},\"stickyOverlapSelector\":\".site-footer,
@@ -868,7 +868,7 @@ http_interactions:
         sizes=\"32x32\">\n<link rel=\"icon\" href=\"https://melissaknorris.com/wp-content/uploads/2026/03/cropped-MKN_Weather-Vane-192x192.png\"
         sizes=\"192x192\">\n<link rel=\"apple-touch-icon\" href=\"https://melissaknorris.com/wp-content/uploads/2026/03/cropped-MKN_Weather-Vane-180x180.png\">\n<meta
         name=\"msapplication-TileImage\" content=\"https://melissaknorris.com/wp-content/uploads/2026/03/cropped-MKN_Weather-Vane-270x270.png\">\n<script
-        data-no-optimize=\"1\" data-cfasync=\"false\" id=\"comscore-loader-69cbaf5\">(function(){window.adthriveCLS.buildDate=`2026-09-24`;var
+        data-no-optimize=\"1\" data-cfasync=\"false\" id=\"comscore-loader-bbc531b\">(function(){window.adthriveCLS.buildDate=`2026-09-25`;var
         e=class{},t=class extends e{constructor(e,t=Math.random){super(),this._probability=e,this._random=t}get(){if(this._probability<0||this._probability>1)throw
         Error(`Invalid probability: ${this._probability}`);return this._random()<this._probability}};function
         n(e){\"@babel/helpers - typeof\";return n=typeof Symbol==`function`&&typeof
@@ -1025,7 +1025,7 @@ http_interactions:
         Intl.DateTimeFormat().resolvedOptions==`function`&&(e=Intl.DateTimeFormat().resolvedOptions().timeZone||`unknown`),e.startsWith(`America/`)})()&&(()=>{let
         e=`6035453`,t=$()?`0`:`1`,n={c1:`2`,c2:e,cs_fpid:W.readExternalCookie(`_pubcid`)||W.readExternalLocalStorage(`_pubcid`),cs_fpit:`o`,cs_fpdm:`*null`,cs_fpdt:`*null`,options:{enableFirstPartyCookie:!0},cs_ucfr:t||`0`};window._comscore=window._comscore||[],window._comscore.push(n),K(`https://sb.scorecardresearch.com/cs/${e}/beacon.js`).catch(e=>{p.error(`ComscoreTrackerComponent`,`init`,`Error
         during Comscore beacon.js import: `,e)})})()})();</script><script data-no-optimize=\"1\"
-        data-cfasync=\"false\" id=\"cls-disable-ads-69cbaf5\">var cls_disable_ads=(function(e){window.adthriveCLS.buildDate=`2026-09-24`,Object.defineProperty(e,Symbol.toStringTag,{value:`Module`});let
+        data-cfasync=\"false\" id=\"cls-disable-ads-bbc531b\">var cls_disable_ads=(function(e){window.adthriveCLS.buildDate=`2026-09-25`,Object.defineProperty(e,Symbol.toStringTag,{value:`Module`});let
         t=new class{info(e,t,...n){this.call(console.info,e,t,...n)}warn(e,t,...n){this.call(console.warn,e,t,...n)}error(e,t,...n){this.call(console.error,e,t,...n),this.sendErrorLogToCommandQueue(e,t,...n)}event(e,t,...n){var
         r;((r=window.adthriveCLS)==null?void 0:r.bucket)===`debug`&&this.info(e,t)}sendErrorLogToCommandQueue(e,t,...n){window.adthrive=window.adthrive||{},window.adthrive.cmd=window.adthrive.cmd||[],window.adthrive.cmd.push(()=>{window.adthrive.logError!==void
         0&&typeof window.adthrive.logError==`function`&&window.adthrive.logError(e,t,n)})}call(e,t,n,...r){let
@@ -1126,7 +1126,7 @@ http_interactions:
         \   gap: 0;\n    padding-top: 24px;\n    padding-bottom: 24px;\n\t}\n\t\n\t.gutena-tabs-block>.gutena-tabs-tab>.gutena-tab-title
         {\n\t\tline-height: 1;\n    padding: 11px;\n    margin-bottom: 0;\n\t}\n}\n\n\n.wp-block-quote
         {\n\tborder-left: none !important;\n}\n</style>\n<script data-no-optimize=\"1\"
-        data-cfasync=\"false\" id=\"cls-header-insertion-69cbaf5\">var cls_header_insertion=(function(e){window.adthriveCLS.buildDate=`2026-09-24`,Object.defineProperty(e,Symbol.toStringTag,{value:`Module`});let
+        data-cfasync=\"false\" id=\"cls-header-insertion-bbc531b\">var cls_header_insertion=(function(e){window.adthriveCLS.buildDate=`2026-09-25`,Object.defineProperty(e,Symbol.toStringTag,{value:`Module`});let
         t={Below_Post_1:`Below_Post_1`,Below_Post:`Below_Post`,Content:`Content`,Content_1:`Content_1`,Content_2:`Content_2`,Content_3:`Content_3`,Content_4:`Content_4`,Content_5:`Content_5`,Content_6:`Content_6`,Content_7:`Content_7`,Content_8:`Content_8`,Content_9:`Content_9`,Recipe:`Recipe`,Recipe_1:`Recipe_1`,Recipe_2:`Recipe_2`,Recipe_3:`Recipe_3`,Recipe_4:`Recipe_4`,Recipe_5:`Recipe_5`,Native_Recipe:`Native_Recipe`,Footer_1:`Footer_1`,Footer:`Footer`,Header_1:`Header_1`,Header_2:`Header_2`,Header:`Header`,Sidebar_1:`Sidebar_1`,Sidebar_2:`Sidebar_2`,Sidebar_3:`Sidebar_3`,Sidebar_4:`Sidebar_4`,Sidebar_5:`Sidebar_5`,Sidebar_9:`Sidebar_9`,Sidebar:`Sidebar`,Interstitial_1:`Interstitial_1`,Interstitial:`Interstitial`,Video_StickyOutstream_1:`Video_StickyOutstream_1`,Video_StickyOutstream:`Video_StickyOutstream`,Video_StickyInstream:`Video_StickyInstream`,Sponsor_Tile:`Sponsor_Tile`},n=[[300,50],[300,90],[320,50],[320,100]],r=(e,n)=>e===t.Recipe&&n===`phone`,i=([e,t])=>n.some(([n,r])=>n===e&&r===t),a=e=>{let
         t={};return function(...n){let r=JSON.stringify(n);if(r in t)return t[r];let
         i=e.apply(this,n);return t[r]=i,i}};navigator.vendor;let o=navigator.userAgent,s=a(e=>/Chrom|Applechromium/.test(e||o)),c=(e,t)=>e==null||e!==e?t:e,l=e=>{let
@@ -2246,7 +2246,7 @@ http_interactions:
         wp-block-paragraph\"><strong>Subscribe to Melissa K. Norris!</strong></p>\n\n\n\n<p
         class=\"wp-block-paragraph\">Get updates on the latest posts and more from
         Melissa K. Norris straight to your inbox.</p>\n\n\n\n                <div
-        class=\"gf_browser_gecko gform_wrapper gravity-theme gform-theme--no-framework\"
+        class=\"gf_browser_unknown gform_wrapper gravity-theme gform-theme--no-framework\"
         data-form-theme=\"gravity-theme\" data-form-index=\"0\" id=\"gform_wrapper_14\"><form
         method=\"post\" enctype=\"multipart/form-data\" id=\"gform_14\" action=\"/pioneering-today-how-to-make-fresh-raspberry-juice/\"
         data-formid=\"14\" novalidate>\n                        <div class=\"gform-body
@@ -2276,10 +2276,10 @@ http_interactions:
         \           <input type=\"hidden\" class=\"gform_hidden\" name=\"is_submit_14\"
         value=\"1\">\n            <input type=\"hidden\" class=\"gform_hidden\" name=\"gform_submit\"
         value=\"14\">\n            \n            <input type=\"hidden\" class=\"gform_hidden\"
-        name=\"gform_currency\" data-currency=\"USD\" value=\"k6j09E4c3ipJ0G2zmj1/tbPjbM8udoBuQSNSY/1oXtJ3sxOQ9U+hzGlbErAPHb4HHa4iCqxPr8PKFfKmAoJye/tzCQKAoIjE+DluY+cC7sUSi0E=\">\n
+        name=\"gform_currency\" data-currency=\"USD\" value=\"V6CW1f8gMqMmXXOo9li2kYy2DTMsPrQONsnXfALk7sbIx4lQilq6+yJpG6yf+h0RJxxEsEtgKIz6mWqUHOgP/eoxaDEvH5pEKveEbhGpuid3ksU=\">\n
         \           <input type=\"hidden\" class=\"gform_hidden\" name=\"gform_unique_id\"
         value=\"\">\n            <input type=\"hidden\" class=\"gform_hidden\" name=\"state_14\"
-        value=\"WyJ7XCJnZm9ybV9zdWJtaXNzaW9uX21ldGhvZFwiOltcIjlmN2NhOGNiMDZkNzBjZGYwNmRkYjFmMjJhMjZjNTlkXCIsXCJjMTdkOTY1MzNhOWY3MTYwZDAwMDgwODQ5ZmZjNTE4ZVwiXSxcImdmb3JtX3RoZW1lXCI6XCIxMzJhMGJmMjkzZmE4MDc5YjY3YmZjZTc2YjAyN2M4Y1wiLFwiZ2Zvcm1fc3R5bGVfc2V0dGluZ3NcIjpcIjFjZTYzMGJlN2QwOWU4MDRiMjBmNTY3YTZjN2U1MjkzXCIsXCJmb3JtX2lkXCI6XCJhMjNiZDNjMzBkZWI3OTM4YWMyNjlhMmE3NWY3YjcwNVwiLFwidXJsXCI6XCI3NThjYzhmNDNhOWYyNGJlNmU5YWM1ZDhiMzY0YWMzNFwiLFwic3RhdGVfdGltZXN0YW1wXCI6XCI4ODI3NmFlZGY5MzQyMjVlNGY0NGQyYTU0MTdkOTM2OVwifSIsImFkYWU5ZTEzYmRlZGM5NTJjOWM4OWY0OGIxMzgyOWE5IiwxNzkwMzQwOTc2XQ==\">\n
+        value=\"WyJ7XCJnZm9ybV9zdWJtaXNzaW9uX21ldGhvZFwiOltcIjlmN2NhOGNiMDZkNzBjZGYwNmRkYjFmMjJhMjZjNTlkXCIsXCJjMTdkOTY1MzNhOWY3MTYwZDAwMDgwODQ5ZmZjNTE4ZVwiXSxcImdmb3JtX3RoZW1lXCI6XCIxMzJhMGJmMjkzZmE4MDc5YjY3YmZjZTc2YjAyN2M4Y1wiLFwiZ2Zvcm1fc3R5bGVfc2V0dGluZ3NcIjpcIjFjZTYzMGJlN2QwOWU4MDRiMjBmNTY3YTZjN2U1MjkzXCIsXCJmb3JtX2lkXCI6XCJhMjNiZDNjMzBkZWI3OTM4YWMyNjlhMmE3NWY3YjcwNVwiLFwidXJsXCI6XCI3NThjYzhmNDNhOWYyNGJlNmU5YWM1ZDhiMzY0YWMzNFwiLFwic3RhdGVfdGltZXN0YW1wXCI6XCJhOTY0MDM5NDk2MzZkYTMwOGFjOWE2YTUyZDEyZTMyYVwifSIsIjc2ZjIwNWY2YjZjMjZjNDVmZjM4YjFiYmMxMjAzOTJmIiwxNzkwNDkzNjAyXQ==\">\n
         \           <input type=\"hidden\" autocomplete=\"off\" class=\"gform_hidden\"
         name=\"gform_target_page_number_14\" id=\"gform_target_page_number_14\" value=\"0\">\n
         \           <input type=\"hidden\" autocomplete=\"off\" class=\"gform_hidden\"
@@ -2288,7 +2288,7 @@ http_interactions:
         \           \n        </div>\n                        <p style=\"display:
         none !important;\" class=\"akismet-fields-container\" data-prefix=\"ak_\"><label>&Delta;<textarea
         name=\"ak_hp_textarea\" cols=\"45\" rows=\"8\" maxlength=\"100\"></textarea></label><input
-        type=\"hidden\" id=\"ak_js_2\" name=\"ak_js\" value=\"121\"><script>\ndocument.getElementById(
+        type=\"hidden\" id=\"ak_js_2\" name=\"ak_js\" value=\"228\"><script>\ndocument.getElementById(
         \"ak_js_2\" ).setAttribute( \"value\", ( new Date() ).getTime() );\n</script>\n</p></form>\n
         \                       </div>\n\n\n<p class=\"has-sm-font-size wp-block-paragraph\">We
         use your personal data for interest-based advertising, as outlined in our&nbsp;<a
@@ -3021,7 +3021,7 @@ http_interactions:
         id=\"commentform\" class=\"comment-form\"><p class=\"comment-notes\"><span
         id=\"email-notes\">Your email address will not be published.</span> <span
         class=\"required-field-message\">Required fields are marked <span class=\"required\">*</span></span></p><div
-        class=\"comment-form-wprm-rating\">\n\t<label for=\"wprm-comment-rating-3219816808\">Recipe
+        class=\"comment-form-wprm-rating\">\n\t<label for=\"wprm-comment-rating-1794449824\">Recipe
         Rating</label>\t<span class=\"wprm-rating-stars\">\n\t\t<fieldset class=\"wprm-comment-ratings-container\"
         data-original-rating=\"0\" data-current-rating=\"0\">\n\t\t\t<legend>Recipe
         Rating</legend>\n\t\t\t<input aria-label=\"Don't rate this recipe\" name=\"wprm-comment-rating\"
@@ -3095,7 +3095,7 @@ http_interactions:
         y=\"4\"></use>\n\t<use xlink:href=\"#wprm-star-empty-4\" x=\"132\" y=\"4\"></use>\n</svg></span><br><input
         aria-label=\"Rate this recipe 5 out of 5 stars\" name=\"wprm-comment-rating\"
         value=\"5\" type=\"radio\" onclick=\"WPRecipeMaker.rating.onClick(this)\"
-        id=\"wprm-comment-rating-3219816808\" style=\"width: 24px !important; height:
+        id=\"wprm-comment-rating-1794449824\" style=\"width: 24px !important; height:
         24px !important;\"><span aria-hidden=\"true\" style=\"width: 120px !important;
         height: 24px !important;\"><svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"
         x=\"0px\" y=\"0px\" width=\"106.66666666667px\" height=\"16px\" viewbox=\"0
@@ -3122,10 +3122,10 @@ http_interactions:
         Comment\"> <input type=\"hidden\" name=\"comment_post_ID\" value=\"23972\"
         id=\"comment_post_ID\">\n<input type=\"hidden\" name=\"comment_parent\" id=\"comment_parent\"
         value=\"0\">\n</p><p style=\"display: none;\"><input type=\"hidden\" id=\"akismet_comment_nonce\"
-        name=\"akismet_comment_nonce\" value=\"c83e5c3cdf\"></p><p style=\"display:
+        name=\"akismet_comment_nonce\" value=\"dce8e45fe9\"></p><p style=\"display:
         none !important;\" class=\"akismet-fields-container\" data-prefix=\"ak_\"><label>&Delta;<textarea
         name=\"ak_hp_textarea\" cols=\"45\" rows=\"8\" maxlength=\"100\"></textarea></label><input
-        type=\"hidden\" id=\"ak_js_1\" name=\"ak_js\" value=\"24\"><script>\ndocument.getElementById(
+        type=\"hidden\" id=\"ak_js_1\" name=\"ak_js\" value=\"249\"><script>\ndocument.getElementById(
         \"ak_js_1\" ).setAttribute( \"value\", ( new Date() ).getTime() );\n</script>\n</p></form>\t</div><!--
         #respond -->\n\t\n\t<li class=\"comment byuser comment-author-admin bypostauthor
         even thread-even depth-1\" id=\"comment-73719\">\n\t<article id=\"article-comment-73719\">\n\n\t\t\n\t\t<header
@@ -3480,47 +3480,9 @@ http_interactions:
         / 1;--columns-md:1 / 1;--columns-lg:1 / 1;--flex-xs:0 0 var(--flex-basis);--flex-sm:0
         0 var(--flex-basis);--flex-md:0 0 var(--flex-basis);--flex-lg:0 0 var(--flex-basis);--column-gap:var(--spacing-md);--row-gap:var(--spacing-xl);--align-columns:start;\"><article
         class=\"entry entry-grid is-column has-entry-link has-image has-image-first
-        type-post category-breakfast category-dessert category-healthy-snacks category-recipes\"
-        style=\"--entry-index:1;\" aria-label=\"Raspberry Cream Cheese Muffins\"><a
-        class=\"entry-image-link\" href=\"https://melissaknorris.com/pioneering-today-raspberry-lemon-cream-cheese-muffins/\"
-        tabindex=\"-1\" aria-hidden=\"true\"><img fetchpriority=\"low\" width=\"400\"
-        height=\"300\" src=\"https://melissaknorris.com/wp-content/uploads/2025/06/Raspberry-Cream-Cheese-Muffins-Hero_MKN-400x300.jpg\"
-        class=\"entry-image size-landscape-sm\" alt=\"Baked raspberry cream cheese
-        muffins sitting on a marble cutting board.\" decoding=\"async\" loading=\"lazy\"
-        srcset=\"https://melissaknorris.com/wp-content/uploads/2025/06/Raspberry-Cream-Cheese-Muffins-Hero_MKN-400x300.jpg
-        400w, https://melissaknorris.com/wp-content/uploads/2025/06/Raspberry-Cream-Cheese-Muffins-Hero_MKN-500x375.jpg
-        500w, https://melissaknorris.com/wp-content/uploads/2025/06/Raspberry-Cream-Cheese-Muffins-Hero_MKN-800x600.jpg
-        800w\" sizes=\"auto, (max-width:599px) 149.75px, (min-width:600px) and (max-width:
-        799px) 199.75px, (min-width:800px) and (max-width: 999px) 166.5px, (min-width:1000px)
-        200px\"></a><div class=\"entry-wrap entry-wrap-grid\"><h3 class=\"entry-title\"><a
-        class=\"entry-title-link\" href=\"https://melissaknorris.com/pioneering-today-raspberry-lemon-cream-cheese-muffins/\"
-        rel=\"bookmark\" data-content-piece=\"Raspberry Cream Cheese Muffins\">Raspberry
-        Cream Cheese Muffins</a></h3>\n<div class=\"entry-excerpt\"><p>This recipe
-        for raspberry cream cheese muffins has a hint of lemon and is super moist,
-        thanks to the yogurt. Mix up a batch today!</p>\n</div></div></article><article
-        class=\"entry entry-grid is-column has-entry-link has-image has-image-first
-        type-post category-canning-recipes category-food-preservation category-food-preservation-canning
-        category-fruit-jam-and-jelly category-recipes category-canning-recipes-recipes\"
-        style=\"--entry-index:2;\" aria-label=\"Chocolate Cherry Sauce Recipe (Easy
-        Canning Recipe)\"><a class=\"entry-image-link\" href=\"https://melissaknorris.com/chocolate-cherry-sauce-canning-recipe/\"
-        tabindex=\"-1\" aria-hidden=\"true\"><img fetchpriority=\"low\" width=\"400\"
-        height=\"300\" src=\"https://melissaknorris.com/wp-content/uploads/2026/07/Chocolate-Cherry-Sauce-26-1-400x300.jpg\"
-        class=\"entry-image size-landscape-sm\" alt=\"Chocolate cherry sauce served
-        over a dish of vanilla ice cream.\" decoding=\"async\" loading=\"lazy\" srcset=\"https://melissaknorris.com/wp-content/uploads/2026/07/Chocolate-Cherry-Sauce-26-1-400x300.jpg
-        400w, https://melissaknorris.com/wp-content/uploads/2026/07/Chocolate-Cherry-Sauce-26-1-500x375.jpg
-        500w, https://melissaknorris.com/wp-content/uploads/2026/07/Chocolate-Cherry-Sauce-26-1-800x600.jpg
-        800w\" sizes=\"auto, (max-width:599px) 149.75px, (min-width:600px) and (max-width:
-        799px) 199.75px, (min-width:800px) and (max-width: 999px) 166.5px, (min-width:1000px)
-        200px\"></a><div class=\"entry-wrap entry-wrap-grid\"><h3 class=\"entry-title\"><a
-        class=\"entry-title-link\" href=\"https://melissaknorris.com/chocolate-cherry-sauce-canning-recipe/\"
-        rel=\"bookmark\" data-content-piece=\"Chocolate Cherry Sauce Recipe (Easy
-        Canning Recipe)\">Chocolate Cherry Sauce Recipe (Easy Canning Recipe)</a></h3>\n<div
-        class=\"entry-excerpt\"><p>Learn how to make rich chocolate cherry sauce with
-        fresh cherries. Includes easy water bath canning instructions for pantry storage.</p>\n</div></div></article><article
-        class=\"entry entry-grid is-column has-entry-link has-image has-image-first
         type-post category-foraging category-health-wellness category-herbal-remedies
         category-homestead-life category-lifestyle category-natural-medicine-cabinet
-        category-recipes category-beverages-recipes\" style=\"--entry-index:3;\" aria-label=\"How
+        category-recipes category-beverages-recipes\" style=\"--entry-index:1;\" aria-label=\"How
         to Make Nettle Tea (Fresh or Dried) | Easy Herbal Tea Recipe&nbsp;\"><a class=\"entry-image-link\"
         href=\"https://melissaknorris.com/wild-edible-plants-make-nettle-leaf-tea/\"
         tabindex=\"-1\" aria-hidden=\"true\"><img fetchpriority=\"low\" width=\"400\"
@@ -3539,7 +3501,7 @@ http_interactions:
         how to make nettle tea with fresh or dried leaves. An easy herbal tea packed
         with nutrients and traditional wellness benefits.</p>\n</div></div></article><article
         class=\"entry entry-grid is-column has-entry-link has-image has-image-first
-        type-post category-cooking category-dessert category-recipes\" style=\"--entry-index:4;\"
+        type-post category-cooking category-dessert category-recipes\" style=\"--entry-index:2;\"
         aria-label=\"Quick &amp; Easy Papaya Bars Recipe\"><a class=\"entry-image-link\"
         href=\"https://melissaknorris.com/papaya-bars-recipe/\" tabindex=\"-1\" aria-hidden=\"true\"><img
         fetchpriority=\"low\" width=\"400\" height=\"300\" src=\"https://melissaknorris.com/wp-content/uploads/2025/01/Papaya-Bars-17-400x300.jpg\"
@@ -3555,7 +3517,46 @@ http_interactions:
         &amp; Easy Papaya Bars Recipe</a></h3>\n<div class=\"entry-excerpt\"><p>Looking
         for an easy homemade dessert that will impress a crowd (but is simple enough
         for a weeknight?). Look no further than these papaya bars. Think lemon bars
-        but with a slightly &hellip;</p>\n</div></div></article></div></div></div></div>\n\n\n\n\n\n\n<div
+        but with a slightly &hellip;</p>\n</div></div></article><article class=\"entry
+        entry-grid is-column has-entry-link has-image has-image-first type-post category-breakfast
+        category-dessert category-healthy-snacks category-recipes\" style=\"--entry-index:3;\"
+        aria-label=\"Raspberry Cream Cheese Muffins\"><a class=\"entry-image-link\"
+        href=\"https://melissaknorris.com/pioneering-today-raspberry-lemon-cream-cheese-muffins/\"
+        tabindex=\"-1\" aria-hidden=\"true\"><img fetchpriority=\"low\" width=\"400\"
+        height=\"300\" src=\"https://melissaknorris.com/wp-content/uploads/2025/06/Raspberry-Cream-Cheese-Muffins-Hero_MKN-400x300.jpg\"
+        class=\"entry-image size-landscape-sm\" alt=\"Baked raspberry cream cheese
+        muffins sitting on a marble cutting board.\" decoding=\"async\" loading=\"lazy\"
+        srcset=\"https://melissaknorris.com/wp-content/uploads/2025/06/Raspberry-Cream-Cheese-Muffins-Hero_MKN-400x300.jpg
+        400w, https://melissaknorris.com/wp-content/uploads/2025/06/Raspberry-Cream-Cheese-Muffins-Hero_MKN-500x375.jpg
+        500w, https://melissaknorris.com/wp-content/uploads/2025/06/Raspberry-Cream-Cheese-Muffins-Hero_MKN-800x600.jpg
+        800w\" sizes=\"auto, (max-width:599px) 149.75px, (min-width:600px) and (max-width:
+        799px) 199.75px, (min-width:800px) and (max-width: 999px) 166.5px, (min-width:1000px)
+        200px\"></a><div class=\"entry-wrap entry-wrap-grid\"><h3 class=\"entry-title\"><a
+        class=\"entry-title-link\" href=\"https://melissaknorris.com/pioneering-today-raspberry-lemon-cream-cheese-muffins/\"
+        rel=\"bookmark\" data-content-piece=\"Raspberry Cream Cheese Muffins\">Raspberry
+        Cream Cheese Muffins</a></h3>\n<div class=\"entry-excerpt\"><p>This recipe
+        for raspberry cream cheese muffins has a hint of lemon and is super moist,
+        thanks to the yogurt. Mix up a batch today!</p>\n</div></div></article><article
+        class=\"entry entry-grid is-column has-entry-link has-image has-image-first
+        type-post category-miscellaneous category-recipes\" style=\"--entry-index:4;\"
+        aria-label=\"Easy Mint Water Recipe &amp; Benefits\"><a class=\"entry-image-link\"
+        href=\"https://melissaknorris.com/mint-water-recipe-benefits/\" tabindex=\"-1\"
+        aria-hidden=\"true\"><img fetchpriority=\"low\" width=\"163\" height=\"300\"
+        src=\"https://melissaknorris.com/wp-content/uploads/2020/08/EasyMintWaterRecipeP-5.jpg\"
+        class=\"entry-image size-landscape-sm\" alt=\"\" decoding=\"async\" loading=\"lazy\"
+        srcset=\"https://melissaknorris.com/wp-content/uploads/2020/08/EasyMintWaterRecipeP-5-163x300.jpg
+        163w, https://melissaknorris.com/wp-content/uploads/2020/08/EasyMintWaterRecipeP-5-557x1024.jpg
+        557w, https://melissaknorris.com/wp-content/uploads/2020/08/EasyMintWaterRecipeP-5-600x1103.jpg
+        600w, https://melissaknorris.com/wp-content/uploads/2020/08/EasyMintWaterRecipeP-5.jpg
+        653w\" sizes=\"auto, (max-width:599px) 149.75px, (min-width:600px) and (max-width:
+        799px) 199.75px, (min-width:800px) and (max-width: 999px) 166.5px, (min-width:1000px)
+        200px\"></a><div class=\"entry-wrap entry-wrap-grid\"><h3 class=\"entry-title\"><a
+        class=\"entry-title-link\" href=\"https://melissaknorris.com/mint-water-recipe-benefits/\"
+        rel=\"bookmark\" data-content-piece=\"Easy Mint Water Recipe &amp;amp; Benefits\">Easy
+        Mint Water Recipe &amp; Benefits</a></h3>\n<div class=\"entry-excerpt\"><p>Mint
+        Water is my new obsession you guys. What's not to love about a drink you can
+        make in less than a minute and literally, all of it is harvested straight
+        from my homestead. Oh, &hellip;</p>\n</div></div></article></div></div></div></div>\n\n\n\n\n\n\n<div
         class=\"wp-block-group has-md-padding-bottom has-xxl-margin-bottom\" data-content-name=\"mai-ad-related-content-popular\"
         data-track-content=\"\"><div class=\"wp-block-group__inner-container is-layout-constrained
         wp-block-group-is-layout-constrained\">\n<p class=\"is-style-subheading has-black-color
@@ -3654,25 +3655,20 @@ http_interactions:
         Easy, and Shelf Stable)</a></h3>\n</div></article><article class=\"entry entry-grid
         is-column has-entry-link has-image has-image-first type-post category-bread
         category-recipes category-vintage\" style=\"--entry-index:6;\" aria-label=\"Traditional
-        Hot Cross Buns - Easy Recipe from 1950\"><a class=\"entry-image-link\" href=\"https://melissaknorris.com/hot-cross-buns-vintage-recipe-from-1950/\"
+        Hot Cross Buns Recipe With Honey and Raisins\"><a class=\"entry-image-link\"
+        href=\"https://melissaknorris.com/hot-cross-buns-vintage-recipe-from-1950/\"
         tabindex=\"-1\" aria-hidden=\"true\"><img fetchpriority=\"low\" width=\"400\"
-        height=\"267\" src=\"https://melissaknorris.com/wp-content/uploads/2020/08/traditionalhotcrossbunrecipe-5.jpg\"
-        class=\"entry-image size-landscape-sm\" alt=\"Three images of hot cross buns
-        sitting on a napkin. Text overlay says, &quot;Easy Hot Cross Buns: Great-Grandma's
-        1950's recipe with no processed sugar&quot;.\" decoding=\"async\" loading=\"lazy\"
-        srcset=\"https://melissaknorris.com/wp-content/uploads/2020/08/traditionalhotcrossbunrecipe-5-300x200.jpg
-        300w, https://melissaknorris.com/wp-content/uploads/2020/08/traditionalhotcrossbunrecipe-5-360x240.jpg
-        360w, https://melissaknorris.com/wp-content/uploads/2020/08/traditionalhotcrossbunrecipe-5-600x400.jpg
-        600w, https://melissaknorris.com/wp-content/uploads/2020/08/traditionalhotcrossbunrecipe-5-720x480.jpg
-        720w, https://melissaknorris.com/wp-content/uploads/2020/08/traditionalhotcrossbunrecipe-5-768x512.jpg
-        768w, https://melissaknorris.com/wp-content/uploads/2020/08/traditionalhotcrossbunrecipe-5-1024x683.jpg
-        1024w, https://melissaknorris.com/wp-content/uploads/2020/08/traditionalhotcrossbunrecipe-5.jpg
-        1200w\" sizes=\"auto, (max-width:599px) 599px, (min-width:600px) and (max-width:
+        height=\"300\" src=\"https://melissaknorris.com/wp-content/uploads/2017/04/traditional-hot-cross-buns-on-serving-platter-400x300.jpg\"
+        class=\"entry-image size-landscape-sm\" alt=\"A platter of homemade raisin
+        hot cross buns on a wooden table.\" decoding=\"async\" loading=\"lazy\" srcset=\"https://melissaknorris.com/wp-content/uploads/2017/04/traditional-hot-cross-buns-on-serving-platter-400x300.jpg
+        400w, https://melissaknorris.com/wp-content/uploads/2017/04/traditional-hot-cross-buns-on-serving-platter-500x375.jpg
+        500w, https://melissaknorris.com/wp-content/uploads/2017/04/traditional-hot-cross-buns-on-serving-platter-800x600.jpg
+        800w\" sizes=\"auto, (max-width:599px) 599px, (min-width:600px) and (max-width:
         799px) 799px, (min-width:800px) and (max-width: 999px) 222px, (min-width:1000px)
         266.66666666667px\"></a><div class=\"entry-wrap entry-wrap-grid\"><h3 class=\"entry-title\"><a
         class=\"entry-title-link\" href=\"https://melissaknorris.com/hot-cross-buns-vintage-recipe-from-1950/\"
-        rel=\"bookmark\" data-content-piece=\"Traditional Hot Cross Buns - Easy Recipe
-        from 1950\">Traditional Hot Cross Buns - Easy Recipe from 1950</a></h3>\n</div></article></div></div></div></div>\n\n\n</div><footer
+        rel=\"bookmark\" data-content-piece=\"Traditional Hot Cross Buns Recipe With
+        Honey and Raisins\">Traditional Hot Cross Buns Recipe With Honey and Raisins</a></h3>\n</div></article></div></div></div></div>\n\n\n</div><footer
         class=\"site-footer\" id=\"site-footer\">\n<div class=\"wp-block-group alignfull
         has-sm-padding-top has-sm-padding-bottom\"><div class=\"wp-block-group__inner-container
         is-layout-constrained wp-block-group-is-layout-constrained\">\n<hr class=\"wp-block-separator
@@ -3902,7 +3898,7 @@ http_interactions:
         a means for sites to earn advertising fees by advertising and linking to&nbsp;<a
         rel=\"noreferrer noopener\" href=\"https://amazon.com/\" target=\"_blank\">Amazon.com</a>.</p>\n\n\n\n\n<a
         id=\"pmLink\" href=\"#\" class=\"has-xs-font-size\">Privacy Manager</a>\n</div></div>\n</footer></div><script
-        data-no-optimize=\"1\" data-cfasync=\"false\" id=\"cls-insertion-69cbaf5\">(function(){window.adthriveCLS.buildDate=`2026-09-24`;let
+        data-no-optimize=\"1\" data-cfasync=\"false\" id=\"cls-insertion-bbc531b\">(function(){window.adthriveCLS.buildDate=`2026-09-25`;let
         e={Below_Post_1:`Below_Post_1`,Below_Post:`Below_Post`,Content:`Content`,Content_1:`Content_1`,Content_2:`Content_2`,Content_3:`Content_3`,Content_4:`Content_4`,Content_5:`Content_5`,Content_6:`Content_6`,Content_7:`Content_7`,Content_8:`Content_8`,Content_9:`Content_9`,Recipe:`Recipe`,Recipe_1:`Recipe_1`,Recipe_2:`Recipe_2`,Recipe_3:`Recipe_3`,Recipe_4:`Recipe_4`,Recipe_5:`Recipe_5`,Native_Recipe:`Native_Recipe`,Footer_1:`Footer_1`,Footer:`Footer`,Header_1:`Header_1`,Header_2:`Header_2`,Header:`Header`,Sidebar_1:`Sidebar_1`,Sidebar_2:`Sidebar_2`,Sidebar_3:`Sidebar_3`,Sidebar_4:`Sidebar_4`,Sidebar_5:`Sidebar_5`,Sidebar_9:`Sidebar_9`,Sidebar:`Sidebar`,Interstitial_1:`Interstitial_1`,Interstitial:`Interstitial`,Video_StickyOutstream_1:`Video_StickyOutstream_1`,Video_StickyOutstream:`Video_StickyOutstream`,Video_StickyInstream:`Video_StickyInstream`,Sponsor_Tile:`Sponsor_Tile`},t=[`siteId`,`siteName`,`adOptions`,`breakpoints`,`adUnits`],n=(e,n=t)=>{if(!e)return
         window.adthriveCLS&&(window.adthriveCLS.disabled=!0),!1;for(let t=0;t<n.length;t++)if(!e[n[t]])return
         window.adthriveCLS&&(window.adthriveCLS.disabled=!0),!1;return!0},r=()=>window.adthriveCLS;function
@@ -4335,9 +4331,9 @@ http_interactions:
         = 'text/javascript';p.async = true;p.src = '//assets.pinterest.com/js/pinit.js';f.parentNode.insertBefore(p,
         f);})(document);</script><script>window.wprm_recipes = {\"recipe-26534\":{\"type\":\"food\",\"name\":\"Fresh
         Raspberry Juice Recipe\",\"slug\":\"wprm-fresh-raspberry-juice-recipe\",\"image_url\":\"https:\\/\\/melissaknorris.com\\/wp-content\\/uploads\\/2024\\/07\\/Raspberry-Juice_Hero_MKN.jpg\",\"rating\":{\"count\":65,\"total\":224,\"average\":3.45,\"type\":{\"comment\":1,\"no_comment\":0,\"user\":64},\"user\":0},\"ingredients\":[{\"uid\":0,\"amount\":\"2\",\"unit\":\"cups\",\"name\":\"raspberries\",\"notes\":\"<em>fresh
-        or frozen<\\/em>\",\"unit_id\":1883,\"id\":2262,\"conversion_item_snapshot\":{\"amount\":\"2\",\"unit\":\"cups\",\"timestamp\":1790340976000},\"type\":\"ingredient\",\"unit_systems\":{\"unit-system-1\":{\"amount\":\"2\",\"unit\":\"cups\",\"unitParsed\":\"cups\",\"unit_connector\":\"\",\"unit_connector_spacing\":\"space-both\",\"unit_connector_pluralizes_ingredient\":true}}},{\"uid\":1,\"amount\":\"4\",\"unit\":\"\",\"name\":\"ice
-        cubes\",\"notes\":\"<em>omit if using frozen raspberries<\\/em>\",\"id\":1623,\"conversion_item_snapshot\":{\"amount\":\"4\",\"unit\":\"\",\"timestamp\":1790340976000},\"type\":\"ingredient\",\"unit_systems\":{\"unit-system-1\":{\"amount\":\"4\",\"unit\":\"\",\"unitParsed\":\"\"}}},{\"uid\":2,\"amount\":\"2\",\"unit\":\"Tablespoons\",\"name\":\"honey\",\"notes\":\"<em><\\/em>\",\"unit_id\":1979,\"id\":122,\"conversion_item_snapshot\":{\"amount\":\"2\",\"unit\":\"Tablespoons\",\"timestamp\":1790340976000},\"type\":\"ingredient\",\"unit_systems\":{\"unit-system-1\":{\"amount\":\"2\",\"unit\":\"Tablespoons\",\"unitParsed\":\"Tablespoons\",\"unit_connector\":\"\",\"unit_connector_spacing\":\"space-both\",\"unit_connector_pluralizes_ingredient\":true}}},{\"uid\":3,\"amount\":\"\\u00bc\",\"unit\":\"cup\",\"name\":\"water\",\"notes\":\"<em>adjust
-        if using frozen raspberries<\\/em>\",\"unit_id\":1884,\"id\":23,\"conversion_item_snapshot\":{\"amount\":\"\\u00bc\",\"unit\":\"cup\",\"timestamp\":1790340976000},\"type\":\"ingredient\",\"unit_systems\":{\"unit-system-1\":{\"amount\":\"\\u00bc\",\"unit\":\"cup\",\"unitParsed\":\"cup\",\"unit_connector\":\"\",\"unit_connector_spacing\":\"space-both\",\"unit_connector_pluralizes_ingredient\":true}}}],\"originalServings\":\"2\",\"originalServingsParsed\":2,\"currentServings\":\"2\",\"currentServingsParsed\":2,\"currentServingsFormatted\":\"2\",\"currentServingsMultiplier\":1,\"originalSystem\":1,\"currentSystem\":1,\"favorite\":false,\"unitSystems\":[1],\"originalAdvancedServings\":{\"shape\":\"round\",\"unit\":\"inch\",\"diameter\":0,\"width\":0,\"length\":0,\"height\":0},\"currentAdvancedServings\":{\"shape\":\"round\",\"unit\":\"inch\",\"diameter\":0,\"width\":0,\"length\":0,\"height\":0}}}</script><script>\njQuery(document).ready(function($)
+        or frozen<\\/em>\",\"unit_id\":1883,\"id\":2262,\"conversion_item_snapshot\":{\"amount\":\"2\",\"unit\":\"cups\",\"timestamp\":1790493602000},\"type\":\"ingredient\",\"unit_systems\":{\"unit-system-1\":{\"amount\":\"2\",\"unit\":\"cups\",\"unitParsed\":\"cups\",\"unit_connector\":\"\",\"unit_connector_spacing\":\"space-both\",\"unit_connector_pluralizes_ingredient\":true}}},{\"uid\":1,\"amount\":\"4\",\"unit\":\"\",\"name\":\"ice
+        cubes\",\"notes\":\"<em>omit if using frozen raspberries<\\/em>\",\"id\":1623,\"conversion_item_snapshot\":{\"amount\":\"4\",\"unit\":\"\",\"timestamp\":1790493602000},\"type\":\"ingredient\",\"unit_systems\":{\"unit-system-1\":{\"amount\":\"4\",\"unit\":\"\",\"unitParsed\":\"\"}}},{\"uid\":2,\"amount\":\"2\",\"unit\":\"Tablespoons\",\"name\":\"honey\",\"notes\":\"<em><\\/em>\",\"unit_id\":1979,\"id\":122,\"conversion_item_snapshot\":{\"amount\":\"2\",\"unit\":\"Tablespoons\",\"timestamp\":1790493602000},\"type\":\"ingredient\",\"unit_systems\":{\"unit-system-1\":{\"amount\":\"2\",\"unit\":\"Tablespoons\",\"unitParsed\":\"Tablespoons\",\"unit_connector\":\"\",\"unit_connector_spacing\":\"space-both\",\"unit_connector_pluralizes_ingredient\":true}}},{\"uid\":3,\"amount\":\"\\u00bc\",\"unit\":\"cup\",\"name\":\"water\",\"notes\":\"<em>adjust
+        if using frozen raspberries<\\/em>\",\"unit_id\":1884,\"id\":23,\"conversion_item_snapshot\":{\"amount\":\"\\u00bc\",\"unit\":\"cup\",\"timestamp\":1790493602000},\"type\":\"ingredient\",\"unit_systems\":{\"unit-system-1\":{\"amount\":\"\\u00bc\",\"unit\":\"cup\",\"unitParsed\":\"cup\",\"unit_connector\":\"\",\"unit_connector_spacing\":\"space-both\",\"unit_connector_pluralizes_ingredient\":true}}}],\"originalServings\":\"2\",\"originalServingsParsed\":2,\"currentServings\":\"2\",\"currentServingsParsed\":2,\"currentServingsFormatted\":\"2\",\"currentServingsMultiplier\":1,\"originalSystem\":1,\"currentSystem\":1,\"favorite\":false,\"unitSystems\":[1],\"originalAdvancedServings\":{\"shape\":\"round\",\"unit\":\"inch\",\"diameter\":0,\"width\":0,\"length\":0,\"height\":0},\"currentAdvancedServings\":{\"shape\":\"round\",\"unit\":\"inch\",\"diameter\":0,\"width\":0,\"length\":0,\"height\":0}}}</script><script>\njQuery(document).ready(function($)
         {\n    $('a.scroll-down[href*=\"#\"]').click(function(event){\n        $('html,
         body').animate({\n            scrollTop: $($.attr(this, 'href')).offset().top\n
         \       }, 700);\n        event.preventDefault();\n    });\n});\n</script><!--
@@ -4379,7 +4375,7 @@ http_interactions:
         src=\"https://melissaknorris.com/wp-includes/js/comment-reply.min.js?ver=7.1.2\"></script>\n<script
         defer id=\"skip-links-js\" src=\"https://melissaknorris.com/wp-content/themes/genesis/lib/js/skip-links.min.js?ver=3.6.2\"></script>\n<script>(function(d){var
         s=d.createElement(\"script\");s.type=\"text/javascript\";s.src=\"https://a.omappapi.com/app/js/api.min.js\";s.async=true;s.id=\"omapi-script\";d.getElementsByTagName(\"head\")[0].appendChild(s);})(document);</script>\n\n<script
-        id=\"wprm-public-js-extra\">\nvar wprm_public = {\"user\":\"0\",\"assets_url\":\"https://melissaknorris.com/wp-content/plugins/wp-recipe-maker/dist/\",\"endpoints\":{\"analytics\":\"https://melissaknorris.com/wp-json/wp-recipe-maker/v1/analytics\",\"integrations\":\"https://melissaknorris.com/wp-json/wp-recipe-maker/v1/integrations\",\"manage\":\"https://melissaknorris.com/wp-json/wp-recipe-maker/v1/manage\",\"utilities\":\"https://melissaknorris.com/wp-json/wp-recipe-maker/v1/utilities\"},\"settings\":{\"jump_output_hash\":true,\"features_comment_ratings\":true,\"template_color_comment_rating\":\"#f8e71c\",\"instruction_media_toggle_default\":\"on\",\"video_force_ratio\":false,\"analytics_enabled\":false,\"google_analytics_enabled\":false,\"print_access\":\"everyone\",\"print_access_allowed\":true,\"print_new_tab\":true,\"print_recipe_identifier\":\"slug\",\"pdf_download_enabled\":false,\"ingredient_unit_connector_elision\":{\"language\":\"\",\"connectors\":[],\"allow_h_elision\":false,\"elision_vowels\":\"aeiouy\",\"elision_words\":[],\"h_aspire_words\":[\"hachis\",\"haddock\",\"haddocks\",\"halva\",\"hamburger\",\"hamburgers\",\"hareng\",\"harengs\",\"haricot\",\"haricots\",\"harissa\",\"homard\",\"homards\"]}},\"post_id\":\"23972\",\"home_url\":\"https://melissaknorris.com/\",\"print_slug\":\"wprm_print\",\"permalinks\":\"/%postname%/\",\"ajax_url\":\"https://melissaknorris.com/wp-admin/admin-ajax.php\",\"nonce\":\"e5585f103f\",\"api_nonce\":\"ec1a600ffb\",\"translations\":{\"Close\":\"Close\",\"More
+        id=\"wprm-public-js-extra\">\nvar wprm_public = {\"user\":\"0\",\"assets_url\":\"https://melissaknorris.com/wp-content/plugins/wp-recipe-maker/dist/\",\"endpoints\":{\"analytics\":\"https://melissaknorris.com/wp-json/wp-recipe-maker/v1/analytics\",\"integrations\":\"https://melissaknorris.com/wp-json/wp-recipe-maker/v1/integrations\",\"manage\":\"https://melissaknorris.com/wp-json/wp-recipe-maker/v1/manage\",\"utilities\":\"https://melissaknorris.com/wp-json/wp-recipe-maker/v1/utilities\"},\"settings\":{\"jump_output_hash\":true,\"features_comment_ratings\":true,\"template_color_comment_rating\":\"#f8e71c\",\"instruction_media_toggle_default\":\"on\",\"video_force_ratio\":false,\"analytics_enabled\":false,\"google_analytics_enabled\":false,\"print_access\":\"everyone\",\"print_access_allowed\":true,\"print_new_tab\":true,\"print_recipe_identifier\":\"slug\",\"pdf_download_enabled\":false,\"ingredient_unit_connector_elision\":{\"language\":\"\",\"connectors\":[],\"allow_h_elision\":false,\"elision_vowels\":\"aeiouy\",\"elision_words\":[],\"h_aspire_words\":[\"hachis\",\"haddock\",\"haddocks\",\"halva\",\"hamburger\",\"hamburgers\",\"hareng\",\"harengs\",\"haricot\",\"haricots\",\"harissa\",\"homard\",\"homards\"]}},\"post_id\":\"23972\",\"home_url\":\"https://melissaknorris.com/\",\"print_slug\":\"wprm_print\",\"permalinks\":\"/%postname%/\",\"ajax_url\":\"https://melissaknorris.com/wp-admin/admin-ajax.php\",\"nonce\":\"b7a42139bf\",\"api_nonce\":\"f83d877485\",\"translations\":{\"Close\":\"Close\",\"More
         information\":\"More information\",\"%d in %s\":\"%d in %s\",\"Add %d Products
         to Cart\":\"Add %d Products to Cart\",\"Add 1 Product to Cart\":\"Add 1 Product
         to Cart\",\"Add to Cart\":\"Add to Cart\",\"Added!\":\"Added!\",\"Adding to
@@ -4489,11 +4485,11 @@ http_interactions:
         id=\"gform_placeholder-js\" defer src=\"https://melissaknorris.com/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=3.1.2\"></script>\n<script
         id=\"gform_gravityforms_utils-js\" defer src=\"https://melissaknorris.com/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=69a9db57304a9f86c3d1a0bea5fd2cf9\"></script>\n<script
         id=\"gform_gravityforms_theme_vendors-js\" defer src=\"https://melissaknorris.com/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=0c901cb641ce64b99c20ea1a4d208cc9\"></script>\n<script
-        id=\"gform_gravityforms_theme-js-extra\">\nvar gform_theme_config = {\"common\":{\"form\":{\"honeypot\":{\"version_hash\":\"88ed1d5d3df5ec9d85ec77f5ad704dae\"},\"ajax\":{\"ajaxurl\":\"https://melissaknorris.com/wp-admin/admin-ajax.php\",\"ajax_submission_nonce\":\"1ac9176c38\",\"i18n\":{\"step_announcement\":\"Step
+        id=\"gform_gravityforms_theme-js-extra\">\nvar gform_theme_config = {\"common\":{\"form\":{\"honeypot\":{\"version_hash\":\"88ed1d5d3df5ec9d85ec77f5ad704dae\"},\"ajax\":{\"ajaxurl\":\"https://melissaknorris.com/wp-admin/admin-ajax.php\",\"ajax_submission_nonce\":\"e38b512420\",\"i18n\":{\"step_announcement\":\"Step
         %1$s of %2$s, %3$s\",\"unknown_error\":\"There was an unknown error processing
         your request. Please try again.\",\"error_403\":\"The request was blocked
         (403 error) for unknown security reasons. Remove any code-like text (scripts
-        or DB queries) and try again.\"}}}},\"hmr_dev\":\"\",\"public_path\":\"https://melissaknorris.com/wp-content/plugins/gravityforms/assets/js/dist/\",\"config_nonce\":\"248fc09d80\"};\n//#
+        or DB queries) and try again.\"}}}},\"hmr_dev\":\"\",\"public_path\":\"https://melissaknorris.com/wp-content/plugins/gravityforms/assets/js/dist/\",\"config_nonce\":\"bef937ab69\"};\n//#
         sourceURL=gform_gravityforms_theme-js-extra\n</script>\n<script id=\"gform_gravityforms_theme-js\"
         defer src=\"https://melissaknorris.com/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=e27d9712159624c99129c8c208f022ad\"></script>\n<div
         id=\"wprm-popup-modal-user-rating\" class=\"wprm-popup-modal wprm-popup-modal-user-rating\"
@@ -4711,15 +4707,15 @@ http_interactions:
         [ 'style', 'class' ],            });        } else {            triggerPostRender();
         \       }    } );\n</script>\n\t\t<script type=\"text/javascript\">var omapi_localized
         = {\n\t\t\tajax: 'https://melissaknorris.com/wp-admin/admin-ajax.php?optin-monster-ajax-route=1',\n\t\t\tnonce:
-        '53c6bccd8a',\n\t\t\tslugs:\n\t\t\t{\"ydmwjoosjoor2sd3nts6\":{\"slug\":\"ydmwjoosjoor2sd3nts6\",\"mailpoet\":false},\"shefwbkgk5jgcxceynrm\":{\"slug\":\"shefwbkgk5jgcxceynrm\",\"mailpoet\":false},\"x2ke1sr0k3apunrxszvx\":{\"slug\":\"x2ke1sr0k3apunrxszvx\",\"mailpoet\":false},\"mhsyoxp0is5iz73gtmzl\":{\"slug\":\"mhsyoxp0is5iz73gtmzl\",\"mailpoet\":false}}\t\t};</script>\n\t\t\t\t<script
-        type=\"text/javascript\">var omapi_data = {\"object_id\":23972,\"object_key\":\"post\",\"object_type\":\"post\",\"term_ids\":[756,2260],\"wp_json\":\"https:\\/\\/melissaknorris.com\\/wp-json\",\"wc_active\":true,\"edd_active\":false,\"nonce\":\"ec1a600ffb\"};</script>\n\t\t<script
-        data-no-optimize=\"1\" data-cfasync=\"false\" id=\"adblock-detection-69cbaf5\">(function(){(function(e){if(e.cookie.indexOf(`__adblocker`)===-1){let
+        '252b4f22a7',\n\t\t\tslugs:\n\t\t\t{\"ydmwjoosjoor2sd3nts6\":{\"slug\":\"ydmwjoosjoor2sd3nts6\",\"mailpoet\":false},\"shefwbkgk5jgcxceynrm\":{\"slug\":\"shefwbkgk5jgcxceynrm\",\"mailpoet\":false},\"x2ke1sr0k3apunrxszvx\":{\"slug\":\"x2ke1sr0k3apunrxszvx\",\"mailpoet\":false},\"mhsyoxp0is5iz73gtmzl\":{\"slug\":\"mhsyoxp0is5iz73gtmzl\",\"mailpoet\":false}}\t\t};</script>\n\t\t\t\t<script
+        type=\"text/javascript\">var omapi_data = {\"object_id\":23972,\"object_key\":\"post\",\"object_type\":\"post\",\"term_ids\":[756,2260],\"wp_json\":\"https:\\/\\/melissaknorris.com\\/wp-json\",\"wc_active\":true,\"edd_active\":false,\"nonce\":\"f83d877485\"};</script>\n\t\t<script
+        data-no-optimize=\"1\" data-cfasync=\"false\" id=\"adblock-detection-bbc531b\">(function(){(function(e){if(e.cookie.indexOf(`__adblocker`)===-1){let
         t=!1,n=function(){t=!0};window.addEventListener(`pagehide`,n);let r=navigator.userAgent,i=/AppleWebKit/.test(r)&&!/Chrome/.test(r)||/\\b(iPad|iPhone|iPod)\\b/.test(r),a=new
         XMLHttpRequest;a.open(`GET`,`https://ads.adthrive.com/abd/abd.js`,!0),a.onreadystatechange=function(){if(a.readyState===4){if(window.removeEventListener(`pagehide`,n),a.status===200){let
         t=e.createElement(`script`);t.innerHTML=a.responseText,e.getElementsByTagName(`head`)[0].appendChild(t);return}if(!navigator.onLine||t||i&&e.visibilityState===`hidden`)return;let
         r=new Date;r.setTime(r.getTime()+300*1e3),e.cookie=`__adblocker=true; expires=`+r.toUTCString()+`;
         path=/`}},a.send()}})(document)})();</script><script data-no-optimize=\"1\"
-        data-cfasync=\"false\" data-abr-mode=\"light\" id=\"adblock-recovery-69cbaf5\">(function(){(function(){var
+        data-cfasync=\"false\" data-abr-mode=\"light\" id=\"adblock-recovery-bbc531b\">(function(){(function(){var
         e=document.currentScript,t=e&&e.dataset&&e.dataset.abrMode?e.dataset.abrMode:`light`;function
         n(){var e=document.cookie.match(`(^|[^;]+)\\\\s*__adblocker\\\\s*=\\\\s*([^;]+)`);return
         e&&e.pop()}function r(){var e=document.createElement(`script`);e.async=!0,e.id=`Tqgkgu`,e.setAttribute(`data-sdk`,`l/1.1.15`),e.setAttribute(`data-cfasync`,`false`),e.src=`https://html-load.com/loader.min.js`,e.charset=`UTF-8`,e.setAttribute(`data`,`kfpvgbrkab9r4a5rkrqrkwagrw6rzrv8rxag0asrka5abaoagrxa5srxrxabasrkrvabaoaxrx0asrkabrxfaba1raa5a5asrkr9wa1agrw6rzr9rkaia8`),e.setAttribute(`onload`,`(async()=>{let
@@ -4789,12 +4785,12 @@ http_interactions:
         a(){if(t===`essential`){i();return}r()}function o(){var e=n();if(e===`true`)a();else
         var t=0,r=setInterval(function(){if(t===100||e===`false`){clearInterval(r);return}if(e===`true`){a(),clearInterval(r);return}e=n(),t++},50)}o()})()})();</script><script>(function(){function
         c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var
-        d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a40a6eb4f882526e',t:'MTc5MDM0MzUzOQ=='};var
+        d=b.createElement('script');d.innerHTML=\"window.__CF$cv$params={r:'a418fcca4c6e7113',t:'MTc5MDQ5NjE2MA=='};var
         a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);\";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var
         a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else
         if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var
         e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body></html><!--
         Performance optimized by Redis Object Cache. Learn more: https://wprediscache.com
         -->\n"
-  recorded_at: Fri, 25 Sep 2026 13:39:00 GMT
+  recorded_at: Sun, 27 Sep 2026 08:02:40 GMT
 recorded_with: VCR 6.4.0

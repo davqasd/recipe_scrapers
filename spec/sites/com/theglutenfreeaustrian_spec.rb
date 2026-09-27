@@ -67,7 +67,7 @@ RSpec.describe "theglutenfreeaustrian.com" do
     expect(recipe.equipment).to be_nil
     expect(recipe.dietary_restrictions).to eq(["GlutenFreeDiet"])
     expect(recipe.ratings).to eq(5.0)
-    expect(recipe.ratings_count).to eq(9)
+    expect(recipe.ratings_count).to eq(10)
   end
 
   it "reads the nutrients" do

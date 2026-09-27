@@ -80,14 +80,14 @@ RSpec.describe "bluejeanchef.com" do
     expect(recipe.author).to eq("theyadmin")
     expect(recipe.description).to eq("It doesn’t happen very often in my house that I have any leftover or stale tortilla chips, but if you do…chicken tortilla soup is a great way to use them up. If you don't have leftover tortilla chips, this is still a great soup to make. In fact, it's even better to serve with some chips, salsa, guacamole and other toppings along side.")
     expect(recipe.image).to eq("https://bluejeanchef.com/uploads/2019/05/Chicken-Tortilla-Soup-1280-1205.jpg")
-    expect(recipe.category).to eq("Entrées")
+    expect(recipe.category).to eq("Soups")
     expect(recipe.cuisine).to eq("Tex-Mex")
     expect(recipe.cooking_method).to be_nil
     expect(recipe.yields).to eq("6 servings")
     expect(recipe.total_time).to eq(22)
     expect(recipe.prep_time).to eq(10)
     expect(recipe.cook_time).to eq(12)
-    expect(recipe.keywords).to eq(["Chicken", "Pasta", "One Pot Meal", "Quick and Easy"])
+    expect(recipe.keywords).to eq(["Pasta", "One Pot Meal", "Quick and Easy", "Chicken"])
     expect(recipe.equipment).to be_nil
     expect(recipe.dietary_restrictions).to be_nil
     expect(recipe.ratings).to eq(4.34)

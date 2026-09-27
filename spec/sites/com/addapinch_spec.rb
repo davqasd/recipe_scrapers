@@ -92,7 +92,7 @@ RSpec.describe "addapinch.com" do
     expect(recipe.equipment).to be_nil
     expect(recipe.dietary_restrictions).to be_nil
     expect(recipe.ratings).to eq(4.99)
-    expect(recipe.ratings_count).to eq(5430)
+    expect(recipe.ratings_count).to eq(5431)
   end
 
   it "reads the nutrients" do
