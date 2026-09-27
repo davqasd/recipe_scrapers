@@ -36,7 +36,7 @@ module RecipeScrapers
       private
 
       def roots(document)
-        document.css("[itemscope]").reject { |element| element.ancestors.any? { |parent| parent.key?("itemscope") } }
+        document.css("[itemscope]:not([itemprop])")
       end
 
       def flatten(node)
