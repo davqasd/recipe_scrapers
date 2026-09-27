@@ -122,6 +122,11 @@ RSpec.describe RecipeScrapers::Sources::SchemaOrg do
     expect(scraper.instructions_list).to eq(%w[Wash Toss])
   end
 
+  it "splits plain string instructions at a line break tag" do
+    scraper = build('{"@type":"Recipe","name":"X","recipeInstructions":"Wash the beets.<br>Toss them.<br/>Serve."}')
+    expect(scraper.instructions_list).to eq(["Wash the beets.", "Toss them.", "Serve."])
+  end
+
   it "reads instructions nested in a HowToSection" do
     scraper = build(<<~JSON)
       {"@type":"Recipe","name":"X","recipeInstructions":[

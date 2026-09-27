@@ -8,7 +8,8 @@ module RecipeScrapers
 
         class << self
           def parse(value)
-            lines = Array(value).flatten(1).filter_map { |item| Text.normalize(line_for(item)) }
+            items = value.is_a?(String) ? Text.split_lines(value) : Array(value).flatten(1)
+            lines = items.filter_map { |item| Text.normalize(line_for(item)) }
             lines.empty? ? nil : lines
           end
 
